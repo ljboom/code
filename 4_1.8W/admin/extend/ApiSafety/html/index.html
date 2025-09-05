@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/md5.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="ajax_encryption.js" type="text/javascript" charset="utf-8"></script>
+		<script src="//cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+	</head>
+	<body>
+
+
+		<script type="text/javascript">
+			let url = 'http://192.168.101.47/plugin/member/api_index/mobileregister';
+			let data = {'uid':123};
+			
+			Encryption.ajax({
+				url: url,
+				dataType: "json",
+				data: data,
+				type: "post",
+				success: function(res) {
+					console.log(res);
+					/* var res = eval('(' + res + ')');
+					MEAdmin.loading('hide');
+					if (res.status == "success") {
+						MEAdmin.notify('登录成功，页面即将跳转~', 'success');
+						setTimeout(function() {
+							location.href = res.url;
+						}, 1500);
+					} else {
+						$('#captcha').click();
+						MEAdmin.notify(res.msg, 'danger');
+					} */
+				},
+				failure: function(res) {
+					console.log(res);
+					/* MEAdmin.loading('hide');
+					MEAdmin.notify('服务器错误~', 'danger'); */
+				}
+			});
+		</script>
+	</body>
+</html>

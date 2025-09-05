@@ -1,0 +1,120 @@
+{extend name="layout"}
+
+{block name="content"}
+    <!-- wrapper-content -->
+	<div class="wrapper wrapper-content animated fadeInRight">
+		<div class="row">
+			<div class="col-lg-12">
+
+				<div class="ibox-content m-b-sm border-bottom">
+					<div class="p-xs">
+						<div class="float-left m-r-md">
+							<i class="fa fa-cogs text-navy mid-icon"></i>
+						</div>
+						<h2>数据库管理</h2>
+						<span>主要用于管理自己数据库的数据。</span>
+					</div>
+				</div>
+
+				<div class="tabs-container">
+					<ul class="nav nav-tabs" role="tablist">
+						<li>
+							<a class="nav-link active" data-toggle="tab" href="#tab-1">备份数据库</a>
+						</li>
+						<li>
+							<a class="nav-link" data-toggle="tab" href="#tab-2">还原数据库</a>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<div role="tabpanel" id="tab-1" class="tab-pane active">
+							<div class="panel-body">
+
+								<div class="row m-b">
+									<div class="col-sm-12">
+										<div class="toolbar-btn-action">
+											<a href="javascript:;" class="btn btn-primary btn-refresh page-reload" title="刷新"><i class="fa fa-refresh"></i> </a>
+											<a href="{:url('admin/database/export')}" title="立即备份" class="btn btn-success ajax-post confirm" target-form="ids" ><i class="fa fa-check-circle-o"></i> 立即备份</a>
+											<a href="{:url('admin/database/repairTable')}" title="优化表" class="btn btn-primary ajax-post confirm" target-form="ids" ><i class="fa fa-cogs"></i> 优化表</a>
+											<a href="{:url('admin/database/optimizeTable')}" title="修复表" class="btn btn-primary ajax-post confirm" target-form="ids" ><i class="fa fa-wrench"></i> 修复表</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="table-responsive">
+									<table class="table table-bordered table-hover">
+										<thead>
+											<tr>
+												<th><input type="checkbox" class="i-checks checkbox-master"> </th>
+												<th>表名</th>
+												<th>行数</th>
+												<th>大小</th>
+												<th>冗余</th>
+												<th>备注</th>
+												<th>操作</th>
+											</tr>
+										</thead>
+										<tbody>
+											{volist name="$tables" id="vo"}
+											<tr>
+												<td><input type="checkbox" class="i-checks ids" name="ids[]" value="{$vo.Name}"></td>
+												<td>{$vo.Name}</td>
+												<td>{$vo.Rows}</td>
+												<td>{:intval( $vo.Data_length/pow(2,10) )}kB</td>
+												<td>{$vo.Data_free}B</td>
+												<td>{$vo.Comment}</td>
+												<td class="tooltip-demo">
+													<a href="{:url('admin/database/repairTable?id='.$vo.Name)}" class="btn btn-primary btn-xs ajax-get confirm" data-toggle="tooltip" data-placement="top" title="优化表"><i class="fa fa-cogs"></i></a>
+													<a href="{:url('admin/database/optimizeTable?id='.$vo.Name)}" class="btn btn-primary btn-xs ajax-get confirm" data-toggle="tooltip" data-placement="top" title="修复表"><i class="fa fa-wrench"></i></a>
+												</td>
+											</tr>
+											{/volist}
+										</tbody>
+									</table>
+								</div>
+
+							</div>
+						</div>
+						<div role="tabpane2" id="tab-2" class="tab-pane">
+							<div class="panel-body">
+								<div class="table-responsive">
+									<table class="table table-bordered table-hover">
+										<thead>
+											<tr>
+												<th>备份名称 </th>
+												<th>卷数 </th>
+												<th>压缩 </th>
+												<th>数据大小 </th>
+												<th>备份时间 </th>
+												<th>操作</th>
+											</tr>
+										</thead>
+										<tbody>
+											{volist name="data_list" id="vo"}
+											<tr>
+												<td>{$vo.name}</td>
+												<td>{$vo.part}</td>
+												<td>{$vo.compress}</td>
+												<td>{$vo.size}KB</td>
+												<td>{$vo.time}</td>
+												<td class="tooltip-demo">
+													<a href="{:url('admin/database/import?id='.$vo.id)}" class="btn btn-primary btn-xs ajax-get confirm" data-toggle="tooltip" data-placement="top" title="还原"><i class="fa fa-reply"></i></a>
+													<a href="{:url('admin/database/delete?id='.$vo.id)}" class="btn btn-danger btn-xs ajax-get confirm"  data-toggle="tooltip" data-placement="top" title="删除"><i class="fa fa-trash"></i></a>
+												</td>
+											</tr>
+											{/volist}
+										</tbody>
+									</table>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+{/block}

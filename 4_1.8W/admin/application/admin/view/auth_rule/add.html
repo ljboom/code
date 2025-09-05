@@ -1,0 +1,151 @@
+{extend name="layout"}
+
+{block name="content"}
+    <!-- wrapper-content -->
+<div class="wrapper wrapper-content animated fadeInRight">
+
+	<div class="row">
+
+		<div class="col-lg-12">
+			<div class="ibox ">
+				<div class="ibox-title">
+					<h5>添加权限节点</h5>
+					<div class="ibox-tools">
+						<a href="javascript:;" title="刷新" class="page-reload">
+							<i class="fa fa-refresh"></i>
+						</a>
+						<a onclick="javascript:history.back(-1);return false;" href="javascricp:;" title="返回">
+							<i class="fa fa-reply"></i>
+						</a>
+					</div>
+				</div>
+				<div class="ibox-content">
+					<form action="{:url('admin/auth_rule/add')}" name="form-builder"
+						method="post" id="form">
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span
+									class="text-danger">*</span>权限节点</label>
+							<div class="col-md-10"><input type="text" name="name" placeholder="请输入权限节点" class="form-control"><span class="form-text m-b-none">如果是模块链接，请填写模块/控制器/操作，如：admin/Menu/add。如果是普通链接，则直接填写url地址，如：http://www.meetes.cn。请留意大小写</span></div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span
+									class="text-danger">*</span>中文名称</label>
+							<div class="col-md-10"><input type="text" name="title" class="form-control"
+									placeholder="请输入权限节点中文名称"><span class="form-text m-b-none">用户展示的账号名称，请尽量保持不要重复</span>
+							</div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span
+									class="text-danger">*</span>排序</label>
+							<div class="col-md-10"><input type="number" name="sort" class="form-control" value="100" placeholder="请输入排序">
+							</div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label">图标</label>
+							<div class="col-md-10"><input type="text" name="icon" class="form-control" value="" placeholder="请输入图标名称">
+							</div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span
+									class="text-danger">*</span>父节点</label>
+							<div class="col-md-10">
+								<select class="form-control" name="pid">
+									<option value="0">顶级节点</option>
+									{volist name="rule_list" id="vo"}
+									<option value="{$vo.id}" {if $vo.id==$pid}selected {/if}>{$vo.title_display|raw} </option>
+									{/volist}
+								</select>
+								<span class="form-text m-b-none">所属上级节点</span>
+							</div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span class="text-danger">*</span>权限类型</label>
+							<div class="col-md-10">
+								<select class="form-control" name="type">
+									<option value="">请选择权限类型</option>
+									<option value="1">模块</option>
+									<option value="2">控制器</option>
+									<option value="3">方法</option>
+								</select>
+							</div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label">权限描述</label>
+							<div class="col-md-10"><input type="text" name="remark" class="form-control"
+									placeholder="请输入权限描述"></div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label">状态</label>
+							<div class="col-md-10 pt-2">
+								<div class="radio radio-success radio-inline d-inline pl-0">
+									<input type="radio" id="status1" value="1" name="status" checked="">
+									<label for="status1"> 开启 </label>
+								</div>
+								<div class="radio radio-success d-inline">
+									<input type="radio" id="status2" value="2" name="status">
+									<label for="status2"> 关闭 </label>
+								</div>
+							</div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row">
+							<div class="col-sm-12 col-sm-offset-2">
+								<button class="btn btn-primary btn-lg btn-w-m ajax-post" target-form="form-builder"
+									type="submit">提交</button>
+								<button class="btn btn-default btn-lg" type="button"
+									onclick="javascript:history.back(-1);return false;">返回 </button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{/block}
+{block name="script"}
+<script>
+	$(document).ready(function () {
+		$("#form").validate({
+			rules: {
+				name: {
+					required: true,
+					minlength: 2
+				},
+				title: {
+					required: true,
+					minlength: 2
+				},
+				sort: {
+					required: true
+				},
+				pid: {
+					required: true
+				},
+				level: {
+					required: true
+				}
+			},
+			messages: {
+				name: {
+					required: "请输入权限节点",
+					minlength: "权限节点长度不能小于2"
+				},
+				title: {
+					required: "请输入权限节点中文名称",
+					minlength: "权限节点中文名称长度不能小于2"
+				},
+				sort: {
+					required: "请输入排序数字",
+				},
+				pid: {
+					required: "请选择父节点",
+				},
+				level: {
+					required: "请选择权限类型"
+				}
+			}
+		});
+	});
+</script>
+{/block}

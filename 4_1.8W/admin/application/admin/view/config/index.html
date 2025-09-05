@@ -1,0 +1,225 @@
+{extend name="layout"}
+{block name="style"}
+<!-- webuploader -->
+<link href="__PLUGINS__/webuploader/webuploader.css" rel="stylesheet">
+<!-- 解决 webuploader 切换表单时的那个按钮无法点击 -->
+<style>
+    .image_watermark_picUp div:nth-child(2) {
+        top: -25px !important;
+        width: 100% !important;
+        height: 38px !important;
+    }
+</style>
+
+{/block}
+
+{block name="content"}
+
+<!-- wrapper-content -->
+{/*
+text:单行文本
+textarea:多行文本
+static:静态文本
+password:密码
+checkbox:复选框
+radio:单选按钮
+date:日期
+datetime:日期+时间
+hidden:隐藏
+switch:开关
+array:数组
+select:下拉框
+linkage:普通联动下拉框
+linkages:快速联动下拉框
+image:单张图片
+images:多张图片
+file:单个文件
+files:多个文件
+ueditor:UEditor 编辑器
+wangeditor:wangEditor 编辑器
+editormd:markdown 编辑器
+ckeditor:ckeditor 编辑器
+icon:字体图标
+tags:标签
+number:数字
+bmap:百度地图
+colorpicker:取色器
+jcrop:图片裁剪
+masked:格式文本
+range:范围
+time:时间
+*/}
+<style>
+    .text-a1 {
+        color: #a1a1a1;
+    }
+</style>
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+
+            <div class="ibox-content m-b-sm border-bottom">
+                <div class="p-xs">
+                    <div class="float-left m-r-md">
+                        <i class="fa fa-cogs text-navy mid-icon"></i>
+                    </div>
+                    <h2>系统参数管理</h2>
+                    <span>合理配置系统所展示的操作。</span>
+                </div>
+            </div>
+
+            <div class="tabs-container">
+                <ul class="nav nav-tabs" role="tablist">
+                    {volist name="sub_title" id="vo"}
+                    <li>
+                        <a class="nav-link {if $key==0}active{/if}" data-toggle="tab"
+                            href="#{$vo.group}">{$vo.group_name}</a>
+                    </li>
+                    {/volist}
+                </ul>
+                <div class="tab-content">
+                    {php}$num=1;{/php}
+                    {volist name="group_list" id="vo"}
+                    <div role="{$key}" id="{$key}" class="tab-pane {if $num==1}active{/if}">
+
+                        <div class="panel-body">
+                            <form action="{:url('index')}" name="form-builder{$num}" method="post" id="form{$num}">
+                                <input type="hidden" value="{$key}" name="group">
+
+                                {volist name="vo" id="vv"}
+                                {switch name="vv.type"}
+                                {// 单行文本 }
+                                {case value="text"}
+                                <div class="form-group row"><label
+                                        class="col-sm-2 col-form-label font-bold">{$vv.title}</label>
+                                    <div class="col-md-10"><input type="text" name="{$vv.name}" value="{$vv.value}"
+                                            class="form-control" placeholder="请输入{$vv.title}">{notempty
+                                        name="$vv.tips"}<span
+                                            class="form-text m-b-none text-a1">{:htmlspecialchars_decode($vv.tips)}</span>{/notempty}
+                                    </div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+                                {/case}
+                                {// 多行文本 }
+                                {case value="textarea"}
+                                <div class="form-group row"><label
+                                        class="col-sm-2 col-form-label font-bold">{$vv.title}</label>
+                                    <div class="col-md-10"><textarea class="form-control" id="{$vv.name}" rows="7"
+                                            name="{$vv.name}"
+                                            placeholder="请输入{$vv.title}">{$vv.value}</textarea>{notempty
+                                        name="$vv.tips"}<span
+                                            class="form-text m-b-none text-a1">{:htmlspecialchars_decode($vv.tips)}</span>{/notempty}
+                                    </div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+                                {/case}
+                                {// 单选按钮 }
+                                {case value="radio"}
+                                <div class="form-group row"><label
+                                        class="col-sm-2 col-form-label font-bold">{$vv.title}</label>
+                                    <div class="col-md-10 pt-2">
+                                        {foreach name="vv.options" id="vvv" key="kkk"}
+                                        <div
+                                            class="radio radio-success d-inline {if $vvv.0==$vv.value}radio-inline{/if}">
+                                            <input type="radio" id="{$vv.name}{$kkk}" value="{$vvv.0}" name="{$vv.name}"
+                                                {if $vvv.0==$vv.value}checked="" {/if}> <label for="{$vv.name}{$kkk}">
+                                            {$vvv.1} </label>
+                                        </div>
+                                        {/foreach}
+                                        {notempty name="$vv.tips"}<span
+                                            class="form-text m-b-none text-a1">{:htmlspecialchars_decode($vv.tips)}</span>{/notempty}
+                                    </div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+                                {/case}
+                                {// 标签 }
+                                {case value="tags"}
+                                <div class="form-group row"><label
+                                        class="col-sm-2 col-form-label font-bold">{$vv.title}</label>
+                                    <div class="col-md-10"><input class="tagsinput form-control" name="{$vv.name}"
+                                            type="text" value="{$vv.value}" placeholder="添加标签" />{notempty
+                                        name="$vv.tips"}<span
+                                            class="form-text m-b-none text-a1">{:htmlspecialchars_decode($vv.tips)}</span>{/notempty}
+                                    </div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+                                {/case}
+                                {// 单张图片 }
+                                {case value="image"}
+                                <div class="form-group row"><label
+                                        class="col-sm-2 col-form-label font-bold">{$vv.title}</label>
+                                    <div class="col-md-10">
+                                        <!--dom结构部分-->
+                                        <div class="manage-uploader">
+                                            <!--用来存放item-->
+                                            <div class="{$vv.name}UpLcm">
+                                                {notempty name="$vv.value"}
+                                                <div class="file-item thumbnail img-thumbnail">
+                                                    <img src="{:app\\admin\\model\\AdminAttachment::where('id',$vv.value)->value('path')}" width="100" height="100">
+                                                    <div class="success">原图</div>
+                                                </div>
+                                                {/notempty}
+                                            </div>
+                                            <div class="{$vv.name}Up d-inline">点击图片上传</div>
+                                            <input type="hidden" class="{$vv.name}UpInput" name="{$vv.name}"
+                                                value="{$vv.value}">
+                                        </div>
+                                        {notempty name="$vv.tips"}<span
+                                            class="form-text m-b-none text-a1">{:htmlspecialchars_decode($vv.tips)}</span>{/notempty}
+                                    </div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+                                {/case}
+                                {/switch}
+                                {/volist}
+
+                                <div class="form-group row">
+                                    <div class="col-sm-4 col-sm-offset-2">
+                                        <button class="btn btn-primary btn-lg ajax-post"
+                                            target-form="form-builder{$num}" type="submit">保存更改</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    {php}$num++;{/php}
+                    {/volist}
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{/block}
+
+
+{block name="script"}
+<!-- Image webuploader -->
+<script src="__PLUGINS__/webuploader/webuploader.min.js"></script>
+<script src="__PLUGINS__/webuploader/upload.js"></script>
+
+{volist name="config_list" id="vo"}
+{if $vo.type=='image'}
+<script>
+    imgUp("{:url('admin/attachment/upload','dir=images&module=config')}", ".{$vo.name}Up", ".{$vo.name}UpLcm", ".{$vo.name}UpInput");
+</script>
+{/if}
+{/volist}
+
+<script>
+    $(document).ready(function () {
+
+        // tagsinput
+        $('.tagsinput').tagsinput({
+            tagClass: 'label label-primary'
+        });
+
+    });
+</script>
+
+
+{/block}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{$Think.config.web_site_title|default='MEAdmin'} | {$Think.config.web_site_name|default='MEAdmin'}</title>
+
+    <link href="__ADMIN_CSS__/bootstrap.min.css" rel="stylesheet">
+    <link href="__STATIC__/admin/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Toastr style -->
+    <link href="__PLUGINS__/toastr/toastr.min.css" rel="stylesheet">
+    <link href="__PLUGINS__/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="__PLUGINS__/iCheck/green.css" rel="stylesheet">
+    <!-- Sweet Alert -->
+    <link href="__PLUGINS__/sweetalert/sweetalert.css" rel="stylesheet">
+    <!-- bootstrap-datepicker -->
+    <link href="__PLUGINS__/bootstrap-datepicker/bootstrap-datepicker3.min.css" rel="stylesheet">
+    <!-- bootstrap-tagsinput -->
+    <link href="__PLUGINS__/bootstrap-tagsinput/bootstrap-tagsinput.css" rel="stylesheet">
+    <!-- jasny -->
+    <link href="__PLUGINS__/jasny/jasny-bootstrap.min.css" rel="stylesheet">
+    <!-- Gallery -->
+    <link href="__PLUGINS__/Gallery/css/blueimp-gallery.min.css" rel="stylesheet">
+
+    <link href="__ADMIN_CSS__/animate.css" rel="stylesheet">
+    <link href="__ADMIN_CSS__/style.css" rel="stylesheet">
+    <link href="__ADMIN_CSS__/meadmin.css" rel="stylesheet">
+    <!--页面css-->
+    {block name="style"}{/block}
+
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <!-- left nav -->
+        {include file="admin@common/nav"}
+
+        <!-- content and header -->
+        <div id="page-wrapper" class="gray-bg">
+            <!-- wrapper-header -->
+            {include file="admin@common/header"}
+
+
+            {block name="content"}{/block}
+
+            <!-- wrapper-footer -->
+            {include file="admin@common/footer"}
+
+        </div>
+        <!-- sidebar -->
+        {include file="admin@common/sidebar"}
+
+    </div>
+
+    <!-- Mainly scripts -->
+    <script src="__ADMIN_JS__/jquery-3.1.1.min.js"></script>
+    <script src="__ADMIN_JS__/popper.min.js"></script>
+    <script src="__ADMIN_JS__/bootstrap.js"></script>
+    <script src="__PLUGINS__/metisMenu/jquery.metisMenu.js"></script>
+    <script src="__PLUGINS__/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="__PLUGINS__/pace/pace.min.js"></script>
+    <!-- bootstrap-notify -->
+    <script src="__PLUGINS__/bootstrap-notify/bootstrap-notify.min.js"></script>
+    <!-- bootstrap-datepicker -->
+    <script src="__PLUGINS__/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+    <script src="__PLUGINS__/bootstrap-datepicker/bootstrap-datepicker.zh-CN.min.js"></script>
+    <!-- Sweet alert -->
+    <script src="__PLUGINS__/sweetalert/sweetalert.min.js"></script>
+    <!-- iCheck -->
+    <script src="__PLUGINS__/iCheck/icheck.min.js"></script>
+
+    <!-- Tags Input -->
+    <script src="__PLUGINS__/bootstrap-tagsinput/bootstrap-tagsinput.js"></script>
+
+    <!-- Jasny -->
+    <script src="__PLUGINS__/jasny/jasny-bootstrap.min.js"></script>
+    <!-- Gallery -->
+    <script src="__PLUGINS__/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="__ADMIN_JS__/app.js"></script>
+    <script src="__ADMIN_JS__/meadmin.js"></script>
+
+    <!-- Toastr -->
+    <script src="__PLUGINS__/toastr/toastr.min.js"></script>
+
+    <!-- Jquery Validate -->
+    <script src="__PLUGINS__/jquery-validation/jquery.validate.min.js"></script>
+
+    <!--页面js-->
+    {block name="script"}{/block}
+
+    <!--主题配置-->
+    {include file="admin@common/theme-config"}
+
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+{extend name="layout"}
+
+{block name="content"}
+<!-- wrapper-content -->
+<div class="wrapper wrapper-content animated fadeInRight">
+
+	<div class="row">
+
+		<div class="col-lg-12">
+			<div class="ibox ">
+				<div class="ibox-title">
+					<h5>修改用户 《{$info.username}》</h5>
+					<div class="ibox-tools">
+						<a href="javascript:;" title="刷新" class="page-reload">
+							<i class="fa fa-refresh"></i>
+						</a>
+						<a onclick="javascript:history.back(-1);return false;" href="javascricp:;" title="返回">
+							<i class="fa fa-reply"></i>
+						</a>
+					</div>
+				</div>
+				<div class="ibox-content">
+					<form action="{:url('admin/user/edit')}" name="form-builder" method="post" id="form">
+						<input type="hidden" name="uid" value="{$info.uid}">
+						<div class="form-group row"><label class="col-sm-2 col-form-label">用户名</label>
+							<div class="col-md-10"><input type="text" disabled="" value="{$info.username}"
+									placeholder="禁用输入..." class="form-control"><span
+									class="form-text m-b-none">无法更改</span>
+							</div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span
+									class="text-danger">*</span>昵称</label>
+							<div class="col-md-10"><input type="text" name="nickname" class="form-control"
+									value="{$info.nickname}" placeholder="请输入昵称"><span
+									class="form-text m-b-none">用户展示的账号名称，请尽量保持不要重复</span>
+							</div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span
+									class="text-danger">*</span>角色</label>
+							<div class="col-md-10">
+								<select class="form-control" name="group_id">
+									{volist name="auth_group" id="vo"}
+									<option value="{$vo.id}" {if $vo.id==$info.group_id}selected{/if}>{$vo.title_display|raw} </option>
+									{/volist}
+								</select>
+								<span class="form-text m-b-none">非超级管理员，禁止创建与当前角色同级的用户</span>
+							</div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label">密码</label>
+							<div class="col-md-10"><input type="password" name="password" class="form-control"
+									placeholder="请输入密码"><span
+									class="form-text m-b-none">如不修改密码，则无需填写。如要填写，请输入6-12位密码</span></div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span
+									class="text-danger">*</span>邮箱</label>
+							<div class="col-md-10"><input type="email" name="email" class="form-control"
+									value="{$info.email}" placeholder="请输入邮箱"></div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label">备注</label>
+							<div class="col-md-10"><input type="text" name="describe" class="form-control"
+									value="{$info.describe}" placeholder="请输入备注"></div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label">状态</label>
+							<div class="col-md-10 pt-2">
+								<div class="radio radio-success d-inline pl-0 {if $info.status==1}radio-inline {/if}">
+									<input type="radio" id="status1" value="1" name="status" {if
+										$info.status==1}checked="" {/if}> <label for="status1"> 开启 </label>
+								</div>
+								<div class="radio radio-success d-inline {if $info.status==2}radio-inline{/if}">
+									<input type="radio" id="status2" value="2" name="status" {if
+										$info.status==2}checked="" {/if}> <label for="status2"> 关闭 </label>
+								</div>
+							</div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row">
+							<div class="col-sm-12 col-sm-offset-2">
+								<button class="btn btn-primary btn-lg btn-w-m ajax-post" target-form="form-builder"
+									type="submit">提交</button>
+								<button class="btn btn-default btn-lg" type="button"
+									onclick="javascript:history.back(-1);return false;">返回 </button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{/block}
+{block name="script"}
+<script>
+	$(document).ready(function () {
+		$("#form").validate({
+			rules: {
+				nickname: {
+					required: true,
+					minlength: 2
+				},
+				email: {
+					required: true,
+					email: true
+				},
+				password: {
+					minlength: 6
+				}
+			},
+			messages: {
+				nickname: {
+					required: "请输入用户昵称",
+					minlength: "用户名长度不能小于2"
+				},
+				email: {
+					required: "请输入邮箱",
+					email: "请输入正确格式的邮箱"
+				},
+				password: {
+					minlength: "密码长度不能小于6"
+				}
+			}
+		});
+	});
+</script>
+{/block}

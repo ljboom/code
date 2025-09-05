@@ -1,0 +1,270 @@
+{extend name="layout"}
+{block name="style"}
+<!-- Image cropper -->
+<link href="__PLUGINS__/jsTree/themes/default/style.min.css" rel="stylesheet" />
+{/block}
+
+{block name="content"}
+<!-- wrapper-content -->
+<div class="wrapper wrapper-content animated fadeInRight">
+
+	<div class="row">
+
+		<div class="col-lg-12">
+			<div class="tabs-container">
+				<ul class="nav nav-tabs" role="tablist">
+					<li>
+						<a class="nav-link active" data-toggle="tab" href="#tab-1">角色信息</a>
+					</li>
+					<li>
+						<a class="nav-link" data-toggle="tab" href="#tab-2">访问授权</a>
+					</li>
+				</ul>
+				<form name="form-builder" id="form" class="form-horizontal form-builder">
+					<input type="hidden" value="{$info.id}" name="id">
+					<div class="tab-content">
+						<div role="tabpanel" id="tab-1" class="tab-pane active">
+							<div class="panel-body">
+								<div class="form-group row"><label class="col-sm-2 col-form-label"><span
+											class="text-danger">*</span>所属角色</label>
+									<div class="col-md-10">
+										<select class="form-control" name="pid">
+											{if ADMIN_GID==1}
+											<option value="0">顶级角色</option>
+											{else /}
+											<option value="{$Think.ADMIN_GID}">顶级角色</option>
+											{/if}
+											{volist name="auth_group" id="vo"}
+											<option value="{$vo.id}" {if $vo.id==$info.pid}selected{/if}>{$vo.title_display|raw} </option>
+											{/volist}
+										</select>
+										<span class="form-text m-b-none">非超级管理员，禁止创建与当前角色同级的用户</span>
+									</div>
+								</div>
+								<div class="hr-line-dashed"></div>
+								<div class="form-group row"><label class="col-sm-2 col-form-label font-bold"><span
+											class="text-danger">*</span>角色名称</label>
+									<div class="col-md-10"><input type="text" name="name" class="form-control"
+											placeholder="请输入角色名称" value="{$info.name}"><span class="form-text m-b-none">当前角色名称</span></div>
+								</div>
+								<div class="hr-line-dashed"></div>
+								<div class="form-group row"><label
+										class="col-sm-2 col-form-label font-bold">角色描述</label>
+									<div class="col-md-10"><textarea class="form-control" id="remark" rows="7"
+											name="remark" placeholder="请输入角色描述">{$info.remark}</textarea><span
+											class="form-text m-b-none">用于描述当前角色的作用</span></div>
+								</div>
+								<div class="hr-line-dashed"></div>
+								<div class="form-group row">
+									<div class="col-sm-4 col-sm-offset-2">
+										<button class="btn btn-primary btn-lg btn-w-m" type="submit">提交</button>
+										<button class="btn btn-default btn-lg" type="button"
+											onclick="javascript:history.back(-1);return false;">返回 </button>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div role="tabpane2" id="tab-2" class="tab-pane">
+							<div class="panel-body">
+								<div class="row m-b">
+									<div class="col-sm-9">
+										<div class="toolbar-btn-action">
+											<a title="全选" class="btn btn-info" id="check-all" href="javascript:;"><i
+													class="fa fa-check-circle-o"></i> 全选</a>
+											<a title="取消全选" class="btn btn-danger" id="uncheck-all"
+												href="javascript:;"><i class="fa fa-times-circle-o"></i> 取消全选</a>
+											<a title="展开所有节点" class="btn btn-success" id="expand-all"
+												href="javascript:;"><i class="fa fa-check-circle-o"></i> 展开所有节点</a>
+											<a title="收起所有节点" class="btn btn-warning" id="collapse-all"
+												href="javascript:;"><i class="fa fa-ban"></i> 收起所有节点</a>
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="input-group"><input placeholder="请输入搜索内容" type="text"
+												id="search-auth" class="form-control form-control-sm"></div>
+									</div>
+								</div>
+
+								<div class="">
+									<ul class="nav nav-tabs nav-tabs-alt" role="tablist" id="menu-tab">
+										{volist name="group_list" id="vo" key="k"}
+										<li>
+											<a class="nav-link {if $k==1}active{/if}" data-toggle="tab"
+												data-tab="rule{$k}" href="#rule{$k}">{$vo}</a>
+										</li>
+										{/volist}
+									</ul>
+
+									<div class="tab-content">
+										{volist name="role_rule" id="vo" key="k"}
+										<div role="tabpanel" id="rule{$k}" class="tab-pane {if $k==1}active{/if}">
+											<div class="panel-body">
+												<div class="push js-tree" data-tab="rule{$k}">
+													{$vo|raw}
+												</div>
+											</div>
+										</div>
+										{/volist}
+
+									</div>
+								</div>
+								<div class="hr-line-dashed"></div>
+								<div class="form-group row">
+									<div class="col-sm-4 col-sm-offset-2">
+										<button class="btn btn-primary btn-lg btn-w-m" type="submit">提交</button>
+										<button class="btn btn-default btn-lg" type="button"
+											onclick="javascript:history.back(-1);return false;">返回 </button>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+				</form>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+{/block}
+{block name="script"}
+<!-- jsTree -->
+<script src="__PLUGINS__/jsTree/jstree.min.js"></script>
+
+<script>
+	$(document).ready(function () {
+		// 表单验证
+		$("#form").validate({
+			rules: {
+				pid: {
+					required: true
+				},
+				name: {
+					required: true,
+					minlength: 3
+				}
+			},
+			messages: {
+				pid: {
+					required: "请选择所属角色"
+				},
+				name: {
+					required: "请输入角色名称",
+					minlength: "角色名称长度不能小于3个字符"
+				}
+			}
+		});
+
+		const $tree_list = {};
+		const $key_auth = {};
+		let curr_tab = 'rule1';
+
+		// 切换节点tab
+		$('#menu-tab > li > a').click(function () {
+			curr_tab = $(this).data('tab');
+			$('#search-auth').val($key_auth[curr_tab]);
+		});
+		// 初始化节点
+		$('.js-tree').each(function () {
+			const $tree = $(this);
+			const tab = $(this).data('tab');
+
+			$key_auth[tab] = '';
+
+			$tree.jstree({
+				plugins: ["checkbox", "search"],
+				"checkbox": {
+					"keep_selected_style": false,
+					"three_state": false,
+					"cascade": 'down+up'
+				},
+				"search": {
+					'show_only_matches': true,
+					'show_only_matches_children': true
+				}
+			});
+			$tree_list[tab] = $tree;
+		});
+
+		// 全选
+		$('#check-all').click(function () {
+			$tree_list[curr_tab].jstree(true).check_all();
+		});
+		// 取消全选
+		$('#uncheck-all').click(function () {
+			$tree_list[curr_tab].jstree(true).uncheck_all();
+		});
+		// 展开所有
+		$('#expand-all').click(function () {
+			$tree_list[curr_tab].jstree(true).open_all();
+		});
+		// 收起所有
+		$('#collapse-all').click(function () {
+			$tree_list[curr_tab].jstree(true).close_all();
+		});
+
+		var to = false;
+		$('#search-auth').keyup(function (event) {
+			if (to) {
+				clearTimeout(to);
+			}
+			to = setTimeout(function () {
+				var v = $('#search-auth').val();
+				$key_auth[curr_tab] = v;
+				$tree_list[curr_tab].jstree(true).search(v);
+			}, 250);
+		});
+
+		// 提交表单
+		$('#form').submit(function () {
+			if ($("#form").valid() == false) return false;
+			$("button[type=submit]").attr("disabled", true);
+
+			var form_data = $(this).serialize();
+			console.log(form_data)
+			var auth_node = [];
+			$.each($tree_list, function () {
+				auth_node.push.apply(auth_node, $(this).jstree(true).get_checked());
+			});
+
+			if (auth_node.length) {
+				form_data += '&rules=' + auth_node.join(',');
+			}
+			MEAdmin.ajax({
+				url: "{:url('admin/role/edit')}",
+				data: form_data,
+				dataType: "json",
+				type: "post",
+				success: function (res) {
+					$("button[type=submit]").attr("disabled", false);
+					res = JSON.parse(res);
+					if (res.url) {
+						res.msg += "， 页面即将自动跳转~";
+					}
+
+					if (res.status === "success") {
+						MEAdmin.notify(res.msg, 'success');
+
+						setTimeout(function () {
+							location.href = res.url;
+						}, 1500);
+					} else {
+						MEAdmin.notify(res.msg, 'danger');
+					}
+				},
+				failure: function (res) {
+					$("button[type=submit]").attr("disabled", false);
+					MEAdmin.notify('500:服务器错误', 'danger');
+				}
+
+			});
+
+			return false;
+		});
+	});
+</script>
+{/block}

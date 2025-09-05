@@ -1,0 +1,275 @@
+{extend name="layout"}
+{block name="style"}
+<!-- webuploader -->
+<link href="__PLUGINS__/webuploader/webuploader.css" rel="stylesheet">
+<!-- cropper -->
+<link href="__PLUGINS__/cropper/cropper.min.css" rel="stylesheet">
+{/block}
+
+{block name="content"}
+
+                <!-- wrapper-content -->
+                <div class="wrapper wrapper-content animated fadeInRight">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="ibox ">
+                                <div class="ibox-title">
+                                    <h5>资料详情</h5>
+                                </div>
+                                <div>
+                                    <div class="ibox-content no-padding border-left-right">
+                                        <img alt="背景图" class="img-fluid" src="__ADMIN_IMG__/profile_big.jpg">
+                                    </div>
+                                    <div class="ibox-content profile-content">
+                                        <h4><strong>{$user.username}</strong></h4>
+                                        <p><i class="fa fa-user-circle"></i> {$user.nickname}</p>
+                                        <h4><strong>最后登陆</strong></h4>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p><i class="fa fa-clock-o"></i> {$user.last_login_time|date='Y-m-d H:i'}</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>IP {$user.last_login_ip}</p>
+                                            </div>
+                                        </div>
+                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="col-lg-8">
+                            <div class="ibox ">
+                                <div class="ibox-title">
+                                    <h5>资料修改</h5>
+                                </div>
+                                <div class="ibox-content">
+                                    <form action="" name="form-builder" method="post" id="form">
+                                        <div class="form-group row"><label class="col-sm-2 col-form-label">用户名</label>
+                                            <div class="col-md-10"><input type="text" disabled="" value="{$user.username}" placeholder="禁用输入..."
+                                                    class="form-control"><span class="form-text m-b-none">登录账号不能重复，账号创建后不能再次修改</span>
+                                            </div>
+                                        </div>
+                                        <div class="hr-line-dashed"></div>
+                                        <div class="form-group row"><label class="col-sm-2 col-form-label">昵称</label>
+                                            <div class="col-md-10"><input type="text" name="nickname" value="{$user.nickname}" class="form-control"
+                                                    placeholder="请输入昵称"><span class="form-text m-b-none">用户展示的账号名称，请尽量保持不要重复</span>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="hr-line-dashed"></div>
+                                        <div class="form-group row"><label class="col-sm-2 col-form-label">资料详情背景图</label>
+                                            <div class="col-md-10">
+                                                <div class="manage-uploader">
+                                                    <div class="manageImgUpLcm"></div>
+                                                    <div class="manageImgUp d-inline">点击图片上传</div>
+                                                    <input type="hidden" class="manageImgUpInput" name="personal_background" value="">
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                        <div class="hr-line-dashed"></div>
+                                        <div class="form-group row"><label class="col-sm-2 col-form-label">头像</label>
+                                            <div class="col-md-10">
+                                                <!--dom结构部分-->
+                                                <div class="manage-uploader">
+                                                    <!--用来存放item-->
+                                                    <div class="avatarImgUpLcm">
+                                                        {notempty name="$user.avatar"}
+                                                        <div class="file-item thumbnail img-thumbnail">
+                                                            <img src="{$user.avatar}"
+                                                                width="100" height="100">
+                                                            <div class="success">原图</div>
+                                                        </div>
+                                                        {/notempty}
+                                                    </div>
+                                                    <div class="avatarImgUp d-inline">点击图片上传</div>
+                                                    <input type="hidden" class="avatarImgUpInput" name="avatar" value="{$user.avatar}">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="hr-line-dashed"></div>
+                                        <div class="form-group row">
+                                            <div class="col-sm-4 col-sm-offset-2">
+                                                <button class="btn btn-primary btn-lg ajax-post" target-form="form-builder"
+                                                    type="submit">保存更改</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="ibox ">
+                                <div class="ibox-title  back-change">
+                                    <h5>头像修改（待开发）</h5>
+                                </div>
+                                <div class="ibox-content">
+                                    <p>
+                                        上传头像后，可进行裁剪成想要的指定位置头像。
+                                    </p>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="image-crop">
+                                                <img src="__ADMIN_IMG__/p3.jpg">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <h4>预览图像</h4>
+                                            <div class="img-preview img-preview-sm"></div>
+                                            <h4>常用方法</h4>
+                                            <p>
+                                                您可以将新图像上传到裁剪容器，并轻松下载新的裁剪图像。
+                                            </p>
+                                            <div>
+                                                <label title="Upload image file" for="inputImage" class="btn btn-primary">
+                                                    <input type="file" accept="image/*" name="file" id="inputImage" class="hide">上传新图片
+                                                </label>
+                                            </div>
+                                            <a href="" id="download" class="btn btn-primary">下载</a>
+                                            <a href="javascript::" id="uploadfile" class="btn btn-primary">上传</a>
+                                            <h4>其他方法</h4>
+                                            <p>
+                                                您可以设置裁剪器选项 <code>$(image}).cropper(options)</code>
+                                            </p>
+                                            <div class="btn-group">
+                                                <button class="btn btn-white" id="zoomIn" type="button">放大</button>
+                                                <button class="btn btn-white" id="zoomOut" type="button">缩小</button>
+                                                <button class="btn btn-white" id="rotateLeft" type="button">向左旋转</button>
+                                                <button class="btn btn-white" id="rotateRight" type="button">向右旋转</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+{/block}
+
+
+{block name="script"}
+        <!-- Image webuploader -->
+        <script src="__PLUGINS__/webuploader/webuploader.min.js"></script>
+        <script src="__PLUGINS__/webuploader/upload.js"></script>
+
+        <!-- Image cropper -->
+        <script src="__PLUGINS__/cropper/cropper.min.js"></script>
+
+
+        <script>
+            imgUp("{:url('admin/attachment/upload','dir=images&module=个人资料')}", ".avatarImgUp",
+            ".avatarImgUpLcm",".avatarImgUpInput");
+        </script>
+    
+        <script>
+            $(document).ready(function () {
+                $("#form").validate({
+                    rules: {
+                        nickname: {
+                            required: true,
+                            minlength: 3
+                        }
+                    },
+                    messages: {
+                        nickname: {
+                            required: "请输入用户昵称",
+                            minlength: "用户名长度不能小于2"
+                        }
+                    }
+                });
+            });
+        </script>
+        
+        <script type="text/javascript">
+            var $image = $(".image-crop > img")
+            var $cropped = $($image).cropper({
+                aspectRatio: 1,
+                preview: ".img-preview",
+                done: function (data) {
+                    // Output the result data for cropping image.
+                }
+            });
+
+            var $inputImage = $("#inputImage");
+
+            if (window.FileReader) {
+                $inputImage.change(function () {
+                    var fileReader = new FileReader(),
+                        files = this.files,
+                        file;
+
+                    if (!files.length) {
+                        return;
+                    }
+
+                    file = files[0];
+
+                    if (/^image\/\w+$/.test(file.type)) {
+                        fileReader.readAsDataURL(file);
+                        fileReader.onload = function () {
+                            $inputImage.val("");
+                            $image.cropper("reset", true).cropper("replace", this.result);
+                        };
+                    } else {
+                        showMessage("请选择一个图像文件。");
+                    }
+                });
+            } else {
+                $inputImage.addClass("hide");
+            }
+
+            $("#download").click(function (link) {
+                link.target.href = $cropped.cropper('getCroppedCanvas', {
+                    width: 400,
+                    height: 400
+                }).toDataURL("image/png").replace("image/png", "application/octet-stream");
+                link.target.download = 'cropped.png';
+            });
+
+            $("#zoomIn").click(function () {
+                $image.cropper("zoom", 0.1);
+            });
+
+            $("#zoomOut").click(function () {
+                $image.cropper("zoom", -0.1);
+            });
+
+            $("#rotateLeft").click(function () {
+                $image.cropper("rotate", 45);
+            });
+
+            $("#rotateRight").click(function () {
+                $image.cropper("rotate", -45);
+            });
+
+            $("#uploadfile").click(function () {
+                var cas = $image.cropper('getCroppedCanvas');
+                var base64 = cas.toDataURL('image/jpeg'); // 转换为base64  
+
+                console.log(base64);
+                // 然后利用ajax上传
+                MEAdmin.ajax({
+                    // url: "http://cs2.6xq.cn/public/plugin/demo/api_index/index2",
+                    url: "{:url('admin/attachment/upload')}",
+                    data: '&base64=' + base64,
+                    dataType: "json",
+                    type: "post",
+                    success: function (res) {
+                        res = JSON.parse(res);
+                        if (res.status === "success") {
+                            MEAdmin.notify(res.msg, 'success');
+
+                            setTimeout(function () {
+                                location.href = res.url;
+                            }, 1500);
+                        } else {
+                            MEAdmin.notify(res.msg, 'danger');
+                        }
+                    }
+
+                });
+            });
+        </script>
+{/block}

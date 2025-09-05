@@ -1,0 +1,190 @@
+{extend name="layout"}
+
+{block name="content"}
+    <!-- wrapper-content -->
+	<div class="wrapper wrapper-content animated fadeInRight">
+		<div class="row">
+			<div class="col-lg-12">
+
+				<div class="ibox-content m-b-sm border-bottom">
+					<div class="p-xs">
+						<div class="float-left m-r-md">
+							<i class="fa fa-list-alt text-navy mid-icon"></i>
+						</div>
+						<h2>收益列表</h2>
+						<!--<span>可以操作会员的所有信息</span>-->
+					</div>
+				</div>
+
+				<div class="ibox ">
+					<div class="ibox-title">
+						<h5>订单列表 </h5>
+					</div>
+					<div class="ibox-content">
+						<div class="row m-b">
+							<div class="col-sm-12">
+								<form method="get" action="" id="form">
+									<div class="search-bar row">
+
+										<div class="input-group col-sm-5">
+											<div class="input-group-prepend">
+												<button data-toggle="dropdown" class="btn btn-white dropdown-toggle" type="button" aria-expanded="false">
+												{switch :input('get.status')}
+													{case 1}使用中{/case}
+													{case 2}已禁用{/case}
+													{default}全部状态
+												{/switch}
+												</button>
+												<input type="hidden" name="status" value="{:input('get.status')}" />
+												<!--<ul class="dropdown-menu" x-placement="bottom-start"-->
+												<!--	style="position: absolute; top: 35px; left: 0px; will-change: top, left;">-->
+												<!--	<li>-->
+												<!--		<a class="search-dropdown" data-value="0"-->
+												<!--			href="javascript:void(0)" data-name="status">全部状态</a>-->
+												<!--	</li>-->
+												<!--	<li>-->
+												<!--		<a class="search-dropdown" data-value="1"-->
+												<!--			href="javascript:void(0)" data-name="status">使用中</a>-->
+												<!--	</li>-->
+												<!--	<li>-->
+												<!--		<a class="search-dropdown" data-value="2"-->
+												<!--			href="javascript:void(0)" data-name="status">已禁用</a>-->
+												<!--	</li>-->
+												<!--</ul>-->
+											</div>
+											
+
+											<div class="input-group-prepend">
+												<button data-toggle="dropdown" class="btn btn-white dropdown-toggle" type="button" aria-expanded="false">
+													{switch :input('get.type')}
+													{case 1}ID{/case}
+													{case 2}用户名{/case}
+													{case 3}昵称{/case}
+													{case 4}邮箱{/case}
+													{default}不限
+													{/switch}
+												</button>
+												<input type="hidden" name="type" value="{:input('get.type')}" />
+												<ul class="dropdown-menu" x-placement="bottom-start"
+													style="position: absolute; top: 35px; left: 0px; will-change: top, left;">
+													<li>
+														<a class="search-dropdown" data-name="type" data-value="0"
+															href="javascript:void(0)">不限</a>
+													</li>
+													<li>
+														<a class="search-dropdown" data-name="type" data-value="1"
+															href="javascript:void(0)">ID</a>
+													</li>
+													<li>
+														<a class="search-dropdown" data-name="type" data-value="2"
+															href="javascript:void(0)">用户名</a>
+													</li>
+													<!--<li>-->
+													<!--	<a class="search-dropdown" data-name="type" data-value="3"-->
+													<!--		href="javascript:void(0)">昵称</a>-->
+													<!--</li>-->
+													<!--<li>-->
+													<!--	<a class="search-dropdown" data-name="type" data-value="4"-->
+													<!--		href="javascript:void(0)">邮箱</a>-->
+													<!--</li>-->
+												</ul>
+											</div>
+											<input type="text" name="keyword" class="form-control" value="{:input('get.keyword')}">
+										</div>
+
+										<div class="input-group input-daterange col-sm-5">
+											<input id="data_start" name="data_start" type="text" placeholder="创建日期(起)" data-date-format="yyyy-mm-dd"
+												class="form-control" value="{:input('get.data_start')}" />
+											<div class="input-group-addon"> ~ </div>
+											<input id="data_end" name="data_end" type="text" placeholder="创建日期(止)" data-date-format="yyyy-mm-dd"
+												class="form-control" value="{:input('get.data_end')}" />
+										</div>
+
+										<button class="btn btn-primary ml-3" type="submit"><i class="fa fa-search"></i>
+											搜索</button>
+
+									</div>
+								</form>
+
+							</div>
+						</div>
+
+						<div class="row m-b">
+							<div class="col-sm-12">
+								<div class="toolbar-btn-action">
+									<a href="javascript:;" class="btn btn-primary btn-refresh page-reload" title="刷新"><i
+											class="fa fa-refresh"></i> </a>
+									<!--<a title="添加" class="btn btn-success" href="{:url('admin/users/useradd')}"><i-->
+									<!--		class="fa fa-plus-circle"></i> 添加</a>-->
+									<!--<a title="启用" class="btn btn-success ajax-post confirm" target-form="ids"-->
+									<!--	href="{:url('admin/order/editStatus?type=1')}"><i-->
+									<!--		class="fa fa-check-circle-o"></i> 启用</a>-->
+									<!--<a title="禁用" class="btn btn-warning ajax-post confirm" target-form="ids"-->
+									<!--	href="{:url('admin/order/editStatus?type=2')}"><i-->
+									<!--		class="fa fa-ban"></i> 停止收益</a>-->
+									<!--<a title="删除" class="btn btn-danger ajax-post confirm" target-form="ids"-->
+									<!--	href="{:url('admin/users/deletes')}"><i-->
+									<!--		class="fa fa-times-circle-o"></i> 删除</a>-->
+								</div>
+							</div>
+						</div>
+
+						<div class="table-responsive">
+						<table class="table table-bordered table-hover">
+								<thead>
+									<tr>
+										<th><input type="checkbox" class="i-checks checkbox-master"> </th>
+										<th>ID </th>
+										<th>用户名 </th>
+										<th>基金名 </th>
+										<th>订单号</th>
+										<th>赢损金额</th>
+										<th>收益时间</th>
+										<th>收益时净值</th>
+										<th>赢损涨幅</th>
+										
+									</tr>
+								</thead>
+								<tbody>
+								    
+							 {foreach($list as $v)}
+							        <tr>
+							            <td class="align-middle">{if $v.id!=1}<input type="checkbox" class="i-checks ids" name="ids[]" value="{$v.id}">{/if}</td>
+							            <td class="align-middle">{$v.id}</td>
+							            <td class="align-middle">{$v.mobile}</td>
+							            <td class="align-middle">{$v.fund_name}</td>
+							            <td class="align-middle">{$v.order_id}</td>
+							            <td class="align-middle">{$v.sum}</td>
+							            <td class="align-middle"><?php echo date('Y-m-d',$v['earningstime']);?></td>
+							            <td class="align-middle">{$v.worth}</td>
+							            <td class="align-middle">{$v.amplification}</td>
+							        </tr>
+							    {/foreach}
+									
+								</tbody>
+							</table>
+
+							<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+							<div id="blueimp-gallery" class="blueimp-gallery">
+								<div class="slides"></div>
+								<h3 class="title"></h3>
+								<a class="prev">‹</a>
+								<a class="next">›</a>
+								<a class="close">×</a>
+								<a class="play-pause"></a>
+								<ol class="indicator"></ol>
+							</div>
+
+							{$page|raw}
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+{/block}

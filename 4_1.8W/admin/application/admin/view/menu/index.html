@@ -1,0 +1,115 @@
+{extend name="layout"}
+
+{block name="content"}
+    <!-- wrapper-content -->
+	<div class="wrapper wrapper-content animated fadeInRight">
+		<div class="row">
+			<div class="col-lg-12">
+
+				<div class="ibox-content m-b-sm border-bottom">
+					<div class="p-xs">
+						<div class="float-left m-r-md">
+							<i class="fa fa-key text-navy mid-icon"></i>
+						</div>
+						<h2>系统菜单管理</h2>
+						<span>规则通常对应一个控制器的方法,同时左侧的菜单栏数据也从规则中体现,通常建议通过命令行进行生成规则节点。</span>
+					</div>
+				</div>
+
+				<div class="ibox ">
+					<div class="ibox-title">
+						<h5>系统菜单管理</h5>
+					</div>
+					<div class="ibox-content">
+
+						<div class="row m-b">
+							<div class="col-sm-12">
+								<div class="toolbar-btn-action">
+									<a href="javascript:;" class="btn btn-primary btn-refresh page-reload" title="刷新"><i class="fa fa-refresh"></i> </a>
+									<a title="添加" class="btn btn-success" href="{:url('admin/menu/add')}"><i class="fa fa-plus-circle"></i> 添加</a>
+									<a title="排序" class="btn btn-success ajax-post confirm" target-form="sort" target-form2="idsort" href="{:url('admin/menu/editSort')}"><i
+											class="fa fa-sort"></i> 排序</a>
+									<a title="启用" class="btn btn-success ajax-post confirm" target-form="ids"
+										href="{:url('admin/menu/editStatus?type=1')}"><i
+											class="fa fa-check-circle-o"></i> 启用</a>
+									<a title="禁用" class="btn btn-warning ajax-post confirm" target-form="ids"
+										href="{:url('admin/menu/editStatus?type=2')}"><i
+											class="fa fa-ban"></i> 禁用</a>
+									<a title="删除" class="btn btn-danger ajax-post confirm" target-form="ids"
+										href="{:url('admin/menu/delete')}"><i
+											class="fa fa-times-circle-o"></i> 删除</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="table-responsive">
+							<table class="table table-bordered table-hover">
+								<thead>
+									<tr>
+										<th><input type="checkbox" class="i-checks checkbox-master"> </th>
+										<th>ID</th>
+										<th>排序 </th>
+										<th>图标</th>
+										<th>菜单结构</th>
+										<th>权限类型</th>
+										<th>状态</th>
+										<th>操作</th>
+									</tr>
+								</thead>
+								<tbody>
+									{volist name="$list" id="vo"}
+									<tr>
+										<td class="align-middle"><input type="checkbox" class="i-checks ids"
+											name="ids[]" value="{$vo.id}"></td>
+										<td class="align-middle">{$vo.id}</td>
+										<td class="align-middle"><input type="text" name="sort[]" value="{$vo.sort}"
+												class="form-control text-center inline sort"
+												style="width: 50px; height: 25px;"><input type="hidden"
+												class="i-checks idsort" name="idsort[]" value="{$vo.id}"></td>
+										<td class="align-middle"><i class="{$vo.icon}"></i> <span>{notempty name="$vo.icon"} ({$vo.icon}) {/notempty}</span></td>
+										<td class="align-middle">{$vo.title_display|raw}</td>
+										<td class="align-middle"><span class="badge badge-pill badge-primary">{$vo.type}</span></td>
+										{if $vo.status==1}
+										<td class="align-middle text-success">正常</td>
+										{else /}
+										<td class="align-middle text-warning">禁用</td>
+										{/if}
+										<td class="align-middle tooltip-demo">
+											<a href="{:url('admin/menu/add?id='.$vo.id)}" class="btn btn-success btn-xs"
+												_tag="add" data-toggle="tooltip" data-placement="top" title="添加"><i
+													class="fa fa-plus"></i></a>
+											<a href="{:url('admin/menu/edit?id='.$vo.id)}" class="btn btn-primary btn-xs"
+												_tag="edit" data-toggle="tooltip" data-placement="top" title="修改"><i
+													class="fa fa-pencil"></i></a>
+											{if $vo.status==1}
+											<a href="{:url('admin/menu/editStatus?id='.$vo.id.'&type=2')}"
+												class="btn btn-warning btn-xs ajax-get confirm" _tag="disable"
+												data-toggle="tooltip" data-placement="top" title="禁用"><i
+													class="fa fa-close"></i></a>
+											{else /}
+											<a href="{:url('admin/menu/editStatus?id='.$vo.id.'&type=1')}"
+														class="btn btn-success btn-xs ajax-get confirm" _tag="enable"
+														data-toggle="tooltip" data-placement="top" title="启用"><i
+															class="fa fa-check"></i></a>
+											{/if}
+											<a href="{:url('admin/menu/delete?id='.$vo.id)}"
+												class="btn btn-danger btn-xs ajax-get confirm" _tag="delete"
+												data-toggle="tooltip" data-placement="top" title="删除"><i
+													class="fa fa-trash"></i></a>
+										</td>
+									</tr>
+									{/volist}
+								</tbody>
+							</table>
+						</div>
+
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+{/block}

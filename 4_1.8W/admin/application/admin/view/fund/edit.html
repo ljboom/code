@@ -1,0 +1,176 @@
+{extend name="layout"}
+
+{block name="content"}
+    <!-- wrapper-content -->
+<div class="wrapper wrapper-content animated fadeInRight">
+
+	<div class="row">
+
+		<div class="col-lg-12">
+			<div class="ibox ">
+				<div class="ibox-title">
+					<h5>修改基金</h5>
+					<div class="ibox-tools">
+						<a href="javascript:;" title="刷新" class="page-reload">
+							<i class="fa fa-refresh"></i>
+						</a>
+						<a onclick="javascript:history.back(-1);return false;" href="javascricp:;" title="返回">
+							<i class="fa fa-reply"></i>
+						</a>
+					</div>
+				</div>
+				<div class="ibox-content">
+					<form action="{:url('admin/fund/edit')}" name="form-builder"
+						method="post" id="form">
+					    <input value="{$fund.id}" name="id" style="display:none"/>
+					    <div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span
+									class="text-danger">*</span>基金代码</label>
+							<div class="col-md-10"><input type="text" name="fund_code" class="form-control"
+									placeholder="请输入基金代码" value="{$fund.fund_code}" disabled="disabled"><span class="form-text m-b-none">基金代码不能重复，代码创建后不能再次修改</span>
+							</div>
+						</div>
+						
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span
+									class="text-danger">*</span>基金名称</label>
+							<div class="col-md-10"><input type="text" name="fund_name"  value="{$fund.fund_name}" placeholder="请输入基金名称"
+									class="form-control"><span
+									class="form-text m-b-none">基金名称，请尽量保持不要重复</span></div>
+						</div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span class="text-danger">*</span>产品类型</label>
+							<div class="col-md-10">
+								<select class="form-control" name="fund_type">
+						    		<option value="BLEND" {$fund.fund_type == 'BLEND' ? 'selected' :''}>混合型</option>
+									<option value="BOND" {$fund.fund_type == 'BOND' ? 'selected' :''}>债券型</option>
+									<option value="INDEX" {$fund.fund_type == 'INDEX' ? 'selected' :''}>指数型</option>
+									<option value="STOCK" {$fund.fund_type == 'STOCK' ? 'selected' :''}>股票型</option>
+									<option value="CURRENCY" {$fund.fund_type == 'CURRENCY' ? 'selected' :''}>货币型</option>
+								</select>
+							</div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label">基金名称缩写</label>
+							<div class="col-md-10"><input type="text" name="fund_name_abbr"  value="{$fund.fund_name_abbr}" class="form-control"
+									placeholder="请输入基金名称缩写"></div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span
+									class="text-danger">*</span>基金公司名称</label>
+							<div class="col-md-10"><input type="text" name="fund_company_name"  value="{$fund.fund_company_name}" class="form-control"
+									placeholder="请输入基金公司名称"></div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span class="text-danger">*</span>风险等级</label>
+							<div class="col-md-10">
+								<select class="form-control" name="risk_level">
+						    		<option value="L" {$fund.risk_level == 'L' ? 'selected' :''}>低风险</option>
+									<option value="M" {$fund.risk_level == 'M' ? 'selected' :''}>中高风险</option>
+									<option value="H" {$fund.risk_level == 'H' ? 'selected' :''}>高风险</option>
+								</select>
+							</div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span
+									class="text-danger">*</span>机构代码</label>
+							<div class="col-md-10"><input type="text" name="inst_id" class="form-control"
+									placeholder="请输入机构代码"  value="{$fund.inst_id}"><span class="form-text m-b-none">机构代码</span></div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span class="text-danger">*</span>起投金额</label>
+							<div class="col-md-10"><input type="number" name="starting_amount" class="form-control"
+									placeholder="请输入基金起投金额" value="{$fund.starting_amount}"><span class="form-text m-b-none">基金起投金额</span></div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span class="text-danger">*</span>服务费率</label>
+							<div class="col-md-10"><input type="number" name="service_rate" class="form-control"
+									placeholder="请输入服务费率" value="{$fund.service_rate}"><span class="form-text m-b-none">服务费率，单位为百分比(%)</span></div>
+						</div>
+					    <div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span class="text-danger">*</span>管理费率</label>
+							<div class="col-md-10"><input type="number" name="trustee_rate" class="form-control"
+									placeholder="请输入管理费率" value="{$fund.trustee_rate}"><span class="form-text m-b-none">管理费率，单位为百分比(%)</span></div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span class="text-danger">*</span>买入费率</label>
+							<div class="col-md-10"><input type="number" value="{$fund.manage_rate}" name="manage_rate" class="form-control" placeholder="请输入买入费率">
+							<span class="form-text m-b-none">买入费率，单位为百分比(%)</span></div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row">
+							<div class="col-sm-12 col-sm-offset-2">
+								<button class="btn btn-primary btn-lg btn-w-m ajax-post" target-form="form-builder"
+									type="submit">提交</button>
+								<button class="btn btn-default btn-lg" type="button"
+									onclick="javascript:history.back(-1);return false;">返回 </button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{/block}
+{block name="script"}
+<script>
+	$(document).ready(function () {
+		$("#form").validate({
+			rules: {
+				fund_code: {
+					required: true,
+					minlength: 6
+				},
+				fund_name: {
+					required: true
+				},
+				fund_company_name: {
+					required: true
+				},
+				inst_id: {
+					required: true
+				},
+				service_rate:{
+				    required: true
+				},
+				trustee_rate:{
+				    required: true
+				},
+				manage_rate:{
+				    required: true
+				},
+				starting_amount:{
+				    required: true
+				}
+			},
+			messages: {
+				fund_code: {
+					required: "请输入基金代码",
+					minlength: "基金代码长度不能小于6"
+				},
+				fund_name: {
+					required: "请输入基金名称"
+				},
+				fund_company_name: {
+					required: "请输入基金公司名称"
+				},
+				inst_id: {
+					required: "请输入机构代码"
+				},
+				service_rate: {
+				    required: "请输入服务费率"
+				},
+				trustee_rate: {
+				    required: "请输入管理费率"
+				},
+				manage_rate: {
+				    required: "请输入买入费率"
+				},
+				starting_amount: {
+				    required: "请输入起投金额"
+				}
+			}
+		});
+	});
+</script>
+{/block}

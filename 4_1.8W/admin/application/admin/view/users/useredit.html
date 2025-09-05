@@ -1,0 +1,132 @@
+{extend name="layout"}
+
+{block name="content"}
+    <!-- wrapper-content -->
+<div class="wrapper wrapper-content animated fadeInRight">
+
+	<div class="row">
+
+		<div class="col-lg-12">
+			<div class="ibox ">
+				<div class="ibox-title">
+					<h5>修改</h5>
+					<div class="ibox-tools">
+						<a href="javascript:;" title="刷新" class="page-reload">
+							<i class="fa fa-refresh"></i>
+						</a>
+						<a onclick="javascript:history.back(-1);return false;" href="javascricp:;" title="返回">
+							<i class="fa fa-reply"></i>
+						</a>
+					</div>
+				</div>
+				<div class="ibox-content">
+					<form action="{:url('admin/users/useredit')}" name="form-builder"
+						method="post" id="form">
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span
+									class="text-danger">*</span>用户名</label>
+							<div class="col-md-10"><input type="text" name="mobile" placeholder="请输入用户名"
+									class="form-control" value="{$userData.mobile}"><span
+									class="form-text m-b-none">登录账号不能重复，账号创建后不能再次修改</span></div>
+						</div>
+						<!--<div class="hr-line-dashed"></div>-->
+						<!--<div class="form-group row"><label class="col-sm-2 col-form-label"><span-->
+						<!--			class="text-danger">*</span>昵称</label>-->
+						<!--	<div class="col-md-10"><input type="text" name="username" class="form-control"-->
+						<!--			placeholder="请输入昵称" value="{$userData.username}"><span class="form-text m-b-none">用户展示的账号名称，请尽量保持不要重复</span>-->
+						<!--	</div>-->
+						<!--</div>-->
+						
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span
+									class="text-danger">*</span>密码</label>
+							<div class="col-md-10"><input type="password" name="password" class="form-control"
+									placeholder="请输入密码"><span class="form-text m-b-none">（不修改可以不填）</span></div>
+						</div>
+						
+							<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label"><span
+									class="text-danger">*</span>支付密码</label>
+							<div class="col-md-10"><input type="password" name="pay_password" class="form-control"
+									placeholder="请输入密码"><span class="form-text m-b-none">（不修改可以不填）</span></div>
+						</div>
+					    
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label">余额</label>
+							<div class="col-md-10"><input type="text" name="money" class="form-control"
+									placeholder="请输入余额" value="{$userData.money}"></div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<div class="form-group row"><label class="col-sm-2 col-form-label">状态</label>
+							<div class="col-md-10 pt-2">
+								<div class="radio radio-success radio-inline d-inline pl-0">
+									<input type="radio" id="status1" value="1" name="status" checked="">
+									<label for="status1"> 开启 </label>
+								</div>
+								<div class="radio radio-success d-inline">
+									<input type="radio" id="status2" value="2" name="status">
+									<label for="status2"> 关闭 </label>
+								</div>
+							</div>
+						</div>
+						<div class="hr-line-dashed"></div>
+						<input type="hidden" name="id" value="{$userData.id}">
+						<div class="form-group row">
+							<div class="col-sm-12 col-sm-offset-2">
+								<button class="btn btn-primary btn-lg btn-w-m ajax-post" target-form="form-builder"
+									type="submit">提交</button>
+								<button class="btn btn-default btn-lg" type="button"
+									onclick="javascript:history.back(-1);return false;">返回 </button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{/block}
+{block name="script"}
+<script>
+	$(document).ready(function () {
+		$("#form").validate({
+			rules: {
+				username: {
+					required: true,
+					minlength: 2
+				},
+				nickname: {
+					required: true,
+					minlength: 2
+				},
+				email: {
+					required: true,
+					email: true
+				},
+				// password: {
+				// 	required: true,
+				// 	minlength: 6
+				// }
+			},
+			messages: {
+				username: {
+					required: "请输入用户名",
+					minlength: "用户名长度不能小于2"
+				},
+				nickname: {
+					required: "请输入用户昵称",
+					minlength: "用户名长度不能小于2"
+				},
+				email: {
+					required: "请输入邮箱",
+					email: "请输入正确格式的邮箱"
+				}
+				// password: {
+				// 	required: "请输入密码",
+				// 	minlength: "密码长度不能小于6"
+				// }
+			}
+		});
+	});
+</script>
+{/block}
