@@ -1,0 +1,59 @@
+{extend name="admin@index_layout"/}
+{block name="main"}
+<form class="layui-form" method="post">
+    
+    <div class="layui-form-item">
+        <div class="layui-form-item">
+            <label class="layui-form-label">是否交易</label>
+            <div class="layui-input-block">
+                <input type="radio" name="type" value="1" title="開啟"  {if $data['type'] == 1} checked {/if}>
+                <input type="radio" name="type" value="2" title="關閉"  {if $data['type'] == 2} checked {/if}>
+            </div>
+        </div>
+    </div>    
+    <div class="layui-form-item">
+        <div class="layui-form-item">
+            <label class="layui-form-label">是否登入</label>
+            <div class="layui-input-block">
+                <input type="radio" name="login" value="1" title="開啟"  {if $data['login'] == 1} checked {/if}>
+                <input type="radio" name="login" value="2" title="關閉"  {if $data['login'] == 2} checked {/if}>
+            </div>
+        </div>
+    </div>    
+    <div class="layui-form-item">
+        <div class="layui-form-item">
+            <label class="layui-form-label">是否兩融</label>
+            <div class="layui-input-block">
+                <input type="radio" name="liangrong" value="1" title="開啟"  {if $data['liangrong'] == 1} checked {/if}>
+                <input type="radio" name="liangrong" value="2" title="關閉"  {if $data['liangrong'] == 2} checked {/if}>
+            </div>
+        </div>
+    </div>    
+    <div class="layui-form-item">
+        <div class="layui-form-item">
+            <label class="layui-form-label">是否配資</label>
+            <div class="layui-input-block">
+                <input type="radio" name="peizhi" value="1" title="開啟"  {if $data['peizhi'] == 1} checked {/if}>
+                <input type="radio" name="peizhi" value="2" title="關閉"  {if $data['peizhi'] == 2} checked {/if}>
+            </div>
+        </div>
+    </div>
+    
+    
+    <input type="hidden" name="id" value="{$data.id}">
+    <div class="layui-form-item layer-footer">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit>立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+</form>
+{/block}
+{block name="script"}
+<script type="text/javascript">
+layui.use('yznForm', function() {
+    var yznForm = layui.yznForm;
+    yznForm.listen();
+});
+</script>
+{/block}

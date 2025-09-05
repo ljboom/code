@@ -1,0 +1,75 @@
+{extend name="admin@index_layout"/}
+{block name="main"}
+<style type="text/css" media="all">
+    .layui-table-cell {
+        height:55px;
+    }
+    .layui-table-cell {
+        text-align: center;
+        height: auto;
+        white-space: normal;
+    }
+    .layui-table img {
+        max-width: 50px;
+    }
+</style>
+<div class="layui-card">
+    <div class="layui-card-header">项目管理</div>
+    <div class="layui-card-body">
+        <table class="layui-hide" id="currentTable" lay-filter="currentTable"></table>
+    </div>
+</div>
+
+<script type="text/html" id="barTool">
+    <a data-open='{:url("edit")}?id={{ d.id }}' class="layui-btn layui-btn-xs">編輯</a><br/>
+    <a data-request='{:url("del")}?id={{ d.id }}' class="layui-btn layui-btn-xs">刪除</a><br/>
+</script>
+
+<script type="text/html" id="day">
+    {{d.day}}天
+</script>
+
+<script type="text/html" id="imgTpl">
+    <img src="{{ d.image }}">
+</script>
+{/block}
+{block name="script"}
+<script>
+layui.use('yznTable', function() {
+    var table = layui.yznTable;
+
+    var init = {
+        table_elem: '#currentTable',
+        table_render_id: 'currentTable',
+        edit_url: "{:url('edit')}",
+        add_url: "{:url('add')}",
+    };
+
+    table.render({
+        init: init,
+        search: false,
+        searchFormVisible: true,
+        toolbar: ['refresh','add'],
+        url: '{:url("index")}',
+        cols: [
+            [
+                { type: 'checkbox',  },
+                { field: 'id', width: 50, title: 'ID', search: false},
+                { field: 'product_name', width: 100, title: '項目名稱', search: false},
+                { field: 'image', width: 100, title: '圖片',templet:'#imgTpl', search: false},
+                { field: 'day_rate', title: '日利率', search: false },
+                { field: 'day',  title: '週期',templet:'#day', search: false },
+                { field: 'start_price', title: '起始金額', search: false  },
+                { field: 'max_price', title: '最高投資', search: false  },
+                { field: 'status', title: '狀態' , search: false },
+                { field: 'create_at', title: '添加時間', search: false  },
+                { fixed: 'right', align: 'center', width: 120, title: '操作', toolbar: '#barTool' }
+            ]
+        ],
+        page: {}
+    });
+           
+    
+});
+</script>
+{/block}

@@ -1,0 +1,102 @@
+{extend name="admin@index_layout"/}
+{block name="main"}
+<div class="layui-card">
+    <div class="layui-card-body">
+        <div class="layui-tab layui-tab-card">
+            <div class="layui-tab-content">
+                <form class="layui-form" method="post">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">網站名稱</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="title" lay-verify="required"  autocomplete="off" placeholder="網站名稱" class="layui-input" value="{$data.title}">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">聯繫客服</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="value" lay-verify="required"  autocomplete="off" placeholder="聯繫客服" class="layui-input" value="{$data.value}">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">聯繫客服1</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="value1" lay-verify="required"  autocomplete="off" placeholder="聯繫客服1" class="layui-input" value="{$data.value1}">
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">手续费比例</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="shouxu_bili"   autocomplete="off" placeholder="手续费比例" class="layui-input" value="{$data.shouxu_bili}">%
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">手续费最低收取</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="shouxu_feiyong"   autocomplete="off" placeholder="手续费最低收取" class="layui-input" value="{$data.shouxu_feiyong}">元
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">认交税</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="renjiaoshui"   autocomplete="off" placeholder="认交税" class="layui-input" value="{$data.renjiaoshui}">%
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">新股手续费</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="xingu_shouxufei"   autocomplete="off" placeholder="新股手续费" class="layui-input" value="{$data.xingu_shouxufei}">元
+                        </div>
+                    </div>
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">新股邮资</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="xingu_youzi"   autocomplete="off" placeholder="新股邮资" class="layui-input" value="{$data.xingu_youzi}">元
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">杠杆倍率比例</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="gangan_bili"   autocomplete="off" placeholder="杠杆倍率比例" class="layui-input" value="{$data.gangan_bili}">%
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">留仓费比例（每天）</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="liucang_bili"   autocomplete="off" placeholder="留仓费比例（每天）" class="layui-input" value="{$data.liucang_bili}">%
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="layui-form-item">
+                        <label class="layui-form-label">留仓费最低收取（每天）</label>
+                        <div class="layui-input-block">
+                            <input type="text" name="liucang_zuidi"   autocomplete="off" placeholder="留仓费最低收取（每天）" class="layui-input" value="{$data.liucang_zuidi}">元
+                        </div>
+                    </div>
+                    
+                    <div class="layui-form-item layer-footer">
+                        <div class="layui-input-block">
+                            <button class="layui-btn" lay-submit>立即提交</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{/block}
+{block name="script"}
+<script type="text/javascript">
+layui.use('yznForm', function() {
+    var yznForm = layui.yznForm;
+    $(document).on("fa.event.appendfieldlist", ".btn-append", function (e, obj) {
+        yznForm.events.faselect(obj);
+    });
+    yznForm.listen();
+});
+</script>
+{/block}

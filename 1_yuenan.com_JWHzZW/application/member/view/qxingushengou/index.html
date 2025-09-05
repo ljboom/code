@@ -1,0 +1,70 @@
+{extend name="admin@index_layout"/}
+{block name="main"}
+<style type="text/css" media="all">
+    .layui-table-cell {
+        height:55px;
+    }
+</style>
+<div class="layui-card">
+    <div class="layui-card-header">新股申购管理</div>
+    <div class="layui-card-body">
+        <table class="layui-hide" id="currentTable" lay-filter="currentTable"></table>
+    </div>
+</div>
+
+<script type="text/html" id="barTool">
+{{#  if(d.status == 0){ }}
+    <a data-open='{:url("Member/Qxingushengou/gaiqian")}?id={{ d.id }}' class="layui-btn layui-btn-xs" title="编辑">改签</a>
+    <a data-request='{:url("fabu")}?id={{ d.id }}' class="layui-btn layui-btn-xs layui-btn-warm ">发布</a><br/>
+    <a data-request='{:url("edit")}?id={{ d.id }}&status=5' class="layui-btn layui-btn-danger layui-btn-xs">取消</a>
+{{#  } }}  
+{{#  if(d.status == 1){ }}
+    <a data-request='{:url("renjiao")}?id={{ d.id }}' class="layui-btn layui-btn-xs layui-btn-normal">认缴</a><br/>
+{{#  } }}   
+</script>
+{/block}
+{block name="script"}
+<script>
+layui.use('yznTable', function() {
+    var table = layui.yznTable;
+
+    var init = {
+        table_elem: '#currentTable',
+        table_render_id: 'currentTable',
+        edit_url: "{:url('edit')}",
+        delete_url: "{:url('member/qxingushengou/fabu')}",
+    };
+
+    table.render({
+        init: init,
+        search: false,
+        searchFormVisible: true,
+        toolbar: ['refresh'],
+        url: '{:url("index")}',
+        cols: [
+            [
+                { type: 'checkbox', fixed: 'left' },
+                { field: 'id', width: 60, title: 'ID' , search: false },
+                { field: 'number', width: 200, title: '訂單編號',},
+                { field: 's_username', title: '所屬上級', search: false },
+                { field: 'username',  title: '賬號',  },
+                { field: 'qstockservices', title: '股票<br/>名称/代码',   },
+                // { field: 'qcard', title: '申购价', width: 300, height: 40, search: false  },
+                { field: 'shengou_money', title: '申购价', search: false  },
+                { field: 'shengou_num', title: '申购<br/>股数', search: false  },
+                { field: 'zhongqian_num', title: '中签<br/>数量', search: false  },
+                { field: 'shengou_renji_money', title: '申购需认缴', search: false  },
+                { field: 'zhongqian_renji_ori_money', title: '中签应认缴', search: false  },
+                { field: 'zhongqian_shouxu_money', title: '认缴手續費', search: false  },
+                { field: 'yirenji_money', title: '已认缴金额', search: false  },
+                { field: 'yirenji_money_count', title: '认缴次数', search: false  },
+                { field: 'reg_time', title: '申購時間', search: false  },
+                { field: 'status_name', title: '申购状态', search: false  },
+                { fixed: 'right', align: 'center', width: 120, title: '操作', toolbar: '#barTool' }
+            ]
+        ],
+        page: {}
+    });
+});
+</script>
+{/block}

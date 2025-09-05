@@ -1,0 +1,37 @@
+{extend name="admin@index_layout"/}
+{block name="main"}
+{notempty name='data'}
+<table class="layui-table">
+
+  <thead>
+    <tr>
+      <th>分行名称</th>
+      <th>分行代号</th>
+      <th>金融卡名称</th>
+      <th>持卡人姓名</th>
+      <th>金融卡卡号</th>
+    </tr> 
+  </thead>
+  <tbody>
+      {foreach $data as $k => $v}
+    <tr>
+      <td>{$v.card_branch}</td>
+      <td>{$v.branch_number}</td>
+      <td>{$v.card_type}</td>
+      <td>{$v.card_name}</td>
+      <td>{$v.card_id}</td>
+    </tr>
+    {/foreach}
+  </tbody>
+</table>
+{/notempty}
+{empty name='data'}<span class="notdata">没有记录哦</span>{/empty}
+{/block}
+{block name="script"}
+<script type="text/javascript">
+layui.use('yznForm', function() {
+    var yznForm = layui.yznForm;
+    yznForm.listen();
+});
+</script>
+{/block}

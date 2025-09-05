@@ -1,0 +1,58 @@
+{extend name="admin@index_layout"/}
+{block name="main"}
+<form class="layui-form" method="post">
+    <div class="layui-form-item">
+        <label class="layui-form-label">賬戶戶名</label>
+        <div class="layui-input-block">
+            <input type="text" name="card_name" lay-verify="required"  autocomplete="off" placeholder="賬戶戶名" class="layui-input" value="{$data.card_name}">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">賬戶賬號</label>
+        <div class="layui-input-block">
+            <input type="text" name="card_id" lay-verify="required"  autocomplete="off" placeholder="賬戶賬號" class="layui-input" value="{$data.card_id}">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">收款銀行</label>
+        <div class="layui-input-block">
+            <input type="text" name="branch_name" lay-verify="required"  autocomplete="off" placeholder="收款銀行" class="layui-input" value="{$data.branch_name}">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">收款支行</label>
+        <div class="layui-input-block">
+            <input type="text" name="card_branch" lay-verify="required"  autocomplete="off" placeholder="收款支行" class="layui-input" value="{$data.card_branch}">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">收款人地址</label>
+        <div class="layui-input-block">
+            <input type="text" name="address" lay-verify="required"  autocomplete="off" placeholder="收款人地址" class="layui-input" value="{$data.address}">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">銀行代碼</label>
+        <div class="layui-input-block">
+            <input type="text" name="branch_number" lay-verify="required"  autocomplete="off" placeholder="銀行代碼" class="layui-input" value="{$data.branch_number}">
+        </div>
+    </div>
+
+
+    <input type="hidden" name="id" value="{$data.id}">
+    <div class="layui-form-item layer-footer">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit>立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+</form>
+{/block}
+{block name="script"}
+<script type="text/javascript">
+layui.use('yznForm', function() {
+    var yznForm = layui.yznForm;
+    yznForm.listen();
+});
+</script>
+{/block}

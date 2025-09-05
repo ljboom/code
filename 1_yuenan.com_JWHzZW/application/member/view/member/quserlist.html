@@ -1,0 +1,86 @@
+{extend name="admin@index_layout"/}
+{block name="main"}
+<div class="layui-card">
+    <div class="layui-card-header">会员列表</div>
+    <div class="layui-card-body">
+        <table class="layui-hide" id="currentTable" lay-filter="currentTable">
+            <!--<div class="layui-row layui-col-space15">
+            <div class="layui-col-md2">
+                <input type="text" name="tel" id="tel" placeholder="請輸入賬號" class="layui-input">
+            </div>
+            <div class="layui-col-md1">
+                        <button type="button" class="layui-btn layui-btn-normal" id="search">
+                            搜索
+                        </button>
+            </div>
+            </div>-->
+        </table>
+    </div>
+</div>
+
+<script type="text/html" id="barTool">
+    <a data-open='{:url("Member/Member/quserlist_edit")}?id={{ d.id }}&type=1' class="layui-btn layui-btn-xs layui-btn-normal" title="實名認證">實名</a>
+    <a data-open='{:url("Member/Member/quserlist_edit")}?id={{ d.id }}&type=2' class="layui-btn layui-btn-xs layui-btn-warm" title="狀態更改">狀態</a>
+    <a data-open='{:url("Member/Member/quserlist_qcard")}?id={{ d.id }}' class="layui-btn layui-btn-xs layui-btn-primary" title="银行卡">银行卡</a>
+    <a data-open='{:url("Member/Member/qmoney_journal")}?id={{ d.id }}&type=1' class="layui-btn layui-btn-xs layui-btn-primary" title="資金詳情">資金詳情</a>
+    <a data-open='{:url("Member/Member/quserlist_edit")}?id={{ d.id }}&type=3' class="layui-btn layui-btn-xs" title="编辑">编辑</a>
+    <a href='{:url("Member/Member/quserlist_del")}?id={{ d.id }}' class="layui-btn layui-btn-danger layui-btn-xs layui-tr-del">删除</a>
+</script>
+
+{/block}
+{block name="script"}
+<script>
+
+var url = '{:url("quserlist")}';
+var uurl = url;
+
+$(function(){
+    $("#search").click(function(){
+        var tel = $("#tel").val();
+        var filter = {'tel':tel};
+        url = uurl+'?filter='+JSON.stringify(filter)
+        getList();
+    });
+    getList();
+})
+
+function getList(){
+layui.use('yznTable', function() {
+    var table = layui.yznTable;
+
+    var init = {
+        table_elem: '#currentTable',
+        table_render_id: 'currentTable',
+        add_url: "{:url('quserlist_add')}",
+        edit_url: "{:url('quserlist_edit')}",
+        delete_url: "{:url('quserlist_del')}",
+    };
+
+    table.render({
+        init: init,
+        search: true,
+        searchFormVisible: true,
+        toolbar: ['refresh', 'add', 'delete'],
+        url: url,
+        cols: [
+            [
+                { type: 'checkbox', fixed: 'left' },
+                { field: 'id', width: 60, title: 'ID' ,search: 'like'},
+                { field: 'code_name', width: 150, title: '邀請人', searchOp: 'like'},
+                { field: 'status', width: 100, title: '實名状态' , search: false},
+                { field: 'username', width: 150, title: '實名' , searchOp: 'like'},
+                { field: 'name_id',  title: '身份证', searchOp: 'like' },
+                { field: 'tel', title: '賬號', searchOp: 'like'  },
+                { field: 'money', title: '余额', search: false  },
+                // { field: 'code_str', title: '邀请码'  ,search: false},
+                { field: 'reg_time', title: '创建时间'  ,search: false},
+                // { width:200, title: '操作',templet: yznTable.formatter.tool,operat: ['edit','delete']}
+                { fixed: 'right', align: 'center', width: 360, title: '操作', toolbar: '#barTool' }
+            ]
+        ],
+        page: {}
+    });
+});
+}
+</script>
+{/block}

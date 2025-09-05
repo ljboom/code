@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maixmum-scale=1,user-scalable=no">
+        <title>振瀚資本-客服</title>
+        <script src="/static/libs/jquery/jquery.min.js"></script>
+        <script src="http://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    </head>
+    <body>
+        <div style="max-width:640px;margin:0 auto;text-align:center;margin-top:40%;">
+            <p style="font-size: 20px;font-weight: bold;">振瀚資本</p>
+            <p>官方LINE客服</p>
+            <p><a href="/kf.jpg"><img class="img" id="demo" src="/kf.jpg"></a></p>
+           <p id="link"><a href="https://line.me/ti/p/%40181pelyd">LINE苹果跳转链接</a></p>
+            <p style="color:red"><br/></p>
+			<p id="link"><a href="https://line.me/R/ti/p/%181pelyd">LINE安卓跳转链接</a></p>
+        </div>
+        <canvas id="canvas"></canvas>
+        <script>
+            var timer = null;
+			var $img = document.querySelector('.img');
+			$img.addEventListener('touchstart', () => {
+			clearTimeout(timer)
+			console.log('touch')
+
+
+		timer = setTimeout(() => {
+				var content = document.getElementById("demo");
+				html2canvas(content, {  
+				  backgroundColor: null,  
+				  useCORS: true, // 开启跨域配置  
+				  allowTaint: true, // 允许跨域图片  
+				  taintTest: true // 是否在渲染前测试图片  
+
+				}).then(canvas => {  
+				  let dataURL = canvas.toDataURL("image/png");  
+				  var a = document.createElement('a'); //创建一个 a 标签
+					let event = new MouseEvent('click') //创建一个单击事件
+					a.download = '振瀚資本' // 设置图片名称
+					a.href= dataURL
+					a.dispatchEvent(event) //触发a的点击事件
+				});  
+
+
+		}, 1000)
+
+});
+
+$img.addEventListener('touchend', () => clearTimeout(timer));
+        </script>
+    </body>
+</html>

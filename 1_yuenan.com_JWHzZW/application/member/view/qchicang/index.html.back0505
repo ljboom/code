@@ -1,0 +1,75 @@
+{extend name="admin@index_layout"/}
+{block name="main"}
+<style type="text/css" media="all">
+    .layui-table-cell {
+        height:55px;
+    }
+</style>
+<div class="layui-card">
+    <div class="layui-card-header">持仓管理</div>
+    <div class="layui-card-body">
+        <table class="layui-hide" id="currentTable" lay-filter="currentTable"></table>
+    </div>
+</div>
+
+<script type="text/html" id="barTool">
+{{#  if(d.status == 1 ||d.status == 3){ }}
+    <a data-open='{:url("details")}?id={{ d.id }}' class="layui-btn layui-btn-xs layui-btn-normal">详情</a><br/>
+{{#  } }}    
+{{#  if(d.status == 1){ }}
+    <a data-open='{:url("pingcang")}?id={{ d.id }}&maichu_type=2' class="layui-btn layui-btn-xs">平仓</a><br/>
+{{#  } }}   
+
+{{#  if(d.status == 10){ }}
+    <a data-request='{:url("edit")}?id={{ d.id }}&quser_id={{ d.quser_id }}' class="layui-btn layui-btn-danger layui-btn-xs layui-tr-del">取消</a><br/>
+{{#  } }}    
+</script>
+{/block}
+{block name="script"}
+<script>
+layui.use('yznTable', function() {
+    var table = layui.yznTable;
+
+    var init = {
+        table_elem: '#currentTable',
+        table_render_id: 'currentTable',
+        edit_url: "{:url('edit')}",
+        add_url: "{:url('add')}",
+    };
+
+    table.render({
+        init: init,
+        search: false,
+        searchFormVisible: true,
+        toolbar: ['refresh','add'],
+        url: '{:url("index")}',
+        cols: [
+            [
+                { type: 'checkbox', fixed: 'left' },
+                { field: 'id', width: 60, title: 'ID' , search: false },
+                { field: 'number', width: 200, title: '訂單編號',},
+                { field: 's_username', title: '所屬上級', search: false },
+                { field: 'username',  title: '賬號',  },
+                { field: 'mairu_type_name', title: '买入<br/>方向',   },
+                { field: 'qstockservices', title: '股票<br/>名称/代码',   },
+                // { field: 'qcard', title: '申购价', width: 300, height: 40, search: false  },
+                { field: 'mairu_money', title: '买入价格', search: false  },
+                { field: 'mairu_num', title: '买入股数', search: false  },
+                { field: 'mairu_total_money', title: '交易本金', search: false  },
+                { field: 'shizhi', title: '市值', search: false  },
+                { field: 'ganggang_beilv', title: '杠杆倍率', search: false  },
+                { field: 'status_name', title: '订单状态', search: false  },
+                { field: 'mairu_time', title: '买入时间', search: false  },
+                { field: 'maichu_time', title: '卖出时间', search: false  },
+                { field: 'maichu_type_name', title: '卖出类型', search: false  },
+                { field: 'jiesuan_money', title: '结算金额', search: false  },
+                { fixed: 'right', align: 'center', width: 120, title: '操作', toolbar: '#barTool' }
+            ]
+        ],
+        page: {}
+    });
+           
+    
+});
+</script>
+{/block}

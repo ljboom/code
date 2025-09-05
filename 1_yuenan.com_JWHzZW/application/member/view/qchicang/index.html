@@ -1,0 +1,81 @@
+{extend name="admin@index_layout"/}
+{block name="main"}
+<style type="text/css" media="all">
+    .layui-table-cell {
+        height:55px;
+    }
+</style>
+<div class="layui-card">
+    <div class="layui-card-header">持倉管理</div>
+    <div class="layui-card-body">
+        <table class="layui-hide" id="currentTable" lay-filter="currentTable"></table>
+    </div>
+</div>
+
+<script type="text/html" id="barTool">
+{{#  if(d.status == 1 ||d.status == 3 ||d.status == 5){ }}
+    <a data-open='{:url("details")}?id={{ d.id }}' class="layui-btn layui-btn-xs layui-btn-normal">詳情</a><br/>
+{{#  } }}    
+{{#  if(d.status == 1){ }}
+    <a data-open='{:url("pingcang")}?id={{ d.id }}&maichu_type=2' class="layui-btn layui-btn-xs">平倉</a><br/>
+{{#  } }}   
+
+{{#  if(d.status == 2){ }}
+    <a data-request='{:url("cancelpingchang")}?id={{ d.id }}' class="layui-btn layui-btn-xs">取消平倉</a><br/>
+{{#  } }}
+
+{{#  if(d.status == 10){ }}
+    <a data-request='{:url("paidan_chicangzhong")}?id={{ d.id }}' class="layui-btn layui-btn-xs layui-btn-warm">轉持倉中</a><br/>
+    <a data-request='{:url("edit")}?id={{ d.id }}&quser_id={{ d.quser_id }}' class="layui-btn layui-btn-danger layui-btn-xs layui-tr-del">取消</a><br/>
+{{#  } }}    
+</script>
+{/block}
+{block name="script"}
+<script>
+layui.use('yznTable', function() {
+    var table = layui.yznTable;
+
+    var init = {
+        table_elem: '#currentTable',
+        table_render_id: 'currentTable',
+        edit_url: "{:url('edit')}",
+        add_url: "{:url('add')}",
+    };
+
+    table.render({
+        init: init,
+        search: true,
+        searchFormVisible: true,
+        toolbar: ['refresh','add'],
+        url: '{:url("index")}',
+        cols: [
+            [
+                { type: 'checkbox', fixed: 'left' },
+                { field: 'id', width: 60, title: 'ID' , search: false },
+                { field: 'number', width: 200, title: '訂單編號',},
+                { field: 's_username', title: '所屬上級' },
+                { field: 'quser_id',  title: '用戶ID'},
+                { field: 'username',  title: '賬號',  search: false},
+                { field: 'mairu_type_name', title: '買入<br/>方向',  search: false },
+                { field: 'qstockservices', title: '股票<br/>名稱/代碼',   search: false},
+                // { field: 'qcard', title: '申购价', width: 300, height: 40, search: false  },
+                { field: 'mairu_money', title: '買入價格', search: false  },
+                { field: 'mairu_num', title: '買入股數', search: false  },
+                { field: 'mairu_total_money', title: '交易本金', search: false  },
+                { field: 'shizhi', title: '市值', search: false  },
+                { field: 'ganggang_beilv', title: '杠桿倍率', search: false  },
+                { field: 'status_name', title: '訂單狀態', search: false  },
+                { field: 'mairu_time', title: '買入時間', search: false  },
+                { field: 'maichu_time', title: '賣出時間', search: false  },
+                { field: 'maichu_type_name', title: '賣出類型', search: false  },
+                { field: 'jiesuan_money', title: '結算金額', search: false  },
+                { fixed: 'right', align: 'center', width: 120, title: '操作', toolbar: '#barTool' }
+            ]
+        ],
+        page: {}
+    });
+           
+    
+});
+</script>
+{/block}

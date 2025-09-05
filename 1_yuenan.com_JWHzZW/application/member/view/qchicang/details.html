@@ -1,0 +1,207 @@
+{extend name="admin@index_layout"/}
+{block name="main"}
+<div class="layui-form-item" style="width:900px" >
+    
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">订单单号</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.number}">
+      </div>
+   </div>
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">用户账号</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.tel}">
+      </div>
+   </div>
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">买入方向</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.mairu_type_name}">
+      </div>
+   </div>
+
+</div>
+
+<div class="layui-form-item" style="width:900px" >
+    
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">股票名称</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.sectorName}">
+      </div>
+   </div>
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">股票代码</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.systexId}">
+      </div>
+   </div>
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">买入股数</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.mairu_num}">
+      </div>
+   </div>
+
+</div> 
+
+<div class="layui-form-item" style="width:900px" >
+    
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">买入张数</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.mairu_count}">
+      </div>
+   </div>
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">买入价格</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.mairu_money}">
+      </div>
+   </div>
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">交易本金</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.mairu_total_money}">
+      </div>
+   </div>
+
+</div>  
+
+<div class="layui-form-item" style="width:900px" >
+    
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">杠杠倍率</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.ganggang_beilv}">
+      </div>
+   </div>
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">杠杠后股数</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.ganggang_beilv_num}">
+      </div>
+   </div>
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">市值</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.shizhi}">
+      </div>
+   </div>
+
+</div>  
+
+<div class="layui-form-item" style="width:900px" >
+    
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">买手续费</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.mairu_shouxu}">
+      </div>
+   </div>
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">买入时间</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.mairu_time}">
+      </div>
+   </div>
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">订单状态</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.status_name}">
+      </div>
+   </div>
+
+</div>  
+
+<div class="layui-form-item" style="width:900px" >
+    
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">卖出价格</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.maichu_money}">
+      </div>
+   </div>
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">卖出时间</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.maichu_time}">
+      </div>
+   </div>
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">卖出类型</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.maichu_type_name}">
+      </div>
+   </div>
+
+</div>  
+
+<div class="layui-form-item" style="width:900px" >
+    
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">卖出金额</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.maichu_total_money}">
+      </div>
+   </div>
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">卖出手续费</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.maichu_shouxu}">
+      </div>
+   </div>
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">认交税</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.renjiao_money}">
+      </div>
+   </div>
+
+</div>         
+         
+<div class="layui-form-item" style="width:900px" >
+    
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">留仓天数</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.liucang_day}">
+      </div>
+   </div>
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">留仓费</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.liucang_money}">
+      </div>
+   </div>
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">总手续费</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.total_shouxu_money}">
+      </div>
+   </div>
+
+</div>  
+<div class="layui-form-item" style="width:900px" >
+    
+   <div class="layui-inline">
+      <label class="layui-form-label" style="width:50px">结算金额</label>
+      <div class="layui-input-inline" style="width:150px">
+         <input type="text"  class="layui-input" value="{$data.jiesuan_money}">
+      </div>
+   </div>
+
+</div>         
+
+    
+
+{/block}
+{block name="script"}
+<script type="text/javascript">
+layui.use('yznForm', function() {
+    var yznForm = layui.yznForm;
+    yznForm.listen();
+});
+</script>
+{/block}

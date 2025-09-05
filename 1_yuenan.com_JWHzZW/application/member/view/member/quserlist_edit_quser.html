@@ -1,0 +1,52 @@
+{extend name="admin@index_layout"/}
+{block name="main"}
+<form class="layui-form" method="post">
+    
+    <div class="layui-form-item">
+        <label class="layui-form-label">手机号</label>
+        <div class="layui-input-block">
+            <input type="text" disabled="disabled" style="background:#CCCCCC" lay-verify="required" autocomplete="off" placeholder="手机号" class="layui-input" value="{$data.tel}">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">姓名</label>
+        <div class="layui-input-block">
+            <input type="text" name="username"  {if $data['status'] == 1 || $data['status'] == 2}disabled="disabled" style="background:#CCCCCC"{/if} lay-verify="required"  autocomplete="off" placeholder="填写姓名" class="layui-input" value="{$data.username}">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">身份证</label>
+        <div class="layui-input-block">
+            <input type="text" name="name_id" {if $data['status'] == 1 || $data['status'] == 2}disabled="disabled" style="background:#CCCCCC"{/if} lay-verify="required"  autocomplete="off" placeholder="填写新身份证" class="layui-input" value="{$data.name_id}">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-form-item">
+            <label class="layui-form-label">認證</label>
+            <div class="layui-input-block">
+                <input type="radio" name="status" value="0" title="未填写"  {if $data['status'] == 0} checked {/if} disabled>
+                <input type="radio" name="status" value="1" title="通過"   {if $data['status'] == 1} checked {/if}>
+                <input type="radio" name="status" value="2" title="拒絕"  {if $data['status'] == 2} checked {/if}>
+                <input type="radio" name="status" value="4" title="待审核"  {if $data['status'] == 4} checked {/if} disabled>
+            </div>
+        </div>
+    </div>
+    {if $admin['roleid'] == 1 ||  $admin['roleid'] == 2 }
+    <input type="hidden" name="id" value="{$data.id}">
+    <div class="layui-form-item layer-footer">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit>立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+    {/if}
+</form>
+{/block}
+{block name="script"}
+<script type="text/javascript">
+layui.use('yznForm', function() {
+    var yznForm = layui.yznForm;
+    yznForm.listen();
+});
+</script>
+{/block}

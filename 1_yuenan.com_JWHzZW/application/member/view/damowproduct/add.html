@@ -1,0 +1,95 @@
+{extend name="admin@index_layout"/}
+{block name="main"}
+<form class="layui-form" method="post">
+    
+    <div class="layui-form-item">
+        <label class="layui-form-label">項目名稱</label>
+        <div class="layui-input-block">
+            <input type="text" name="product_name" lay-verify="required" autocomplete="off" placeholder="項目名稱（必填）" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">圖片</label>
+        <div class="layui-input-block">
+            {:Form::image("image")}
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">簡介圖片</label>
+        <div class="layui-input-block">
+            {:Form::image("desc")}
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">日利率</label>
+        <div class="layui-input-block" style="display: flex;justify-content: space-between">
+            <input type="text" name="day_rate" lay-verify="required" autocomplete="off" placeholder="日利率（必填）" class="layui-input"><span>%</span>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">週期</label>
+        <div class="layui-input-block"  style="display: flex;justify-content: space-between">
+            <input type="text" name="day" lay-verify="required" autocomplete="off" placeholder="週期（必填）" class="layui-input"><span>天</span>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">起始金額</label>
+        <div class="layui-input-block"  style="display: flex;justify-content: space-between">
+            <input type="text" name="start_price" lay-verify="required" autocomplete="off" placeholder="起始金額（必填）" class="layui-input"><span>元</span>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label" >最高投資</label>
+        <div class="layui-input-block" style="display: flex;justify-content: space-between">
+            <input type="text" name="max_price" lay-verify="required" autocomplete="off" placeholder="最高投資（必填）" class="layui-input"><span>元</span>
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">投資數量</label>
+        <div class="layui-input-block"  style="display: flex;justify-content: space-between">
+            <input type="text" name="investment_count" lay-verify="required" autocomplete="off" placeholder="投資數量（必填）" class="layui-input"><span>次</span>
+        </div>
+    </div>
+    
+     <div class="layui-form-item">
+        <label class="layui-form-label" >時間</label>
+        <div class="layui-input-block" style="display: flex;justify-content: space-between">
+            <input type="text" name="date" lay-verify="required" autocomplete="off" placeholder="產品時間格式 021/02/12" class="layui-input">
+        </div>
+    </div>
+    
+    <div class="layui-form-item">
+        <label class="layui-form-label" >排序</label>
+        <div class="layui-input-block" style="display: flex;justify-content: space-between">
+            <input type="text" name="sort" lay-verify="required" autocomplete="off" placeholder="數值越小越靠前" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">狀態</label>
+        <div class="layui-input-inline">
+            <input type="radio" name="status" value="1" title="打開" checked>
+            <input type="radio" name="status" value="0" title="關閉" >
+        </div>
+    </div>
+
+    
+
+    <div class="layui-form-item layer-footer">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit>立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+</form>
+{/block}
+{block name="script"}
+<script type="text/javascript">
+layui.use('yznForm', function() {
+    var yznForm = layui.yznForm;
+    yznForm.listen();
+});
+</script>
+{/block}

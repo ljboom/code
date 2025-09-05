@@ -1,0 +1,187 @@
+<?php
+// +----------------------------------------------------------------------
+// | Yzncms [ 御宅男工作室 ]
+// +----------------------------------------------------------------------
+// | Copyright (c) 2018 http://yzncms.com All rights reserved.
+// +----------------------------------------------------------------------
+// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
+// +----------------------------------------------------------------------
+// | Author: 御宅男 <530765310@qq.com>
+// +----------------------------------------------------------------------
+
+// +----------------------------------------------------------------------
+// | 持仓
+// +----------------------------------------------------------------------
+namespace app\member\controller;
+
+use app\index\model\Quser as QuserModel;
+use app\index\model\Qchicang as QchicangModel;
+use app\common\controller\Adminbase;
+use think\Db;
+
+class Qchicang extends Adminbase
+{
+    
+    //初始化
+    protected function initialize()
+    {
+        parent::initialize();
+        $this->Quser = new QuserModel;
+        $this->modelClass = new QchicangModel;
+        
+    }
+    
+    /**
+     * 持仓列表
+     */
+    public function index(){
+        if ($this->request->isAjax()) {
+            list($page, $limit, $where) = $this->buildTableParames();
+            $quser_arr = quser_arr(1);
+            $_list                      = $this->modelClass->where($where)
+                ->where($quser_arr['key'] , $quser_arr['fuhao'] ,$quser_arr['val'])
+                ->page($page, $limit)->order('id desc')->select();
+            foreach($_list as $k => $v){
+                 $quser = Db::name('quser')->where('id',$v['quser_id'])->field('username,tel,code_quserid')->find();
+                 $_list[$k]['username'] = $quser['tel'].'<br />'.$quser['username'];
+                 $_list[$k]['s_username'] = quser_admin($v['quser_id']);//上級id
+                 $qstockservices = Db::name('qstockservices')->where('id',$v['qstockservices_id'])->field('symbolName,symbol')->find();
+                 $_list[$k]['qstockservices']  = $qstockservices['symbol'].'<br />'.$qstockservices['symbolName'];
+                 
+                $qstockservices_data = Db::name('qstockservices_data')->where('qstockservices_id',$v['qstockservices_id'])->field('regularMarketPrice')->find();
+                $_list[$k]['shizhi'] = $qstockservices_data['regularMarketPrice'] * $v['mairu_num'];
+                 
+                $_list[$k]['mairu_type_name'] = $v['mairu_type'] == 1 ? '买涨' : '买跌';
+                $_list[$k]['mairu_status_name'] = $v['mairu_status'] == 1 ? '市值' : '限价';
+                
+                if($v['maichu_type'] == 1){ $_list[$k]['maichu_type_name'] = '主动卖出';}
+                elseif($v['maichu_type'] == 2){ $_list[$k]['maichu_type_name'] = '后台平仓'; }
+                elseif($v['maichu_type'] == 3){ $_list[$k]['maichu_type_name'] = '触发止损'; }
+                
+                //订单状态 1 持仓中 2 平仓中 3 已平仓 10 排单中 
+                if($v['status'] == 1){ $_list[$k]['status_name'] = '持仓中';}
+                elseif($v['status'] == 2){ $_list[$k]['status_name'] = '平仓中'; }
+                elseif($v['status'] == 3){ $_list[$k]['status_name'] = '已平仓'; }
+                elseif($v['status'] == 10){ $_list[$k]['status_name'] = '排单中'; }
+                $_list[$k]['mairu_time'] = date("Y/m/d",$v['mairu_time']).'<br />'.date('H:i:s',$v['mairu_time']);
+                $_list[$k]['maichu_time'] = empty($v['maichu_time']) ? '' : date("Y/m/d",$v['mairu_time']).'<br />'.date('H:i:s',$v['mairu_time']);
+                 
+            }
+            $total                      = $this->modelClass
+                ->where($quser_arr['key'] , $quser_arr['fuhao'] ,$quser_arr['val'])
+                ->where($where)->count();
+            $result                     = array("code" => 0, "count" => $total, "data" => $_list);
+            return json($result);
+        }
+        return $this->fetch();
+    }  
+    
+    public function add(){
+        if ($this->request->isPost()) {
+        
+        // if (true) {
+            $data   = $this->request->post();
+            // $data['tel'] = 222;
+            // $data['symbol'] =  '1101.TW';
+            // $data['mairu_type'] =  1;
+            // $data['mairu_count'] =  100;
+            // unset($data['tel']);
+            // $data['mairu_time'] = strtotime($data['mairu_time']);
+            // dump($data);
+            // exit;
+            $res = $this->modelClass->createManager($data);
+            if($res['code'] == 200){
+                $this->success("添加成功！", url("qchicang/index"));
+            }else{
+                $this->error($res['msg']);
+            }
+        } else {
+            return $this->fetch();
+        }
+    }
+    
+    public function details(){
+        $get = input('get.');
+        $res = $this->modelClass->where('id',$get['id'])->find();
+        $quser = Db::name('quser')->where('id',$res['quser_id'])->find();
+        $qstockservices = Db::name('qstockservices')->where('id',$res['qstockservices_id'])->field('sectorName,systexId')->find();
+        $qstockservices_data = Db::name('qstockservices_data')->where('id',$res['qstockservices_id'])->field('regularMarketPrice')->find();
+        // dump($res);
+        // dump($quser);
+        $data = array(
+            'number' =>$res['number'],
+            'tel' =>$quser['tel'],
+            'mairu_type_name' => $res['mairu_type'] == 1 ? '买涨' : '买跌',
+            'sectorName' => $qstockservices['sectorName'],
+            'systexId' => $qstockservices['systexId'],
+            'mairu_num' => $res['mairu_num'],
+            'mairu_count' => $res['mairu_count'],
+            'mairu_money' => $res['mairu_money'],
+            'mairu_total_money' => $res['mairu_total_money'],
+            'ganggang_beilv' => $res['ganggang_beilv'],
+            'ganggang_beilv_num' => '',     //杠杆倍率股数
+            'shizhi' => $qstockservices_data['regularMarketPrice'] * $res['mairu_num'],//市值
+            'mairu_shouxu' => $res['mairu_shouxu'],
+            'mairu_time' => date("Y/m/d H:i:s",$res['mairu_time']),
+            
+            
+            'maichu_money' => $res['maichu_money'],
+            'maichu_time' => empty($res['maichu_time']) ? '' :date("Y/m/d H:i:s",$res['maichu_time']),
+            'maichu_money' => $res['maichu_money'],
+            'maichu_total_money' => $res['maichu_total_money'],
+            'maichu_shouxu' => $res['maichu_shouxu'],
+            'renjiao_money' => $res['renjiao_money'],//人交税
+            'liucang_day' => $res['liucang_day'],//留仓天数
+            'liucang_money' => $res['liucang_money'],//留仓费
+            'total_shouxu_money' => '',//总手续费
+            'jiesuan_money' => $res['jiesuan_money'],//结算金额
+            
+            
+            
+            );
+        if($res['maichu_type'] == 1){ $data['maichu_type_name'] = '主动卖出';}
+        elseif($res['maichu_type'] == 2){ $data['maichu_type_name'] = '后台平仓'; }
+        elseif($res['maichu_type'] == 3){ $data['maichu_type_name'] = '触发止损'; }
+        
+        if($res['status'] == 1){ $data['status_name'] = '持仓中';}
+        elseif($res['status'] == 2){ $data['status_name'] = '平仓中'; }
+        elseif($res['status'] == 3){ $data['status_name'] = '已平仓'; }
+        elseif($res['status'] == 10){ $data['status_name'] = '排单中'; }
+        
+        return view('details',['data'=>$data]);
+        
+    }
+        
+    //平仓
+    public function pingcang(){
+        if ($this->request->isPost()) {
+            $data   = $this->request->post();
+            $res = $this->modelClass->pingcangManager($data);
+            if($res['code'] == 200){
+                $this->success("成功！");
+            }else{
+                $this->error("失败！");
+            }
+        }else{
+            $data['id'] = input('get.id');
+            $this->assign("data", $data);
+            return $this->fetch();
+        }
+    }
+    
+    /**
+     * 持仓编辑
+     */
+    public function edit(){
+        $data   = $this->request->get();
+        $res = $this->modelClass->quxiao($data);
+        if($res['code'] == 200){
+            $this->success("成功！");
+        }else{
+            $this->error("失败！");
+        }
+        
+       
+        
+    }  
+}

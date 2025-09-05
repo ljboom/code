@@ -1,0 +1,64 @@
+{extend name="admin@index_layout"/}
+{block name="main"}
+<form class="layui-form" method="post">
+    <div class="layui-form-item">
+        <label class="layui-form-label">昵称</label>
+        <div class="layui-input-block">
+            <input type="text" name="nickname"  autocomplete="off" placeholder="昵称" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">身份证姓名</label>
+        <div class="layui-input-block">
+            <input type="text" name="username"  autocomplete="off" placeholder="身份证姓名" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">身份证</label>
+        <div class="layui-input-block">
+            <input type="text" name="name_id"  autocomplete="off" placeholder="身份证" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">手机</label>
+        <div class="layui-input-block">
+            <input type="text" name="tel" lay-verify="required" autocomplete="off" placeholder="手机（必填）" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">密码</label>
+        <div class="layui-input-block">
+            <input type="text" name="password" lay-verify="required" autocomplete="off" placeholder="密码（必填）" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">资金密码</label>
+        <div class="layui-input-block">
+            <input type="text" name="t_password"  autocomplete="off" placeholder="资金密码" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">邀请码</label>
+        <div class="layui-input-block">
+            <input type="text" name="code_str" lay-verify="required" autocomplete="off" placeholder="管理員/經理/業務員邀請碼（必填）" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item layer-footer">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit>立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+</form>
+{/block}
+{block name="script"}
+<script type="text/javascript">
+layui.use('yznForm', function() {
+    var yznForm = layui.yznForm;
+    yznForm.listen();
+});
+</script>
+{/block}

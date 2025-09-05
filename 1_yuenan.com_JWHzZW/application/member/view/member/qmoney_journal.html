@@ -1,0 +1,37 @@
+{extend name="admin@index_layout"/}
+{block name="main"}
+{notempty name='data'}
+<table class="layui-table">
+
+  <thead>
+    <tr>
+      <th>序号</th>
+      <th>类型</th>
+      <th>说明</th>
+      <th>金额</th>
+      <th>时间</th>
+    </tr> 
+  </thead>
+  <tbody>
+      {foreach $data as $k => $v}
+    <tr>
+      <td>{$k+1}</td>
+      <td>{$v.content}</td>
+      <td>{$v.symbol_name}</td>
+      <td>{$v.type}{$v['money']}</td>
+      <td>{$v.add_time}</td>
+    </tr>
+    {/foreach}
+  </tbody>
+</table>
+{/notempty}
+{empty name='data'}<span class="notdata">没有记录哦</span>{/empty}
+{/block}
+{block name="script"}
+<script type="text/javascript">
+layui.use('yznForm', function() {
+    var yznForm = layui.yznForm;
+    yznForm.listen();
+});
+</script>
+{/block}

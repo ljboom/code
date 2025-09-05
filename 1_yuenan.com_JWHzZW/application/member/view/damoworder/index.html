@@ -1,0 +1,62 @@
+{extend name="admin@index_layout"/}
+{block name="main"}
+<style type="text/css" media="all">
+    .layui-table-cell {
+        height:55px;
+    }
+</style>
+<div class="layui-card">
+    <div class="layui-card-header">订单管理</div>
+    <div class="layui-card-body">
+        <table class="layui-hide" id="currentTable" lay-filter="currentTable"></table>
+    </div>
+</div>
+
+<script type="text/html" id="barTool">
+    <!--<a data-request='{:url("del")}?id={{ d.id }}' class="layui-btn layui-btn-xs">刪除</a><br/>-->
+</script>
+{/block}
+{block name="script"}
+<script>
+layui.use('yznTable', function() {
+    var table = layui.yznTable;
+
+    var init = {
+        table_elem: '#currentTable',
+        table_render_id: 'currentTable',
+//        edit_url: "{:url('edit')}",
+//        add_url: "{:url('add')}",
+    };
+
+    table.render({
+        init: init,
+        search: false,
+        searchFormVisible: true,
+        toolbar: ['refresh'],
+        url: '{:url("index")}',
+        cols: [
+            [
+                { type: 'checkbox', fixed: 'left' },
+                { field: 'id',title: 'id',},
+                { field: 's_username', width: 150, title: '所屬上級', search: false },
+                { field: 'tel',title: '賬號',},
+                { field: 'user_name',  title: '實名',},
+                { field: 'product_name', width: 100, title: '理財產品',},
+                { field: 'day_rate', title: '日利率', search: false },
+                { field: 'day',  title: '週期', search: false },
+                { field: 'money', title: '投資金額', search: false  },
+                { field: 'yuji_money', title: '預計收益', search: false  },
+                { field: 'yi_money', title: '已收益', search: false  },
+                { field: 'status', title: '狀態', search: false  },
+                { field: 'create_at', title: '購買時間', search: false  },
+                { field: 'end_time', title: '結束時間', search: false  },
+//                { fixed: 'right', align: 'center', width: 120, title: '操作', toolbar: '#barTool' }
+            ]
+        ],
+        page: {}
+    });
+           
+    
+});
+</script>
+{/block}

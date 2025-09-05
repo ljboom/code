@@ -1,0 +1,51 @@
+{extend name="admin@index_layout"/}
+{block name="main"}
+<form class="layui-form" method="post">
+    <div class="layui-form-item">
+        <label class="layui-form-label">賬號</label>
+        <div class="layui-input-block">
+            <input type="text" name="tel" lay-verify="required"  autocomplete="off" placeholder="賬號" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">充值類型</label>
+        <div class="layui-input-block">
+            <input type="text" name="" lay-verify="required" disabled="disabled" value="餘額"  autocomplete="off" placeholder="充值類型" class="layui-input">
+            <input type="hidden" name="qpassageway_id" id="" value="0" />
+        </div>
+    </div>
+    <!--<div class="layui-form-item">-->
+    <!--    <label class="layui-form-label">所屬上級賬號</label>-->
+    <!--    <div class="layui-input-block">-->
+    <!--        <input type="text" name="s_tel" lay-verify="required"  autocomplete="off" placeholder="所屬上級賬號" class="layui-input">-->
+    <!--    </div>-->
+    <!--</div>-->
+    <div class="layui-form-item">
+        <label class="layui-form-label">金額</label>
+        <div class="layui-input-block">
+            <input type="text" name="money"  lay-verify="required" autocomplete="off" placeholder="金額" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">備註</label>
+        <div class="layui-input-block">
+            <input type="text" name="remarks" lay-verify="required"  autocomplete="off" placeholder="備註" class="layui-input">
+        </div>
+    </div>
+    <input type="hidden" name="type" id="" value="1" />
+    <div class="layui-form-item layer-footer">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit>立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+</form>
+{/block}
+{block name="script"}
+<script type="text/javascript">
+layui.use('yznForm', function() {
+    var yznForm = layui.yznForm;
+    yznForm.listen();
+});
+</script>
+{/block}

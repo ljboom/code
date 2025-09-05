@@ -1,0 +1,88 @@
+{extend name="admin@index_layout"/}
+{block name="main"}
+<form class="layui-form" method="post">
+    
+    <div class="layui-form-item">
+        <label class="layui-form-label">賬戶賬號</label>
+        <div class="layui-input-block">
+            <input type="text" name="tel" lay-verify="required" autocomplete="off" placeholder="賬戶賬號（必填）" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">杠杠倍率</label>
+        <div class="layui-input-block">
+            <input type="radio" name="mairu_type" value="1" title="买涨">
+            <input type="radio" name="mairu_type" value="2" title="买跌">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">股票名称</label>
+        <div class="layui-input-block">
+            <input type="text" name="symbolName" lay-verify="required" autocomplete="off" placeholder="股票名称（必填）" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">股票代码</label>
+        <div class="layui-input-block">
+            <input type="text" name="symbol" lay-verify="required" autocomplete="off" placeholder="股票代码（必填）" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">买入股数</label>
+        <div class="layui-input-block">
+            <input type="text" name="mairu_num" lay-verify="required" autocomplete="off" placeholder="买入股数（必填）" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">买入价格</label>
+        <div class="layui-input-block">
+            <input type="text" name="mairu_money" lay-verify="required" autocomplete="off" placeholder="买入价格（必填）" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">买入本金</label>
+        <div class="layui-input-block">
+            <input type="text" name="mairu_total_money" lay-verify="required" autocomplete="off" placeholder="买入本金（必填）" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">买手续费</label>
+        <div class="layui-input-block">
+            <input type="text" name="mairu_shouxu" lay-verify="required" autocomplete="off" placeholder="买手续费（必填）" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">买入时间</label>
+        <div class="layui-input-block">
+            <input type="text" name="mairu_time" class="layui-input datetime" id="overduedate">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">杠杠倍率</label>
+        <div class="layui-input-block">
+            <input type="radio" name="ganggang_beilv" value="0" title="0">
+            <input type="radio" name="ganggang_beilv" value="5" title="5">
+            <input type="radio" name="ganggang_beilv" value="10" title="10">
+            <input type="radio" name="ganggang_beilv" value="20" title="20">
+            <input type="radio" name="ganggang_beilv" value="50" title="50">
+        </div>
+    </div>
+
+    
+
+    <div class="layui-form-item layer-footer">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit>立即提交</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+</form>
+{/block}
+{block name="script"}
+<script type="text/javascript">
+layui.use('yznForm', function() {
+    var yznForm = layui.yznForm;
+    yznForm.listen();
+});
+</script>
+{/block}
