@@ -1,0 +1,86 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" class="form-control" name="row[name]" type="text" value="{$row.name|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Zimudaima')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-zimudaima" class="form-control" name="row[zimudaima]" type="text" value="{$row.zimudaima|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Price')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-price" data-rule="required" class="form-control" step="0.01" name="row[price]" type="number" value="{$row.price|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Zhangdieshu')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-zhangdieshu" data-rule="required" class="form-control" name="row[zhangdieshu]" type="number" value="{$row.zhangdieshu|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Zhangdiebaifenbi')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-zhangdiebaifenbi" data-rule="required" class="form-control" name="row[zhangdiebaifenbi]" type="number" value="{$row.zhangdiebaifenbi|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Open')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-open" data-rule="required" class="form-control" step="0.01" name="row[open]" type="number" value="{$row.open|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Close')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-close" data-rule="required" class="form-control" step="0.01" name="row[close]" type="number" value="{$row.close|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('High')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-high" data-rule="required" class="form-control" step="0.01" name="row[high]" type="number" value="{$row.high|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Low')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-low" data-rule="required" class="form-control" step="0.01" name="row[low]" type="number" value="{$row.low|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Vol')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-vol" data-rule="required" class="form-control" name="row[vol]" type="number" value="{$row.vol|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Weigh')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-weigh" data-rule="required" class="form-control" name="row[weigh]" type="number" value="{$row.weigh|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Show_switch')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            
+            <input  id="c-show_switch" name="row[show_switch]" type="hidden" value="{$row.show_switch}">
+            <a href="javascript:;" data-toggle="switcher" class="btn-switcher" data-input-id="c-show_switch" data-yes="1" data-no="0" >
+                <i class="fa fa-toggle-on text-success {eq name="$row.show_switch" value="0"}fa-flip-horizontal text-gray{/eq} fa-2x"></i>
+            </a>
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-primary btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
