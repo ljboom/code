@@ -1,0 +1,30 @@
+﻿后台
+域名/code
+
+dkewl
+123456
+
+
+
+
+前端
+123123
+123123
+
+数据库配置信息修改	/core/.env
+
+
+测试环境：Linux系统CentOS7.6、宝塔面板、Nginx、PHP7.4、MySQL5.7，伪静态选择thinkphp，建议开启SSL
+放跨站需要关闭
+文件权限777
+伪静态
+location ~* (runtime|application)/{
+	return 403;
+}
+location / {
+	if (!-e $request_filename){
+		rewrite  ^(.*)$  /index.php?s=$1  last;   break;
+	}
+}
+
+找不到数据库修改直接添加数据库账号密码用户名都是 cod
