@@ -1,0 +1,81 @@
+#main.w856 .footer[data-v-fe2136c0] {
+    width: 100%
+}
+
+.box[data-v-fe2136c0] {
+    z-index: -1;
+    position: absolute;
+    top: -1.46552rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1.06897rem;
+    height: 1.06897rem;
+    border-radius: 17.22414rem;
+    background: #122b2b
+}
+
+.footer[data-v-fe2136c0] {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    max-width: 10rem;
+    width: 100%;
+    background: linear-gradient(180deg, #122b2b, #010101);
+    z-index: 10;
+    padding: .2069rem 0
+}
+
+.footer ul li[data-v-fe2136c0] {
+    width: 24%
+}
+
+.footer ul li div img[data-v-fe2136c0] {
+    vertical-align: top;
+    width: .41379rem
+}
+
+.footer ul li div img.on[data-v-fe2136c0] {
+    height: .96rem;
+    width: .96rem;
+    margin-bottom: -.1rem
+}
+
+.footer ul li div span[data-v-fe2136c0] {
+    display: block;
+    margin-top: .07rem;
+    opacity: .9;
+    font-size: .22rem;
+    font-weight: 400;
+    color: #999;
+    line-height: .28rem
+}
+
+.footer ul li div.on span[data-v-fe2136c0] {
+    color: #06cc63;
+    opacity: 1
+}
+
+.footer ul li .Revenue[data-v-fe2136c0] {
+    position: relative;
+    width: .41379rem;
+    height: .41379rem;
+    margin: 0 auto
+}
+
+.footer ul li .Revenue img[data-v-fe2136c0] {
+    position: absolute;
+    top: -.34483rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: .72414rem;
+    height: .72414rem;
+    max-width: .72414rem;
+    max-height: .72414rem
+}
+
+.footer ul li:nth-child(3) div img.on[data-v-fe2136c0] {
+    width: 1.24rem !important;
+    height: 1.24rem !important;
+    position: relative;
+    bottom: .2rem
+}

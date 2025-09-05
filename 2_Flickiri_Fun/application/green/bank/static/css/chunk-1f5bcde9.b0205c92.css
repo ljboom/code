@@ -1,0 +1,110 @@
+[data-v-8f763990] .head {
+    background: transparent
+}
+
+.page[data-v-8f763990] {
+    background: #061311 url(../../static/img/order-bg.2461f841.png) no-repeat scroll;
+    background-size: 100%;
+    min-height: 100vh;
+    padding-bottom: 1.03448rem
+}
+
+.task-title[data-v-8f763990] {
+    padding: .86207rem .56897rem 1.72414rem
+}
+
+.task-title .line2[data-v-8f763990] {
+    width: 3.2069rem;
+    height: .08621rem;
+    margin-top: .17241rem
+}
+
+.task-title .task-icon[data-v-8f763990] {
+    width: .32759rem
+}
+
+.task-title .title[data-v-8f763990] {
+    font-size: .37931rem;
+    font-weight: 600;
+    margin-left: .13793rem
+}
+
+.list[data-v-8f763990] {
+    margin-top: .22rem;
+    margin-bottom: 1.3rem
+}
+
+.list li[data-v-8f763990] {
+    margin-bottom: .24rem;
+    background: linear-gradient(135deg, #0e5135, #0f332a);
+    border-radius: .2rem;
+    padding-right: .35rem
+}
+
+.list li .n[data-v-8f763990] {
+    font-size: .32rem;
+    font-weight: 500;
+    color: var(--COcolor3);
+    line-height: .45rem;
+    margin-bottom: .8rem
+}
+
+.list li .n .time[data-v-8f763990] {
+    margin-top: .16rem;
+    font-size: .24rem;
+    font-family: Helvetica;
+    color: var(--COcolor1);
+    display: flex;
+    align-items: center
+}
+
+.list li .n .time img[data-v-8f763990] {
+    height: .24rem;
+    margin-right: .11rem
+}
+
+.list li .fo1[data-v-8f763990] {
+    margin-bottom: .16rem;
+    font-size: .24rem;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.list li .fo1 div[data-v-8f763990] {
+    flex: 1;
+    text-align: right
+}
+
+.list li .fo1 .con[data-v-8f763990] {
+    color: #fff;
+    word-break: break-all;
+    word-wrap: break-word
+}
+
+.list li .fo1 .income[data-v-8f763990] {
+    font-size: .32rem;
+    color: #06ffb6;
+    font-weight: 700
+}
+
+.list li .pic[data-v-8f763990] {
+    width: 2.4rem;
+    height: 3rem;
+    margin-right: .24rem;
+    border-radius: .1rem;
+    overflow: hidden
+}
+
+.list li .pic img[data-v-8f763990] {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.c-fff[data-v-8f763990] {
+    color: #fff
+}

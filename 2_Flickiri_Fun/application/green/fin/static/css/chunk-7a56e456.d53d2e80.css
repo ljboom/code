@@ -1,0 +1,16 @@
+.page[data-v-563c2238] {
+    background: #0d2623 url(../../static/img/main-bg.7283b84a.png) no-repeat scroll;
+    background-size: 100% 100vh;
+    min-height: 100vh;
+    padding-bottom: 1.03448rem
+}
+
+.wrapper[data-v-563c2238] {
+    padding: .34483rem .27586rem 0;
+    line-height: .41379rem
+}
+
+.wrapper[data-v-563c2238] img {
+    width: 100% !important;
+    height: auto !important
+}

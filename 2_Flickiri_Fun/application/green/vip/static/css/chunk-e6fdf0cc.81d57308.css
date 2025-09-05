@@ -1,0 +1,304 @@
+.qr-wrapper[data-v-0d05f121] {
+    padding: .51724rem 0
+}
+
+[data-v-0d05f121] .head {
+    background: transparent !important;
+    height: 1.4rem;
+    display: flex;
+    align-items: center
+}
+
+[data-v-0d05f121] .container {
+    padding: .4rem
+}
+
+.home[data-v-0d05f121] {
+    background: #0d2623 url(../../static/img/main-bg.7283b84a.png) no-repeat scroll;
+    background-size: 100% 100vh;
+    min-height: 100vh;
+    padding-bottom: .5rem
+}
+
+.select-title[data-v-0d05f121] {
+    margin-bottom: .22414rem;
+    font-size: .32rem
+}
+
+.zffs[data-v-0d05f121] {
+    display: flex;
+    align-items: center
+}
+
+.zffs img[data-v-0d05f121] {
+    width: .44828rem;
+    margin-right: .13793rem
+}
+
+.address-wrapper[data-v-0d05f121] {
+    padding: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important
+}
+
+.address-wrapper .name[data-v-0d05f121] {
+    justify-content: left !important
+}
+
+.address-wrapper .name div[data-v-0d05f121] {
+    color: #fff !important
+}
+
+.address-wrapper .nl[data-v-0d05f121] {
+    color: #000 !important
+}
+
+.address-wrapper .address-item[data-v-0d05f121] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../../static/img/singBg.ca80cf31.png) no-repeat;
+    background-size: 100% 100%;
+    height: 1.12069rem;
+    padding: 0 .34483rem
+}
+
+.address-wrapper .address-item .n[data-v-0d05f121] {
+    color: #fff
+}
+
+.address-wrapper .address-item img[data-v-0d05f121] {
+    width: .44828rem;
+    margin-left: .17241rem
+}
+
+.itemBox[data-v-0d05f121] {
+    background: url(../../static/img/singBg.ca80cf31.png) no-repeat;
+    background-size: 100% 100%;
+    border-radius: .12rem;
+    box-shadow: 0 .1rem .2rem 0 rgba(0, 0, 0, .06);
+    margin-bottom: .32rem;
+    padding: .26rem
+}
+
+.itemBox .n[data-v-0d05f121] {
+    color: var(--COcolor1)
+}
+
+.itemBox .name[data-v-0d05f121] {
+    font-size: .32rem;
+    font-family: PingFangTC-Medium, PingFangTC;
+    font-weight: 500;
+    color: var(--COcolor1);
+    line-height: .4rem;
+    margin-bottom: .24rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.itemBox .name .nl[data-v-0d05f121] {
+    color: var(--COcolor3)
+}
+
+.itemBox .name .str[data-v-0d05f121] {
+    display: flex;
+    align-items: center;
+    font-size: .28rem;
+    font-weight: 400
+}
+
+.itemBox .name .str img[data-v-0d05f121] {
+    height: .26rem;
+    margin-right: .12rem
+}
+
+.itemBox .name .n[data-v-0d05f121] {
+    margin-bottom: .12rem
+}
+
+.itemBox .biName[data-v-0d05f121] {
+    font-size: .36rem;
+    font-weight: 500;
+    line-height: .5rem;
+    margin-bottom: .3rem
+}
+
+.itemBox .biName img[data-v-0d05f121] {
+    height: .5rem;
+    margin-right: .1rem;
+    vertical-align: top
+}
+
+.itemBox .tab li[data-v-0d05f121] {
+    font-size: .32rem;
+    font-family: PingFangTC-Medium, PingFangTC;
+    font-weight: 500;
+    color: var(--COcolor3);
+    height: .6rem;
+    line-height: .6rem;
+    background: var(--CObackgroundLinear3);
+    border-radius: .1rem;
+    margin-right: .2rem;
+    padding: 0 .3rem
+}
+
+.itemBox .tab li.on[data-v-0d05f121] {
+    background: var(--CObackgroundLinear1);
+    color: var(--COcolor3)
+}
+
+.itemBox .set[data-v-0d05f121] {
+    font-size: .24rem
+}
+
+.itemBox .set input[data-v-0d05f121] {
+    width: 100%;
+    height: .6rem;
+    border: 0;
+    background: none
+}
+
+.itemBox .set .str[data-v-0d05f121] {
+    color: #fff;
+    margin-left: .2rem
+}
+
+.mbox[data-v-0d05f121] {
+    width: 4rem;
+    height: 4rem;
+    background: #fff;
+    margin: .14rem auto;
+    padding: .1rem;
+    border-radius: .1rem
+}
+
+.mbox[data-v-0d05f121] img {
+    width: 100%
+}
+
+.save_picture[data-v-0d05f121] {
+    margin: .6rem 0 .5rem 0;
+    font-size: .3rem;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 500;
+    text-align: center
+}
+
+.save_picture button[data-v-0d05f121] {
+    width: 70%;
+    border: none;
+    background: url(../../static/img/buttonBg_round.d0c23720.png) no-repeat;
+    background-size: 100% 100%;
+    color: var(--COcolor3);
+    height: 1.03448rem;
+    line-height: 1.03448rem
+}
+
+.p_name[data-v-0d05f121] {
+    font-size: .24rem;
+    font-family: PingFangTC-Regular, PingFangTC;
+    font-weight: 400;
+    color: var(--COcolor1);
+    margin-bottom: .16rem
+}
+
+.p[data-v-0d05f121] {
+    font-size: .24rem;
+    color: var(--COcolor1);
+    line-height: .32rem
+}
+
+.popCoin[data-v-0d05f121] {
+    border-radius: .32rem .32rem 0 0;
+    background: linear-gradient(#0d2623, #044126 50%, #004c2a);
+    padding: .32rem;
+    width: 100%
+}
+
+.popCoin .name[data-v-0d05f121] {
+    color: #fff;
+    text-align: center;
+    font-size: .32rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: .32rem;
+    text-transform: capitalize
+}
+
+.popCoin .tab[data-v-0d05f121] {
+    margin: .32rem 0
+}
+
+.popCoin .tab li[data-v-0d05f121] {
+    height: .8rem;
+    display: flex;
+    align-items: center;
+    margin-right: .16rem;
+    padding: 0 .24rem;
+    color: #848fa0;
+    font-size: .32rem;
+    font-weight: 600
+}
+
+.popCoin .tab li img[data-v-0d05f121] {
+    margin-right: .08rem;
+    width: .48rem;
+    height: .48rem
+}
+
+.popCoin .tab li.on[data-v-0d05f121] {
+    border-radius: .16rem;
+    background: linear-gradient(340deg, #43ea80, #38f8d4);
+    color: #000
+}
+
+.popCoin .line[data-v-0d05f121] {
+    max-height: 6.8rem;
+    min-height: 6.5rem;
+    overflow-y: scroll
+}
+
+.popCoin .line li[data-v-0d05f121] {
+    border-radius: .24rem;
+    background: #0d7f61;
+    margin-bottom: .24rem;
+    padding: .32rem
+}
+
+.popCoin .line li.on[data-v-0d05f121] {
+    background: linear-gradient(340deg, #43ea80, #38f8d4)
+}
+
+.popCoin .line li .ico[data-v-0d05f121] {
+    margin-right: .24rem
+}
+
+.popCoin .line li .ico img[data-v-0d05f121] {
+    width: 1rem;
+    height: 1rem
+}
+
+.popCoin .line li .title[data-v-0d05f121] {
+    color: #0c2823;
+    font-size: .28rem;
+    font-weight: 500;
+    line-height: .28rem;
+    text-transform: uppercase;
+    margin-bottom: .24rem
+}
+
+.popCoin .line li p[data-v-0d05f121] {
+    color: #0c2823;
+    font-family: PingFang SC;
+    font-size: .24rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: .24rem;
+    text-transform: uppercase;
+    margin-bottom: .16rem
+}
+
+.popCoin .line li p[data-v-0d05f121]:last-child {
+    margin-bottom: 0
+}

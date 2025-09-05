@@ -1,0 +1,318 @@
+.homedetail[data-v-2668f902] {
+    min-height: 100vh;
+    background: #f7f6f3;
+    padding-bottom: 10rem;
+    display: flex;
+    flex-direction: column
+}
+
+.homedetail .nav-top[data-v-2668f902] {
+    position: relative;
+    height: 75rem
+}
+
+.homedetail .nav-top[data-v-2668f902] .van-image.imgtop {
+    width: 100%;
+    height: auto
+}
+
+.homedetail .nav-top .navback[data-v-2668f902] {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 4rem;
+    top: 7rem
+}
+
+.homedetail .nav-top .navback img[data-v-2668f902] {
+    width: 2.6rem;
+    height: 3rem;
+    margin-right: 2rem
+}
+
+.homedetail .nav-top .navback p[data-v-2668f902] {
+    font-size: 3.6rem;
+    font-family: HelveticaNeue-CondensedBold, HelveticaNeue;
+    font-weight: 400;
+    color: #333841
+}
+
+.homedetail .section-box[data-v-2668f902] {
+    padding: 0 2.8rem;
+    background: #fff;
+    position: relative;
+    width: 95%;
+    flex: 1;
+    margin: 0 auto;
+    margin-top: -10rem;
+    z-index: 1;
+    border-radius: 3.2rem 3.2rem 0 0;
+    box-shadow: 0 2px 4px 0 rgba(51, 51, 51, .4)
+}
+
+.homedetail .section-box .effective[data-v-2668f902] {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1.6rem;
+    width: 95%;
+    background: #f7f6f3
+}
+
+.homedetail .section-box .effective .list-time[data-v-2668f902] {
+    width: 100%;
+    border-bottom: .1rem solid #dddcda;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 0
+}
+
+.homedetail .section-box .effective .list-time .time[data-v-2668f902] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.homedetail .section-box .effective .list-time .time img[data-v-2668f902] {
+    width: 2.8rem;
+    height: 2.8rem;
+    margin-right: 1rem
+}
+
+.homedetail .section-box .effective .list-time .time p[data-v-2668f902] {
+    font-size: 2.6rem;
+    color: #000
+}
+
+.homedetail .section-box .effective .list-time .dayst[data-v-2668f902] {
+    font-size: 3.2rem;
+    font-weight: 500;
+    font-weight: 400;
+    color: #000;
+    margin-top: 1.5rem
+}
+
+.homedetail .section-box .effective .lastitem[data-v-2668f902] {
+    margin-bottom: 0
+}
+
+.homedetail .section-box .details[data-v-2668f902] {
+    width: 69.4rem;
+    border-radius: .8rem;
+    margin-top: 3rem;
+    padding: 2rem;
+    margin-bottom: 2rem
+}
+
+.homedetail .section-box .details .signin[data-v-2668f902] {
+    height: 5rem;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 3rem
+}
+
+.homedetail .section-box .details .signin p[data-v-2668f902] {
+    display: inline-block;
+    font-weight: 400;
+    color: #000;
+    font-size: 4rem;
+    font-weight: 700
+}
+
+.homedetail .section-box .details .signin span[data-v-2668f902] {
+    display: inline-block;
+    content: "";
+    width: 19rem;
+    height: 1.2rem;
+    background: #ffd638
+}
+
+.homedetail .section-box .details .product[data-v-2668f902] {
+    font-size: 2.4rem;
+    color: #000;
+    text-align: left;
+    background: #f7f6f3;
+    border-radius: 1.6rem;
+    padding: 2rem;
+    margin-top: 3rem;
+    width: 95%
+}
+
+.homedetail .section-box .details .price-dect[data-v-2668f902] {
+    background: linear-gradient(270deg, #21a2ff, #0038c6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    margin-top: 2rem;
+    font-size: 4.8rem
+}
+
+.homedetail .section-box .wrap-btn[data-v-2668f902] {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 10.8rem;
+    width: 75rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    background: #fff;
+    box-shadow: 0 -.2rem .4rem 0 rgba(0, 0, 0, .1)
+}
+
+.homedetail .section-box .wrap-btn .l-price[data-v-2668f902] {
+    font-weight: 700;
+    font-size: 4rem;
+    color: #f83f36
+}
+
+.homedetail .section-box .wrap-btn .btndetail[data-v-2668f902] {
+    box-sizing: border-box;
+    padding: .1rem 3rem;
+    height: 5.4rem;
+    background: linear-gradient(90deg, #ffd100, #ffa400), #ffa400;
+    border-radius: 1.6rem;
+    font-weight: 500;
+    font-size: 3.6rem;
+    color: #333
+}
+
+.homedetail .section-box .notdeail[data-v-2668f902] {
+    opacity: .4
+}
+
+[data-v-2668f902] .popup-box {
+    background: none
+}
+
+[data-v-2668f902] .popup-box .topcontent {
+    width: 67rem;
+    height: 43rem;
+    background: #fff;
+    padding: 4rem 7rem 2rem
+}
+
+[data-v-2668f902] .popup-box .topcontent .latest {
+    font-size: 4rem;
+    font-weight: 400;
+    background: linear-gradient(90deg, #ffd100, #ffa400), #ffa400;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 3rem;
+    font-weight: 700
+}
+
+[data-v-2668f902] .popup-box .topcontent .textui {
+    font-size: 3rem;
+    color: #000;
+    text-align: center;
+    font-weight: 700
+}
+
+[data-v-2668f902] .popup-box .topcontent button {
+    width: 53rem;
+    height: 10rem;
+    background: linear-gradient(90deg, #ffd100, #ffa400), #ffa400;
+    border-radius: .8rem;
+    margin-top: 6rem;
+    font-family: HelveticaNeue-CondensedBold, HelveticaNeue;
+    font-weight: 400;
+    color: #333;
+    font-size: 3.6rem;
+    font-weight: 600
+}
+
+[data-v-2668f902] .popup-box .imgclose {
+    width: 6.4rem;
+    height: 10.4rem
+}
+
+[data-v-2668f902] .popup-success {
+    background: none
+}
+
+[data-v-2668f902] .popup-success .topcontent {
+    width: 67rem;
+    height: 64.6rem;
+    background: #fff;
+    padding: 3rem 5rem 2rem;
+    overflow: hidden;
+    border-radius: 2.4rem
+}
+
+[data-v-2668f902] .popup-success .topcontent .latestit {
+    font-size: 4.2rem;
+    font-weight: 400;
+    background: linear-gradient(90deg, #ffd100, #ffa400), #ffa400;
+    -webkit-background-clip: text;
+    margin-top: 1rem;
+    color: #333
+}
+
+[data-v-2668f902] .popup-success .topcontent .imgsuc {
+    width: 19.4rem;
+    height: 17.8rem;
+    margin-top: 1rem
+}
+
+[data-v-2668f902] .popup-success .topcontent .textui {
+    font-size: 2.8rem;
+    color: #666;
+    text-align: center;
+    margin-top: 3rem
+}
+
+[data-v-2668f902] .popup-success .topcontent button {
+    width: 50rem;
+    height: 7.4rem;
+    background: linear-gradient(90deg, #ffd100, #ffa400), #ffa400;
+    border-radius: .8rem;
+    margin-top: 8rem;
+    font-weight: 700;
+    color: #333;
+    font-size: 3.6rem;
+    font-weight: 600;
+    padding-top: 1rem
+}
+
+[data-v-2668f902] .popup-success .imgclose {
+    width: 6.4rem;
+    height: 10.4rem
+}
+
+[data-v-2668f902] .van-image__loading {
+    background: none;
+    border: 0;
+    margin-top: 20rem
+}
+
+[data-v-2668f902] .van-nav-bar {
+    position: absolute;
+    top: 5rem;
+    width: 100%;
+    background: none
+}
+
+[data-v-2668f902] .van-nav-bar:after {
+    display: none
+}
+
+[data-v-2668f902] .van-nav-bar .van-nav-bar__content .van-nav-bar__left i {
+    color: #000;
+    font-size: 4rem
+}
+
+[data-v-2668f902] .van-nav-bar .van-nav-bar__content .van-nav-bar__left img {
+    width: 5.2rem;
+    height: 5.2rem
+}
+
+[data-v-2668f902] .van-nav-bar .van-nav-bar__content .van-nav-bar__title {
+    font-size: 3.8rem
+}
