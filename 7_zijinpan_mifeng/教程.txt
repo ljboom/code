@@ -1,0 +1,7 @@
+1.把源码上传到网站根目录，导入“mf.sql”到数据库
+
+2.修改数据库文件：/include/dbConfig.php
+
+3.登录后台/admin     账户：admin    密码：admin
+
+ 
