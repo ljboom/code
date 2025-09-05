@@ -1,0 +1,245 @@
+[ 2019-08-27T19:17:04+08:00 ] 127.0.0.1 /52jscn_admin.php?m=Admin&c=Config&a=site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001482s ]
+
+[ 2019-08-27T19:17:08+08:00 ] 127.0.0.1 /52jscn_admin.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2019-08-27T19:17:24+08:00 ] 127.0.0.1 /52jscn_admin.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0005s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2019-08-27T19:17:32+08:00 ] 127.0.0.1 /52jscn_admin.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0008s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_admin` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `vv_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2019-08-27T19:17:33+08:00 ] 127.0.0.1 /52jscn_admin.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0008s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: info D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2019-08-27T19:17:35+08:00 ] 127.0.0.1 /52jscn_admin.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0007s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_admin` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `vv_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2019-08-27T19:17:36+08:00 ] 127.0.0.1 /52jscn_admin.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0006s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: info D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2019-08-27T19:17:39+08:00 ] 127.0.0.1 /52jscn_admin.php?m=Admin&c=Config&a=site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0006s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined index: weixinlogin D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 327 行.
+NOTIC: [8] Undefined index: zidongzhuce D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 329 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2019-08-27T19:17:40+08:00 ] 127.0.0.1 /52jscn_admin.php?m=Admin&c=Config&a=upload&event=setPic&url=.%2FPublic%2Fupload%2Fimages%2F1905%2F19%2F225139325514002230.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: cur_index D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Admin\42684e41b5d7d3bd6b9e714a62a1e7f6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2019-08-27T19:17:55+08:00 ] 127.0.0.1 /52jscn_admin.php?m=Admin&c=Config&a=site
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0007s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Undefined index: weixinlogin D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 327 行.
+NOTIC: [8] Undefined index: zidongzhuce D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Admin\e089353d3177b37e965d353d9ef4f07c.php 第 329 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2019-08-27T19:17:56+08:00 ] 127.0.0.1 /52jscn_admin.php?m=Admin&c=Config&a=upload&event=setPic&url=.%2FPublic%2Fupload%2Fimages%2F1905%2F19%2F225139325514002230.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0006s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Admin\Controller\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: cur_index D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Admin\42684e41b5d7d3bd6b9e714a62a1e7f6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+

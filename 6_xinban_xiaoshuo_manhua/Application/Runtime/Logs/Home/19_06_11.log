@@ -1,0 +1,1434 @@
+[ 2019-06-11T23:31:29+08:00 ] 114.100.114.254 /index.php?m=&c=Yook&a=booklist&cate=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 720 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_yook` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_yook` WHERE `bookcate` LIKE '%6%' ORDER BY is_new desc,id desc LIMIT 50   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2019-06-11T23:31:34+08:00 ] 42.236.10.114 /index.php?m=&c=Yook&a=booklist&cate=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 132 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 149 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 169 行.
+
+[ 2019-06-11T23:31:35+08:00 ] 42.236.10.117 /index.php?m=&c=MhPublic&a=binding&fr=aHR0cDovL2Jvb2suODhndW9qaS5jbi9pbmRleC5waHA%2FbT0mYz1Zb29rJmE9Ym9va2xpc3QmY2F0ZT02
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhHomeController.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhHomeController.class.php 第 13 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhHomeController.class.php 第 21 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhHomeController.class.php on line 64 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2019-06-11T23:31:37+08:00 ] 114.100.114.254 /index.php?m=&c=Yook&a=book_free
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 720 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_yook` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_yook` WHERE ( free_type=1 ) ORDER BY sort desc LIMIT 50   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2019-06-11T23:31:42+08:00 ] 114.100.114.254 /index.php?m=&c=Video&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 720 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_video` WHERE `bookcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_video` WHERE `bookcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_video` WHERE `bookcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_video` WHERE `bookcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_video` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/VideoController.class.php on line 29 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: logo /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/19cc423b39c03fe026e25be30c43904e.php 第 202 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/19cc423b39c03fe026e25be30c43904e.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2019-06-11T23:31:53+08:00 ] 114.100.114.254 /index.php?m=&c=Video&a=bookinfo&yid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 720 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_video` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `vv_video` SET `reader`=reader+1 WHERE ( id=3 ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vv_mh_collect` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_collect` WHERE `mhid` = 3 AND `user_id` = 720 AND `type` = 'ys' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_user` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: vip_level /www/wwwroot/book.88guoji.cn/Application/Home/Controller/VideoController.class.php 第 63 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/VideoController.class.php on line 71 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: arr_catename /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/20a79819b58d2d0474d6bdd6e9381dd0.php 第 48 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/20a79819b58d2d0474d6bdd6e9381dd0.php 第 419 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000303s ]
+
+[ 2019-06-11T23:31:54+08:00 ] 114.100.114.254 /index.php?m=&c=Video&a=getJino
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 720 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_video_episodes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_video_episodes` WHERE `yid` = 3 ORDER BY ji_no asc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_video` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vv_book_ys_read` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 720 AND `yid` = 3 AND `ji_no` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 720 AND `yid` = 3 AND `ji_no` = 0 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_video_episodes` WHERE `yid` = 3 AND `ji_no` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-06-11T23:31:58+08:00 ] 42.236.10.75 /index.php?m=&c=Video&a=bookinfo&yid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 132 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 149 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 169 行.
+
+[ 2019-06-11T23:31:59+08:00 ] 42.236.10.93 /index.php?m=&c=MhPublic&a=binding&fr=aHR0cDovL2Jvb2suODhndW9qaS5jbi9pbmRleC5waHA%2FbT0mYz1WaWRlbyZhPWJvb2tpbmZvJnlpZD0z
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhHomeController.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhHomeController.class.php 第 13 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhHomeController.class.php 第 21 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhHomeController.class.php on line 64 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2019-06-11T23:32:03+08:00 ] 114.100.114.254 /index.php?m=&c=Mh&a=book_shelf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 720 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_mh_collect` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_collect` WHERE `user_id` = 720  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/ce349b0185f920e8421704ce0beb35b9.php 第 357 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/ce349b0185f920e8421704ce0beb35b9.php 第 358 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/ce349b0185f920e8421704ce0beb35b9.php 第 359 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/ce349b0185f920e8421704ce0beb35b9.php 第 362 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/ce349b0185f920e8421704ce0beb35b9.php 第 363 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/ce349b0185f920e8421704ce0beb35b9.php 第 364 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/ce349b0185f920e8421704ce0beb35b9.php 第 365 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/ce349b0185f920e8421704ce0beb35b9.php 第 406 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2019-06-11T23:32:08+08:00 ] 114.100.114.254 /index.php?m=&c=Mh&a=book_shelf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 720 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_mh_collect` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_collect` WHERE `user_id` = 720  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/ce349b0185f920e8421704ce0beb35b9.php 第 357 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/ce349b0185f920e8421704ce0beb35b9.php 第 358 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/ce349b0185f920e8421704ce0beb35b9.php 第 359 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/ce349b0185f920e8421704ce0beb35b9.php 第 362 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/ce349b0185f920e8421704ce0beb35b9.php 第 363 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/ce349b0185f920e8421704ce0beb35b9.php 第 364 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/ce349b0185f920e8421704ce0beb35b9.php 第 365 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/ce349b0185f920e8421704ce0beb35b9.php 第 406 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2019-06-11T23:32:10+08:00 ] 114.100.114.254 /index.php?m=&c=Book&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 720 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/BookController.class.php on line 29 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 194 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2019-06-11T23:32:23+08:00 ] 114.100.114.254 /index.php?m=&c=Book&a=bookinfo&bid=1036
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 720 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_book` WHERE ( id=1036 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `vv_book` SET `reader`=reader+1 WHERE ( id=1036 ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vv_mh_collect` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_collect` WHERE `mhid` = 1036 AND `user_id` = 720 AND `type` = 'xs' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_user` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: vip_level /www/wwwroot/book.88guoji.cn/Application/Home/Controller/BookController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `vv_book_episodes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_book_episodes` WHERE ( bid=1036 ) ORDER BY ji_no asc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_book_episodes` WHERE `bid` = 1036 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_book` WHERE `id` <> '1036' ORDER BY rand() LIMIT 6   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vv_comment` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_comment` WHERE `cid` = 1036 AND `type` = 'xs' ORDER BY create_time desc LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_comment` WHERE `cid` = 1036 AND `type` = 'xs' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/BookController.class.php on line 101 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vv_book_read` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 1 AND `user_id` = 720 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 2 AND `user_id` = 720 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 3 AND `user_id` = 720 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 4 AND `user_id` = 720 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 5 AND `user_id` = 720 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 6 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 6 AND `user_id` = 720 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 7 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 7 AND `user_id` = 720 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 8 AND `user_id` = 720 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 9 AND `user_id` = 720 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 10 AND `user_id` = 720 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 11 AND `user_id` = 720 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 12 AND `user_id` = 720 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 13 AND `user_id` = 720 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 14 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 14 AND `user_id` = 720 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 15 AND `user_id` = 720 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isji /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/edcebaf0c6178ac34061d504ec8333cf.php 第 229 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/edcebaf0c6178ac34061d504ec8333cf.php 第 447 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2019-06-11T23:32:23+08:00 ] 114.100.114.254 /index.php?m=&c=Book&a=LoadSend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 720 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_mxsend` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mxsend` WHERE `mxid` = 1036 AND `type` = 'xs' ORDER BY create_time desc LIMIT 0,10   [ RunTime:0.0002s ]
+
+[ 2019-06-11T23:32:42+08:00 ] 180.127.63.211 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 706 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php on line 31 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 209 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 210 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 211 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2019-06-11T23:33:17+08:00 ] 180.127.63.211 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 132 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php on line 31 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 209 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 210 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 211 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2019-06-11T23:33:39+08:00 ] 61.129.6.251 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 132 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php on line 31 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 209 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 210 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 211 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2019-06-11T23:33:40+08:00 ] 114.100.114.254 /index.php?m=&c=Book&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 720 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_book` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/BookController.class.php on line 29 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 194 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2019-06-11T23:33:42+08:00 ] 180.127.63.211 /index.php?m=&c=Video&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 706 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_video` WHERE `bookcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_video` WHERE `bookcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_video` WHERE `bookcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_video` WHERE `bookcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_video` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/VideoController.class.php on line 29 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined index: logo /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/19cc423b39c03fe026e25be30c43904e.php 第 202 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/19cc423b39c03fe026e25be30c43904e.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2019-06-11T23:33:47+08:00 ] 180.127.63.211 /index.php?m=&c=Video&a=bookinfo&yid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 706 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_video` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `vv_video` SET `reader`=reader+1 WHERE ( id=4 ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vv_mh_collect` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_collect` WHERE `mhid` = 4 AND `user_id` = 706 AND `type` = 'ys' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_user` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: vip_level /www/wwwroot/book.88guoji.cn/Application/Home/Controller/VideoController.class.php 第 63 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/VideoController.class.php on line 71 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: arr_catename /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/20a79819b58d2d0474d6bdd6e9381dd0.php 第 48 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/20a79819b58d2d0474d6bdd6e9381dd0.php 第 419 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2019-06-11T23:33:47+08:00 ] 114.100.114.254 /index.php?m=&c=Mh&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 720 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php on line 31 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 209 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 210 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 211 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2019-06-11T23:33:48+08:00 ] 180.127.63.211 /index.php?m=&c=Video&a=getJino
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 706 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_video_episodes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_video_episodes` WHERE `yid` = 4 ORDER BY ji_no asc LIMIT 0,20   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_video` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-06-11T23:35:01+08:00 ] 180.127.63.211 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 706 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php on line 31 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 209 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 210 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 211 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000324s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2019-06-11T23:38:52+08:00 ] 114.100.114.254 /index.php?m=&c=Book&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 720 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/BookController.class.php on line 29 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 194 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2019-06-11T23:41:13+08:00 ] 180.127.63.211 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 132 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php on line 31 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 209 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 210 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 211 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2019-06-11T23:41:16+08:00 ] 180.127.63.211 /index.php?m=&c=Video&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 132 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 149 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 169 行.
+
+[ 2019-06-11T23:41:17+08:00 ] 14.17.3.65 /index.php?m=&c=MhPublic&a=binding&fr=aHR0cDovL2Jvb2suODhndW9qaS5jbi9pbmRleC5waHA%2FbT0mYz1WaWRlbyZhPWluZGV4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhHomeController.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhHomeController.class.php 第 13 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhHomeController.class.php 第 21 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhHomeController.class.php on line 64 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2019-06-11T23:41:17+08:00 ] 180.127.63.211 /index.php?m=&c=MhPublic&a=binding&fr=aHR0cDovL2Jvb2suODhndW9qaS5jbi9pbmRleC5waHA%2FbT0mYz1WaWRlbyZhPWluZGV4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhHomeController.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhHomeController.class.php 第 13 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhHomeController.class.php 第 21 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhHomeController.class.php on line 64 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2019-06-11T23:54:52+08:00 ] 113.120.96.119 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 708 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php on line 31 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 209 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 210 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 211 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000308s ]
+
+[ 2019-06-11T23:54:59+08:00 ] 113.120.96.119 /?m=&c=Mh&a=bookinfo&mhid=280
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE ( id=280 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+
+[ 2019-06-11T23:55:03+08:00 ] 113.120.96.119 /index.php?m=&c=Mh&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php on line 31 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 209 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 210 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 211 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2019-06-11T23:55:07+08:00 ] 113.120.96.119 /index.php?m=&c=Mh&a=bookinfo&mhid=782
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE ( id=782 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `vv_mh_list` SET `reader`=reader+1 WHERE ( id=782 ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vv_mh_collect` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_collect` WHERE `mhid` = 782 AND `user_id` = 708 AND `type` = 'mh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_user` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: vip_level /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `vv_mh_episodes` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_episodes` WHERE ( mhid=782 ) ORDER BY ji_no asc LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_mh_episodes` WHERE `mhid` = '782' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `id` <> '782' ORDER BY rand() LIMIT 6   [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `vv_comment` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_comment` WHERE `cid` = 782 AND `type` = 'mh' ORDER BY create_time desc LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_comment` WHERE `cid` = 782 AND `type` = 'mh' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.88guoji.cn/Application/Home/Controller/MhController.class.php on line 404 and defined /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+SQL: SELECT `money` FROM `vv_mh_episodes` WHERE `ji_no` = 1 AND `mhid` = '782' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `vv_mh_read` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_mh_read` WHERE `ji_no` = 1 AND `mhid` = 782 AND `user_id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `money` FROM `vv_mh_episodes` WHERE `ji_no` = 2 AND `mhid` = '782' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_mh_read` WHERE `ji_no` = 2 AND `mhid` = 782 AND `user_id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `money` FROM `vv_mh_episodes` WHERE `ji_no` = 3 AND `mhid` = '782' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_read` WHERE `ji_no` = 3 AND `mhid` = 782 AND `user_id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `money` FROM `vv_mh_episodes` WHERE `ji_no` = 4 AND `mhid` = '782' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_read` WHERE `ji_no` = 4 AND `mhid` = 782 AND `user_id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `money` FROM `vv_mh_episodes` WHERE `ji_no` = 5 AND `mhid` = '782' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_read` WHERE `ji_no` = 5 AND `mhid` = 782 AND `user_id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `money` FROM `vv_mh_episodes` WHERE `ji_no` = 6 AND `mhid` = '782' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_read` WHERE `ji_no` = 6 AND `mhid` = 782 AND `user_id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `money` FROM `vv_mh_episodes` WHERE `ji_no` = 7 AND `mhid` = '782' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_read` WHERE `ji_no` = 7 AND `mhid` = 782 AND `user_id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `money` FROM `vv_mh_episodes` WHERE `ji_no` = 8 AND `mhid` = '782' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_read` WHERE `ji_no` = 8 AND `mhid` = 782 AND `user_id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `money` FROM `vv_mh_episodes` WHERE `ji_no` = 9 AND `mhid` = '782' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_read` WHERE `ji_no` = 9 AND `mhid` = 782 AND `user_id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `money` FROM `vv_mh_episodes` WHERE `ji_no` = 10 AND `mhid` = '782' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_read` WHERE `ji_no` = 10 AND `mhid` = 782 AND `user_id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `money` FROM `vv_mh_episodes` WHERE `ji_no` = 11 AND `mhid` = '782' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_read` WHERE `ji_no` = 11 AND `mhid` = 782 AND `user_id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `money` FROM `vv_mh_episodes` WHERE `ji_no` = 12 AND `mhid` = '782' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_read` WHERE `ji_no` = 12 AND `mhid` = 782 AND `user_id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `money` FROM `vv_mh_episodes` WHERE `ji_no` = 13 AND `mhid` = '782' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_read` WHERE `ji_no` = 13 AND `mhid` = 782 AND `user_id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `money` FROM `vv_mh_episodes` WHERE `ji_no` = 14 AND `mhid` = '782' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_read` WHERE `ji_no` = 14 AND `mhid` = 782 AND `user_id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `money` FROM `vv_mh_episodes` WHERE `ji_no` = 15 AND `mhid` = '782' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_read` WHERE `ji_no` = 15 AND `mhid` = 782 AND `user_id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: xji /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/f626f1f2dddf77c89a3bf69cec2c102a.php 第 229 行.
+NOTIC: [8] Undefined index: isji /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/f626f1f2dddf77c89a3bf69cec2c102a.php 第 234 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Home/f626f1f2dddf77c89a3bf69cec2c102a.php 第 439 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2019-06-11T23:55:08+08:00 ] 113.120.96.119 /index.php?m=&c=Book&a=LoadSend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /www/wwwroot/book.88guoji.cn/Application/Common/Util/ddhttp.class.php 第 63 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 708 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190610 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.88guoji.cn/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_mxsend` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mxsend` WHERE `mxid` = 782 AND `type` = 'mh' ORDER BY create_time desc LIMIT 0,10   [ RunTime:0.0001s ]
+

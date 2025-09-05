@@ -1,0 +1,56 @@
+<?php if (!defined('THINK_PATH')) exit();?>	 
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>管理后台</title>
+	<link rel="stylesheet" href="/Public/admin/css/style.default.css" type="text/css" />
+	<link rel="stylesheet" href="/Public/plugins/bootstrap/css/bootstrap.font.css" type="text/css" />
+	<script type="text/javascript" src="/Public/admin/js/plugins/jquery-1.7.min.js"></script>
+	<!--[if IE 9]>
+		<link rel="stylesheet" media="screen" href="css/style.ie9.css"/>
+	<![endif]-->
+	<!--[if IE 8]>
+		<link rel="stylesheet" media="screen" href="css/style.ie8.css"/>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/plugins/css3-mediaqueries.js"></script>
+	<![endif]-->
+	</head>
+	<body>
+        <div id="contentwrapper" class="contentwrapper lineheight21">
+			<div class="tableoptions">                    
+				<button class="radius3" onclick="location.href='<?php echo U('addComment',array('cid'=>$_GET['id']));?>'">添加评论</button>
+			</div><!--tableoptions-->
+			<table cellpadding="0" cellspacing="0" border="0" id="table2" class="stdtable stdtablecb">
+				<thead>
+					<tr>
+						<th class="head1">头像</th>
+						<th class="head1">ID</th>
+						<th class="head0">昵称</th>
+						<th class="head0">内容</th>
+						<th class="head1">评论时间</th>
+						<th class="head1">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+						<td><img src="<?php echo ($vo["headimg"]); ?>" style="width:50px;height:50px;"></td>
+						<td><?php echo ($vo["user_id"]); ?></td>
+						<td><?php echo ($vo["nickname"]); ?></td>
+						<td><?php echo ($vo["content"]); ?></td>
+						<td><?php echo (date("Y-m-d H:i:s",$vo["create_time"])); ?></td>
+						<td class="center">						
+							<a href="<?php echo U('delComment', 'id='.$vo['id']);?>" onclick="return confirm('你确实要删除吗？')">删除</a>
+						</td>
+					</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+				</tbody>
+			</table>
+			<div class="dataTables_paginate paging_full_numbers" id="dyntable2_paginate">
+				<?php echo ((isset($page) && ($page !== ""))?($page):"<p style='text-align:center'>暂时没有数据</p>"); ?>
+			</div>
+        
+        </div><!--contentwrapper-->
+	</body>
+	</html>

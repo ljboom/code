@@ -1,0 +1,920 @@
+[ 2019-06-02T23:44:14+08:00 ] 183.3.234.47 /index.php?m=&c=Video&a=index&nsukey=UrZQ3TxjB5NQgNs6L%2BVMtf22jsg6ixExdUoRVXtjhUbfyQZ9I11bFrL4ouRjn4z%2B19NqIVZzay6q0DP7V7gGcsU11OsAOicop4z5v3aXw0A%2FmXCHLcImUDnI4YRJVPWG0nq%2BAZCqU5TW%2BDzigoSGYApZtaH%2ByQ7CVq89rKIMzBIPiCg6szfR2LGNKaulrXsDwi6jwZx%2FuPAyjGJKVQhazA%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 647 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 124 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php on line 227 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 229 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 230 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 231 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_video` WHERE `bookcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_video` WHERE `bookcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_video` WHERE `bookcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_video` WHERE `bookcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_video` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/VideoController.class.php on line 29 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: logo /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/19cc423b39c03fe026e25be30c43904e.php 第 202 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/19cc423b39c03fe026e25be30c43904e.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2019-06-02T23:44:22+08:00 ] 183.3.234.48 /index.php?m=&c=Video&a=bookinfo&yid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 647 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 124 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php on line 227 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 229 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 230 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 231 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `vv_video` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `vv_video` SET `reader`=reader+1 WHERE ( id=2 ) [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vv_mh_collect` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `vv_mh_collect` WHERE `mhid` = 2 AND `user_id` = 647 AND `type` = 'ys' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_user` LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: vip_level /www/wwwroot/book.22555522.com/Application/Home/Controller/VideoController.class.php 第 63 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/VideoController.class.php on line 71 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: arr_catename /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/20a79819b58d2d0474d6bdd6e9381dd0.php 第 48 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/20a79819b58d2d0474d6bdd6e9381dd0.php 第 419 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2019-06-02T23:44:26+08:00 ] 183.3.234.44 /index.php?m=&c=Video&a=getJino
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 647 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 124 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php on line 227 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 229 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 230 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 231 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_video_episodes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vv_video_episodes` WHERE `yid` = 2 ORDER BY ji_no asc LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_video` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vv_book_ys_read` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 0 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-06-02T23:44:31+08:00 ] 183.3.234.46 /index.php?m=&c=Video&a=paynumPlay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 647 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 124 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php on line 227 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 229 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 230 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 231 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book_ys_read` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-06-02T23:44:42+08:00 ] 183.3.234.48 /index.php?m=&c=Video&a=getJino
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 647 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 124 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php on line 227 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 229 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 230 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 231 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_video_episodes` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_video_episodes` WHERE `yid` = 2 ORDER BY ji_no asc LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_video` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vv_book_ys_read` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 0 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-06-02T23:44:47+08:00 ] 183.3.234.46 /index.php?m=&c=Video&a=paynumPlay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 647 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 124 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php on line 227 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 229 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 230 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 231 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book_ys_read` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-06-02T23:45:00+08:00 ] 101.89.239.120 /?nsukey=osrUW7zqR7cYUcXQVmIxRtr0bzK2JY8uHyDWWB%2Fy3M%2B%2BJSZPwnvjiqLFNZnUf15k0KbwLg6YxlrDRb8p24Unr%2BB1ty3QsD1pjdFnyHJue2b%2BNFgLyoVNgWHAjDijQX7yGt%2Fu%2FQstA3B9kjDLYjAQO0F3UabqOCQiADqR6Tis%2B4HkpVMUqSZPzE8VVakl2Fd1XqoEVBK6gaLw03VKrWw2Og%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [8] Undefined index: weixinlogin /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 124 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php on line 227 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 229 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 230 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 231 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.22555522.com/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.22555522.com/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.22555522.com/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.22555522.com/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.22555522.com/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/MhController.class.php on line 31 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2019-06-02T23:45:00+08:00 ] 183.3.234.52 /index.php?m=&c=Video&a=getJino
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 647 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 124 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php on line 227 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 229 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 230 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 231 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_video_episodes` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_video_episodes` WHERE `yid` = 2 ORDER BY ji_no asc LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_video` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vv_book_ys_read` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 0 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-06-02T23:45:04+08:00 ] 183.3.234.44 /index.php?m=&c=Video&a=paynumPlay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 647 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 124 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php on line 227 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 229 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 230 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 231 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book_ys_read` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-06-02T23:45:10+08:00 ] 61.151.178.164 /index.php?m=&c=Video&a=index&nsukey=UrZQ3TxjB5NQgNs6L%2BVMtf22jsg6ixExdUoRVXtjhUbfyQZ9I11bFrL4ouRjn4z%2B19NqIVZzay6q0DP7V7gGcsU11OsAOicop4z5v3aXw0A%2FmXCHLcImUDnI4YRJVPWG0nq%2BAZCqU5TW%2BDzigoSGYApZtaH%2ByQ7CVq89rKIMzBIPiCg6szfR2LGNKaulrXsDwi6jwZx%2FuPAyjGJKVQhazA%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [8] Undefined index: weixinlogin /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 83 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 124 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php on line 227 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 229 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 230 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 231 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 149 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 169 行.
+
+[ 2019-06-02T23:45:12+08:00 ] 183.3.234.47 /index.php?m=&c=Video&a=getJino
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 647 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 124 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php on line 227 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 229 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 230 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 231 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_video_episodes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vv_video_episodes` WHERE `yid` = 2 ORDER BY ji_no asc LIMIT 0,20   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_video` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vv_book_ys_read` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 0 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-06-02T23:45:16+08:00 ] 183.3.234.44 /index.php?m=&c=Video&a=paynumPlay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 647 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 79 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 124 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php on line 227 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+NOTIC: [8] Undefined variable: jssdk /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 229 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 230 行.
+NOTIC: [8] Use of undefined constant pic - assumed 'pic' /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 231 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book_ys_read` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_book_ys_read` WHERE `user_id` = 647 AND `yid` = 2 AND `ji_no` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-06-02T23:47:15+08:00 ] 42.49.161.206 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 132 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.22555522.com/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.22555522.com/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.22555522.com/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.22555522.com/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: sort /www/wwwroot/book.22555522.com/Application/Home/Controller/MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/MhController.class.php on line 31 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 209 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 210 行.
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 211 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/67199abba7efdab949490dffef721944.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2019-06-02T23:47:23+08:00 ] 42.49.161.206 /index.php?m=&c=Book&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 132 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_book` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/BookController.class.php on line 29 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 194 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2019-06-02T23:47:26+08:00 ] 42.49.161.206 /index.php?m=&c=Book&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 132 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_book` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/BookController.class.php on line 29 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 194 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2019-06-02T23:47:28+08:00 ] 42.49.161.206 /?m=&c=Book&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 132 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vv_book` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0009s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/BookController.class.php on line 29 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 194 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2019-06-02T23:47:36+08:00 ] 42.236.10.93 /?m=&c=Book&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 132 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_book` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/BookController.class.php on line 29 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 194 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2019-06-02T23:47:39+08:00 ] 42.49.161.206 /index.php?m=&c=Yook&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 132 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_yook` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_yook` WHERE `bookcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_yook` WHERE `bookcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_yook` WHERE `bookcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_yook` WHERE `bookcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_yook` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/YookController.class.php on line 29 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined index: logo /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/ce3aa55655c345a738b90d9ecce23c97.php 第 202 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/ce3aa55655c345a738b90d9ecce23c97.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2019-06-02T23:47:43+08:00 ] 42.49.161.206 /index.php?m=&c=Video&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 132 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 149 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 169 行.
+
+[ 2019-06-02T23:47:45+08:00 ] 42.49.161.206 /index.php?m=&c=MhPublic&a=binding&fr=aHR0cDovL3lzMi45YWtrLnh5ei9pbmRleC5waHA%2FbT0mYz1WaWRlbyZhPWluZGV4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0003s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/MhHomeController.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/MhHomeController.class.php 第 13 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/MhHomeController.class.php 第 21 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/MhHomeController.class.php on line 64 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2019-06-02T23:47:46+08:00 ] 42.49.161.206 /index.php?m=&c=Video&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 132 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 149 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 169 行.
+
+[ 2019-06-02T23:47:48+08:00 ] 42.49.161.206 /index.php?m=&c=MhPublic&a=binding&fr=aHR0cDovL3lzMi45YWtrLnh5ei9pbmRleC5waHA%2FbT0mYz1WaWRlbyZhPWluZGV4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0003s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/MhHomeController.class.php 第 13 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/MhHomeController.class.php 第 13 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/MhHomeController.class.php 第 21 行.
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/MhHomeController.class.php on line 64 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2019-06-02T23:47:48+08:00 ] 42.236.10.117 /?m=&c=Book&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 132 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_book` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/BookController.class.php on line 29 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 194 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2019-06-02T23:47:50+08:00 ] 42.49.161.206 /index.php?m=&c=Book&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 132 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 149 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190601 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_book` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0007s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in /www/wwwroot/book.22555522.com/Application/Home/Controller/BookController.class.php on line 29 and defined /www/wwwroot/book.22555522.com/Application/Common/Util/ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: share /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 194 行.
+NOTIC: [8] Undefined index: thirdcode /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Home/88fd1496475deb2aa861d336784d55ed.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2019-06-02T23:47:52+08:00 ] 42.49.161.206 /index.php?m=&c=Video&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: imei /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 71 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 132 行.
+NOTIC: [8] Undefined index: uloginid /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 141 行.
+NOTIC: [8] Undefined index: zidongzhuce /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 149 行.
+NOTIC: [8] Undefined index: parent /www/wwwroot/book.22555522.com/Application/Home/Controller/HomeController.class.php 第 169 行.
+

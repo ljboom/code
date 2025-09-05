@@ -1,0 +1,462 @@
+[ 2019-05-28T22:44:50+08:00 ] 120.84.11.83 /efucms.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+
+[ 2019-05-28T22:44:53+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2019-05-28T22:45:17+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2019-05-28T22:45:31+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2019-05-28T22:45:51+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2019-05-28T22:46:10+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-05-28T22:46:11+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0003s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2019-05-28T22:46:27+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Chapurl&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title /www/wwwroot/book.22555522.com/Application/Admin/Controller/ChapurlController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `vv_chapter` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_chapter` WHERE `memid` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_chapter` WHERE `memid` = 0 ORDER BY create_time desc LIMIT 0,25   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/9ca01ff6bf1ffa1800427027a8463abe.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:9.543201s ]
+INFO: [ view_parse ] --END-- [ RunTime:9.543275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2019-05-28T22:46:34+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Chapurl&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title /www/wwwroot/book.22555522.com/Application/Admin/Controller/ChapurlController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `vv_chapter` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_chapter` WHERE `memid` = 0 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_chapter` WHERE `memid` = 0 ORDER BY create_time desc LIMIT 0,25   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/9ca01ff6bf1ffa1800427027a8463abe.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:7.001488s ]
+INFO: [ view_parse ] --END-- [ RunTime:7.001713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2019-05-28T22:47:00+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Video&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [2048] Declaration of Admin\Controller\VideoController::upload() should be compatible with Admin\Controller\AdminController::upload() /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 7 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: where /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_video` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_video` ORDER BY sort desc LIMIT 0,25   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 246 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 267 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 269 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 273 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 275 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 279 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 281 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2019-05-28T22:47:13+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Video&a=episodes&yid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+NOTIC: [2048] Declaration of Admin\Controller\VideoController::upload() should be compatible with Admin\Controller\AdminController::upload() /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_video` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vv_video_episodes` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_video_episodes` WHERE `yid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_video_episodes` WHERE `yid` = 3 ORDER BY id desc LIMIT 0,25   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2019-05-28T22:47:16+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Video&a=episodesedit&yid=3&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+NOTIC: [2048] Declaration of Admin\Controller\VideoController::upload() should be compatible with Admin\Controller\AdminController::upload() /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0003s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_video_episodes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vv_video_episodes` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_video` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2019-05-28T23:54:11+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Video&a=episodesedit&yid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [2048] Declaration of Admin\Controller\VideoController::upload() should be compatible with Admin\Controller\AdminController::upload() /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: id /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 106 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_video` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/fc08731e5e8134767cbbdc4694885f78.php 第 254 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/fc08731e5e8134767cbbdc4694885f78.php 第 260 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/fc08731e5e8134767cbbdc4694885f78.php 第 266 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/fc08731e5e8134767cbbdc4694885f78.php 第 272 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/fc08731e5e8134767cbbdc4694885f78.php 第 278 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/fc08731e5e8134767cbbdc4694885f78.php 第 284 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/fc08731e5e8134767cbbdc4694885f78.php 第 290 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2019-05-28T23:54:31+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Video&a=episodesedit&yid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+NOTIC: [2048] Declaration of Admin\Controller\VideoController::upload() should be compatible with Admin\Controller\AdminController::upload() /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_video_episodes` [ RunTime:0.0007s ]
+SQL: INSERT INTO `vv_video_episodes` (`title`,`money`,`ji_no`,`before`,`next`,`likes`,`info`,`yid`,`create_time`,`update_time`) VALUES ('112','212','21','121','21','23','http://video2.tripsmc.com:8091/9720190101/XRW-596/index.m3u8','3','1559058871','1559058871') [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_video_episodes` WHERE ( yid=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0007s ]
+SQL: UPDATE `vv_video` SET `episodes`='2' WHERE ( id=3 ) [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+
+[ 2019-05-28T23:54:33+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Video&a=episodes&yid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2048] Declaration of Admin\Controller\VideoController::upload() should be compatible with Admin\Controller\AdminController::upload() /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0005s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `vv_video` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vv_video_episodes` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_video_episodes` WHERE `yid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_video_episodes` WHERE `yid` = 3 ORDER BY id desc LIMIT 0,25   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2019-05-28T23:56:13+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Video&a=episodesdel&id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+NOTIC: [2048] Declaration of Admin\Controller\VideoController::upload() should be compatible with Admin\Controller\AdminController::upload() /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_video_episodes` [ RunTime:0.0007s ]
+SQL: DELETE FROM `vv_video_episodes` WHERE `id` = 4 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2019-05-28T23:56:15+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Video&a=episodes&yid=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [2048] Declaration of Admin\Controller\VideoController::upload() should be compatible with Admin\Controller\AdminController::upload() /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_video` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vv_video_episodes` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_video_episodes` WHERE `yid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_video_episodes` WHERE `yid` = 3 ORDER BY id desc LIMIT 0,25   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+

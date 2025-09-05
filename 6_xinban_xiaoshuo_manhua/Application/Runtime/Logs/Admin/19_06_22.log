@@ -1,0 +1,720 @@
+[ 2019-06-22T12:58:55+08:00 ] 120.32.105.20 /efucms.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+
+[ 2019-06-22T12:58:57+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000313s ]
+
+[ 2019-06-22T12:59:12+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-06-22T12:59:12+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2019-06-22T12:59:17+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Product&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 7 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: where /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_mh_list` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_mh_list` ORDER BY sort desc,id desc LIMIT 0,25   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 251 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 264 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 266 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 277 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 279 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 283 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 285 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 289 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 291 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+
+[ 2019-06-22T12:59:22+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Product&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: id /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 259 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 265 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 271 行.
+NOTIC: [8] Undefined variable: mhcate /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [8] Undefined variable: mhcate /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [8] Undefined variable: mhcate /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [8] Undefined variable: mhcate /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [8] Undefined variable: mhcate /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 283 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 283 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 284 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 284 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 285 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 285 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 286 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 286 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 287 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 287 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 288 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 288 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 289 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 289 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 290 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 290 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 291 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 291 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 292 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 292 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 293 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 293 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 294 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 294 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 295 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 295 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 296 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 296 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 297 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 297 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 298 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 298 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 299 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 299 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 300 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 300 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 301 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 301 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 302 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 302 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 303 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 303 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 304 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 304 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 310 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 311 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 317 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 318 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 324 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 324 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 330 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 336 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 342 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 348 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 349 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 355 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 356 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 362 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 363 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 371 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 379 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 398 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 407 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 416 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 417 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 430 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2019-06-22T12:59:22+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Product&a=upload&event=setPics&url=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2019-06-22T12:59:48+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Product&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: mhcate /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 24 行.
+NOTIC: [2] implode(): Invalid arguments passed /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 24 行.
+NOTIC: [8] Undefined index: arrcateids /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 27 行.
+NOTIC: [2] implode(): Invalid arguments passed /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: INSERT INTO `vv_mh_list` (`title`,`author`,`sort`,`pay_num`,`reader`,`likes`,`collect`,`is_new`,`is_recomm`,`cover_pic`,`detail_pic`,`share_title`,`share_desc`,`share_pic`,`summary`,`mhcate`,`cateids`,`create_time`,`update_time`) VALUES ('test111','null','0','0','0','0','0','0','0','http://152.136.179.170/Public/upload/images/1905/21/170427066776006169.jpg','http://152.136.179.170/Public/upload/images/1905/21/170427066776006169.jpg','','','','http://152.136.179.170/Public/upload/images/1905/21/170427066776006169.jpg',NULL,NULL,'1561179588','1561179588') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+
+[ 2019-06-22T12:59:50+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Product&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: id /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 89 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 259 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 265 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 271 行.
+NOTIC: [8] Undefined variable: mhcate /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [8] Undefined variable: mhcate /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [8] Undefined variable: mhcate /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [8] Undefined variable: mhcate /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [8] Undefined variable: mhcate /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 277 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 283 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 283 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 284 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 284 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 285 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 285 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 286 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 286 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 287 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 287 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 288 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 288 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 289 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 289 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 290 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 290 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 291 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 291 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 292 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 292 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 293 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 293 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 294 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 294 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 295 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 295 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 296 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 296 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 297 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 297 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 298 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 298 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 299 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 299 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 300 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 300 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 301 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 301 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 302 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 302 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 303 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 303 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 304 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 304 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 310 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 311 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 317 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 318 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 324 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 324 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 330 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 336 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 342 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 348 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 349 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 355 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 356 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 362 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 363 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 371 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 379 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 398 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 407 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 416 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 417 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 430 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000299s ]
+
+[ 2019-06-22T13:01:16+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Product&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 7 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: where /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_mh_list` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_mh_list` ORDER BY sort desc,id desc LIMIT 0,25   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 251 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 264 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 266 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 277 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 279 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 283 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 285 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 289 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 291 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008948s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2019-06-22T13:01:21+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Product&a=index&p=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 7 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: where /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_mh_list` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_mh_list` ORDER BY sort desc,id desc LIMIT 1150,25   [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 251 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 264 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 266 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 277 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 279 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 283 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 285 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 289 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 291 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000323s ]
+
+[ 2019-06-22T13:01:25+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Product&a=del&id=1154
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: DELETE FROM `vv_mh_list` WHERE `id` = 1154 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2019-06-22T13:01:27+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Product&a=index&p=47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 7 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: where /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_mh_list` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_mh_list` ORDER BY sort desc,id desc LIMIT 1150,25   [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 251 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 264 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 266 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 277 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 279 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 283 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 285 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 289 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 291 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2019-06-22T13:03:41+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Product&a=edit&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined index: isvip普通 /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 317 行.
+NOTIC: [8] Undefined index: isvip /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000303s ]
+
+[ 2019-06-22T13:03:42+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Product&a=upload&event=setPics&url=http%3A%2F%2Fimg.hanmanwo.com%2Fstatic%2Fupload%2Fbook%2F435%2Fcover.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: cur_index /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/42684e41b5d7d3bd6b9e714a62a1e7f6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2019-06-22T13:24:49+08:00 ] 120.32.105.20 /efucms.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 45 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2019-06-22T13:24:51+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Product&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 7 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: where /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/ProductController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_mh_list` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_mh_list` ORDER BY sort desc,id desc LIMIT 0,25   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 251 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 264 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 266 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 277 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 279 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 283 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 285 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 289 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/34e4b095905075aaede5ee9039415509.php 第 291 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000282s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2019-06-22T13:24:54+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Product&a=edit&id=1153
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `id` = 1153 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: isvip普通 /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 317 行.
+NOTIC: [8] Undefined index: isvip /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/b3c4eeadefc336ccc37682b1e72f6690.php 第 318 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2019-06-22T13:24:54+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Product&a=upload&event=setPics&url=http%3A%2F%2Fimg.hanmanwo.com%2Fstatic%2Fupload%2Fbook%2F121%2Fcover.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined index: cur_index /www/wwwroot/book.88guoji.cn/Application/Runtime/Cache/Admin/42684e41b5d7d3bd6b9e714a62a1e7f6.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2019-06-22T13:24:57+08:00 ] 120.32.105.20 /efucms.php?m=Admin&c=Product&a=episodes&mhid=1153
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.88guoji.cn/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE ( id=1153 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vv_mh_episodes` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_mh_episodes` WHERE `mhid` = 1153 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_mh_episodes` WHERE `mhid` = 1153 ORDER BY id desc LIMIT 0,25   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+

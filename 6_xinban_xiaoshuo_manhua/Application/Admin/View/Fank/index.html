@@ -1,0 +1,38 @@
+
+        <div class="pageheader notab">
+            <h1 class="pagetitle">举报中心</h1>
+            <span class="pagedesc">管理用户的举报信息</span>
+            
+        </div><!--pageheader-->
+        
+        <div id="contentwrapper" class="contentwrapper lineheight21" style="background:#fff">
+			<table cellpadding="0" cellspacing="0" border="0" id="table2" class="stdtable stdtablecb">
+				<thead>
+					<tr>
+						<th class="head1">ID</th>
+						<th class="head1">用户名称</th>
+						<th class="head1">反馈内容</th>
+						<th class="head1">反馈时间</th>
+						<th class="head1">操作</th>
+					</tr>
+				</thead>
+				<tbody>
+					<volist name="list" id="vo">
+					<tr>
+						<td>{$vo.id}</td>
+						<td>{$vo.user_name}</td>
+						<td><?php $str = urldecode( $vo["content"] ); echo $str; ?></td>
+						<td>{$vo.create_time|date="Y-m-d H:i:s",###}</td>
+						<td text-align="center">
+							<a href="{:U('del',array('id'=>$vo['id']))}">删除</a>
+						</td>
+					</tr>
+					</volist>
+				</tbody>
+			</table>
+			<div class="dataTables_paginate paging_full_numbers" id="dyntable2_paginate">
+			{$page|default="<p style='text-align:center'>暂时没有数据</p>"}
+			</div>
+        
+        </div><!--contentwrapper-->
+        

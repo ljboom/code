@@ -1,0 +1,835 @@
+[ 2019-08-22T01:09:36+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+NOTIC: [8] Undefined index: parent D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 132 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0266s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `vv_order` [ RunTime:0.0149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_order` WHERE `create_time` BETWEEN 1566316800 AND 1566403200 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `vv_order` WHERE `create_time` BETWEEN 1566316800 AND 1566403200 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_user` WHERE ( sub_time between 1566316800 and 1566403200 ) LIMIT 1   [ RunTime:0.0022s ]
+SQL: INSERT INTO `vv_data` (`orders`,`total`,`subs`,`date`) VALUES ('0','0','0','20190821') [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+NOTIC: [8] Undefined index: sort D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0111s ]
+NOTIC: [8] Undefined index: sort D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: sort D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: sort D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: sort D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0017s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php on line 31 and defined D:\wwwroot\demo.52jscn.com\Application\Common\Util\ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\67199abba7efdab949490dffef721944.php 第 209 行.
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\67199abba7efdab949490dffef721944.php 第 210 行.
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\67199abba7efdab949490dffef721944.php 第 211 行.
+NOTIC: [8] Undefined index: thirdcode D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\67199abba7efdab949490dffef721944.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001697s ]
+
+[ 2019-08-22T01:13:07+08:00 ] 127.0.0.1 /index.php?m=&c=Book&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_book` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\wwwroot\demo.52jscn.com\Application\Home\Controller\BookController.class.php on line 29 and defined D:\wwwroot\demo.52jscn.com\Application\Common\Util\ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\88fd1496475deb2aa861d336784d55ed.php 第 194 行.
+NOTIC: [8] Undefined index: thirdcode D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\88fd1496475deb2aa861d336784d55ed.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001990s ]
+
+[ 2019-08-22T01:13:13+08:00 ] 127.0.0.1 /index.php?m=&c=Book&a=bookinfo&bid=1036
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `vv_book` WHERE ( id=1036 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `vv_book` SET `reader`=reader+1 WHERE ( id=1036 ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `vv_book_episodes` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `vv_book_episodes` WHERE ( bid=1036 ) ORDER BY ji_no asc LIMIT 1   [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_book_episodes` WHERE `bid` = 1036 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_book` WHERE `id` <> '1036' ORDER BY rand() LIMIT 6   [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `vv_comment` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `vv_comment` WHERE `cid` = 1036 AND `type` = 'xs' ORDER BY create_time desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_comment` WHERE `cid` = 1036 AND `type` = 'xs' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\wwwroot\demo.52jscn.com\Application\Home\Controller\BookController.class.php on line 101 and defined D:\wwwroot\demo.52jscn.com\Application\Common\Util\ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 1 LIMIT 1   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `vv_book_read` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 1 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 2 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 2 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 3 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 3 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 4 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 4 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 5 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 5 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 6 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 6 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 7 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 8 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 8 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 9 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 9 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 10 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 10 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 11 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 11 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 12 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 12 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 13 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 14 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 14 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 15 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 15 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isji D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\edcebaf0c6178ac34061d504ec8333cf.php 第 229 行.
+NOTIC: [8] Undefined index: thirdcode D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\edcebaf0c6178ac34061d504ec8333cf.php 第 447 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2019-08-22T01:13:15+08:00 ] 127.0.0.1 /index.php?m=&c=Book&a=LoadSend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_mxsend` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `vv_mxsend` WHERE `mxid` = 1036 AND `type` = 'xs' ORDER BY create_time desc LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2019-08-22T01:13:18+08:00 ] 127.0.0.1 /index.php?m=&c=Book&a=inforedit&bid=1036&ji_no=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_rlog` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `vv_rlog` WHERE `rid` = 1036 AND `ji_no` = 1 AND `user_id` = 781 AND `type` = 'xs' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `vv_book_episodes` [ RunTime:0.0090s ]
+SQL: UPDATE `vv_book_episodes` SET `readnums`=readnums+1 WHERE `bid` = 1036 AND `ji_no` = 1 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `vv_book` WHERE ( id=1036 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT MAX(ji_no) AS tp_max FROM `vv_book_episodes` WHERE `bid` = 1036 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `vv_user` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vv_read` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `vv_read` WHERE `rid` = 1036 AND `user_id` = 781 AND `episodes` = 1 AND `type` = 'xs' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `vv_read` WHERE `rid` = 1036 AND `user_id` = 781 AND `type` = 'xs' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `vv_read` (`user_id`,`rid`,`title`,`pic`,`author`,`summary`,`episodes`,`type`,`create_time`) VALUES ('781','1036','网游之魔武双修','http://cdn.wbread.com/cover/1221/9ec755bbbcd07885c0e5985aea2dd5ad.jpeg','风中无名草','我花费了全部家当购买大型全息网游《荣耀》的头盔，打算当个全职玩家，结果一进游戏就中大奖啦，不但没按惯例进到新手村，反而被传送到最终boss禁区龙之岛，结果…自然是挂啦，气的我差点砸了头盔，然而当我再次进入游戏的时候……','1','xs','1566407596') [ RunTime:0.0005s ]
+SQL: UPDATE `vv_book` SET `readnum`=readnum+1 WHERE `id` = 1036 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_book_episodes` WHERE ( bid=1036 and ji_no=1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vv_book_likes` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `vv_book_likes` WHERE ( bid=1036 and ji_no=1 and user_id=781 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vv_mh_collect` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `vv_mh_collect` WHERE `mhid` = 1036 AND `user_id` = 781 AND `type` = 'xs' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\wwwroot\demo.52jscn.com\Application\Home\Controller\BookController.class.php on line 220 and defined D:\wwwroot\demo.52jscn.com\Application\Common\Util\ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+SQL: SELECT `money` FROM `vv_book_episodes` WHERE `ji_no` = 1 AND `bid` = 1036 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vv_book_read` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `vv_book_read` WHERE `ji_no` = 1 AND `bid` = 1036 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: ps D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\bc3dc153932d62cb46637568d5f67bad.php 第 521 行.
+NOTIC: [8] Undefined index: ps D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\bc3dc153932d62cb46637568d5f67bad.php 第 521 行.
+NOTIC: [8] Undefined index: fsize D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\bc3dc153932d62cb46637568d5f67bad.php 第 522 行.
+NOTIC: [8] Undefined index: fsize D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\bc3dc153932d62cb46637568d5f67bad.php 第 522 行.
+NOTIC: [8] Undefined index: isNight D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\bc3dc153932d62cb46637568d5f67bad.php 第 525 行.
+NOTIC: [8] Undefined index: isNight D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\bc3dc153932d62cb46637568d5f67bad.php 第 525 行.
+NOTIC: [8] Undefined index: sub D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\bc3dc153932d62cb46637568d5f67bad.php 第 657 行.
+NOTIC: [8] Undefined index: sub D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\bc3dc153932d62cb46637568d5f67bad.php 第 663 行.
+NOTIC: [8] Undefined index: sub D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\bc3dc153932d62cb46637568d5f67bad.php 第 666 行.
+NOTIC: [8] Undefined index: thirdcode D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\bc3dc153932d62cb46637568d5f67bad.php 第 827 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2019-08-22T01:13:23+08:00 ] 127.0.0.1 /index.php?m=&c=Book&a=jubao&rid=1036&type=xs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `vv_book` WHERE `id` = 1036 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2019-08-22T01:13:56+08:00 ] 127.0.0.1 /index.php?m=&c=Book&a=mxSend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+
+[ 2019-08-22T01:13:59+08:00 ] 127.0.0.1 /index.php?m=&c=Mh&a=pay
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+SQL: SELECT * FROM `vv_user` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\5e340cae735a2fd6d61d5f51c505d394.php 第 237 行.
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\5e340cae735a2fd6d61d5f51c505d394.php 第 238 行.
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\5e340cae735a2fd6d61d5f51c505d394.php 第 239 行.
+NOTIC: [8] Undefined variable: jssdk D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\5e340cae735a2fd6d61d5f51c505d394.php 第 242 行.
+NOTIC: [8] Undefined variable: jssdk D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\5e340cae735a2fd6d61d5f51c505d394.php 第 243 行.
+NOTIC: [8] Undefined variable: jssdk D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\5e340cae735a2fd6d61d5f51c505d394.php 第 244 行.
+NOTIC: [8] Undefined variable: jssdk D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\5e340cae735a2fd6d61d5f51c505d394.php 第 245 行.
+NOTIC: [8] Undefined index: thirdcode D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\5e340cae735a2fd6d61d5f51c505d394.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2019-08-22T01:14:00+08:00 ] 127.0.0.1 /index.php?m=&c=Mh&a=pay&p_reload=1&reload_time=1566407639554
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+SQL: SELECT * FROM `vv_user` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\5e340cae735a2fd6d61d5f51c505d394.php 第 237 行.
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\5e340cae735a2fd6d61d5f51c505d394.php 第 238 行.
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\5e340cae735a2fd6d61d5f51c505d394.php 第 239 行.
+NOTIC: [8] Undefined variable: jssdk D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\5e340cae735a2fd6d61d5f51c505d394.php 第 242 行.
+NOTIC: [8] Undefined variable: jssdk D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\5e340cae735a2fd6d61d5f51c505d394.php 第 243 行.
+NOTIC: [8] Undefined variable: jssdk D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\5e340cae735a2fd6d61d5f51c505d394.php 第 244 行.
+NOTIC: [8] Undefined variable: jssdk D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\5e340cae735a2fd6d61d5f51c505d394.php 第 245 行.
+NOTIC: [8] Undefined index: thirdcode D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\5e340cae735a2fd6d61d5f51c505d394.php 第 286 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2019-08-22T01:17:18+08:00 ] 127.0.0.1 /index.php?m=&c=Mh&a=my
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `vv_sign` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `vv_sign` WHERE `date` = '20190822' AND `user_id` = 781 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined index: gonggao D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 97 行.
+NOTIC: [8] Undefined index: vip_level D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 107 行.
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 401 行.
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 402 行.
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 403 行.
+NOTIC: [8] Undefined variable: jssdk D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 406 行.
+NOTIC: [8] Undefined variable: jssdk D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 407 行.
+NOTIC: [8] Undefined variable: jssdk D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 408 行.
+NOTIC: [8] Undefined variable: jssdk D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 409 行.
+NOTIC: [8] Undefined index: thirdcode D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 450 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2019-08-22T01:17:19+08:00 ] 127.0.0.1 /index.php?m=&c=Mh&a=my&p_reload=1&reload_time=1566407838361
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0155s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `vv_sign` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `vv_sign` WHERE `date` = '20190822' AND `user_id` = 781 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] Undefined index: gonggao D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 97 行.
+NOTIC: [8] Undefined index: vip_level D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 107 行.
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 401 行.
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 402 行.
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 403 行.
+NOTIC: [8] Undefined variable: jssdk D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 406 行.
+NOTIC: [8] Undefined variable: jssdk D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 407 行.
+NOTIC: [8] Undefined variable: jssdk D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 408 行.
+NOTIC: [8] Undefined variable: jssdk D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 409 行.
+NOTIC: [8] Undefined index: thirdcode D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\6684dd730d555b80dcc179cd385fcd50.php 第 450 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2019-08-22T01:17:22+08:00 ] 127.0.0.1 /index.php?m=&c=Mh&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+NOTIC: [8] Undefined index: sort D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: sort D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: sort D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: sort D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: sort D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php on line 31 and defined D:\wwwroot\demo.52jscn.com\Application\Common\Util\ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\67199abba7efdab949490dffef721944.php 第 209 行.
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\67199abba7efdab949490dffef721944.php 第 210 行.
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\67199abba7efdab949490dffef721944.php 第 211 行.
+NOTIC: [8] Undefined index: thirdcode D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\67199abba7efdab949490dffef721944.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2019-08-22T01:17:32+08:00 ] 127.0.0.1 /index.php?m=&c=Mh&a=bookinfo&mhid=1323
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE ( id=1323 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `vv_mh_list` SET `reader`=reader+1 WHERE ( id=1323 ) [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `vv_mh_collect` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `vv_mh_collect` WHERE `mhid` = 1323 AND `user_id` = 781 AND `type` = 'mh' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_user` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: vip_level D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php 第 362 行.
+SQL: SHOW COLUMNS FROM `vv_mh_episodes` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `vv_mh_episodes` WHERE ( mhid=1323 ) ORDER BY ji_no asc LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_mh_episodes` WHERE `mhid` = '1323' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `id` <> '1323' ORDER BY rand() LIMIT 6   [ RunTime:0.0201s ]
+SQL: SHOW COLUMNS FROM `vv_comment` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `vv_comment` WHERE `cid` = 1323 AND `type` = 'mh' ORDER BY create_time desc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_comment` WHERE `cid` = 1323 AND `type` = 'mh' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php on line 404 and defined D:\wwwroot\demo.52jscn.com\Application\Common\Util\ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+SQL: SELECT `money` FROM `vv_mh_episodes` WHERE `ji_no` = 1 AND `mhid` = '1323' LIMIT 1   [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `vv_mh_read` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `vv_mh_read` WHERE `ji_no` = 1 AND `mhid` = 1323 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `money` FROM `vv_mh_episodes` WHERE `ji_no` = 0 AND `mhid` = '1323' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `vv_mh_read` WHERE `ji_no` = 0 AND `mhid` = 1323 AND `user_id` = 781 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: xji D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\f626f1f2dddf77c89a3bf69cec2c102a.php 第 229 行.
+NOTIC: [8] Undefined index: isji D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\f626f1f2dddf77c89a3bf69cec2c102a.php 第 234 行.
+NOTIC: [8] Undefined index: thirdcode D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\f626f1f2dddf77c89a3bf69cec2c102a.php 第 439 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049345s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2019-08-22T01:17:34+08:00 ] 127.0.0.1 /index.php?m=&c=Book&a=LoadSend
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_mxsend` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `vv_mxsend` WHERE `mxid` = 1323 AND `type` = 'mh' ORDER BY create_time desc LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2019-08-22T01:21:01+08:00 ] 127.0.0.1 /index.php?m=&c=Mh&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+NOTIC: [8] Undefined index: sort D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: sort D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: sort D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: sort D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: sort D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php 第 22 行.
+SQL: SELECT * FROM `vv_mh_list` WHERE `mhcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `vv_mh_list` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0017s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\wwwroot\demo.52jscn.com\Application\Home\Controller\MhController.class.php on line 31 and defined D:\wwwroot\demo.52jscn.com\Application\Common\Util\ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\67199abba7efdab949490dffef721944.php 第 209 行.
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\67199abba7efdab949490dffef721944.php 第 210 行.
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\67199abba7efdab949490dffef721944.php 第 211 行.
+NOTIC: [8] Undefined index: thirdcode D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\67199abba7efdab949490dffef721944.php 第 258 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001551s ]
+
+[ 2019-08-22T01:21:06+08:00 ] 127.0.0.1 /index.php?m=&c=Book&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_book` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0009s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\wwwroot\demo.52jscn.com\Application\Home\Controller\BookController.class.php on line 29 and defined D:\wwwroot\demo.52jscn.com\Application\Common\Util\ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\88fd1496475deb2aa861d336784d55ed.php 第 194 行.
+NOTIC: [8] Undefined index: thirdcode D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\88fd1496475deb2aa861d336784d55ed.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2019-08-22T01:21:09+08:00 ] 127.0.0.1 /index.php?m=&c=Book&a=book_hot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0091s ]
+NOTIC: [8] Undefined variable: where D:\wwwroot\demo.52jscn.com\Application\Home\Controller\BookController.class.php 第 329 行.
+SQL: SELECT * FROM `vv_book` ORDER BY sort desc  [ RunTime:0.0064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: url D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\c04f423c663f6bc5c467bfabb3917faa.php 第 148 行.
+NOTIC: [8] Undefined index: order D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\c04f423c663f6bc5c467bfabb3917faa.php 第 184 行.
+NOTIC: [8] Undefined index: order D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\c04f423c663f6bc5c467bfabb3917faa.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2019-08-22T01:34:38+08:00 ] 127.0.0.1 /index.php?m=&c=Book&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: imei D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 32 行.
+NOTIC: [8] Undefined index: chapid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 42 行.
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 63 行.
+NOTIC: [8] Undefined index: user_id D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 71 行.
+SQL: SHOW COLUMNS FROM `vv_user` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `vv_user` WHERE `id` = 781 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `vv_data` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `vv_data` WHERE ( date=20190821 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: isopen D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 175 行.
+NOTIC: [8] Undefined variable: adsPic D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 208 行.
+NOTIC: [8] Undefined index: uid D:\wwwroot\demo.52jscn.com\Application\Home\Controller\HomeController.class.php 第 209 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%5%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%6%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%7%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%8%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_book` WHERE `bookcate` LIKE '%9%' ORDER BY sort desc LIMIT 6   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_book` WHERE `free_type` = 1 ORDER BY sort desc  [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 2 for Common\Util\ddwechat::setParam(), called in D:\wwwroot\demo.52jscn.com\Application\Home\Controller\BookController.class.php on line 29 and defined D:\wwwroot\demo.52jscn.com\Application\Common\Util\ddwechat.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined variable: share D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\88fd1496475deb2aa861d336784d55ed.php 第 194 行.
+NOTIC: [8] Undefined index: thirdcode D:\wwwroot\demo.52jscn.com\Application\Runtime\Cache\Home\88fd1496475deb2aa861d336784d55ed.php 第 250 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001015s ]
+

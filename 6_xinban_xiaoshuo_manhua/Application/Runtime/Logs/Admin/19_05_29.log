@@ -1,0 +1,355 @@
+[ 2019-05-29T00:16:42+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Video&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+NOTIC: [2048] Declaration of Admin\Controller\VideoController::upload() should be compatible with Admin\Controller\AdminController::upload() /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0006s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 7 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: where /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_video` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_video` ORDER BY sort desc LIMIT 0,25   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 246 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 267 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 269 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 273 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 275 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 279 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 281 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2019-05-29T00:16:44+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Video&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [2048] Declaration of Admin\Controller\VideoController::upload() should be compatible with Admin\Controller\AdminController::upload() /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 7 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: where /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_video` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_video` ORDER BY sort desc LIMIT 0,25   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 246 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 267 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 269 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 273 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 275 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 279 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 281 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2019-05-29T00:16:52+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Video&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [2048] Declaration of Admin\Controller\VideoController::upload() should be compatible with Admin\Controller\AdminController::upload() /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: id /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 47 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 254 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 260 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 266 行.
+NOTIC: [8] Undefined variable: bookcate /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 272 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 272 行.
+NOTIC: [8] Undefined variable: bookcate /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 272 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 272 行.
+NOTIC: [8] Undefined variable: bookcate /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 272 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 272 行.
+NOTIC: [8] Undefined variable: bookcate /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 272 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 272 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 278 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 278 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 279 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 279 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 280 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 280 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 281 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 281 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 282 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 282 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 283 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 283 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 284 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 284 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 285 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 285 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 286 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 286 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 287 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 287 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 288 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 288 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 289 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 289 行.
+NOTIC: [8] Undefined variable: arrcateids /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 290 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 290 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 296 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 297 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 303 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 303 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 309 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 315 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 321 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 327 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 328 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 334 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 335 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 341 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 342 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 351 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 359 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a46c5503ded71216fb8f7f4497e4c88a.php 第 369 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2019-05-29T00:17:14+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Video&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+NOTIC: [2048] Declaration of Admin\Controller\VideoController::upload() should be compatible with Admin\Controller\AdminController::upload() /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 7 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: where /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_video` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_video` ORDER BY sort desc LIMIT 0,25   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 246 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 267 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 269 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 273 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 275 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 279 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 281 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2019-05-29T00:17:20+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Video&a=episodes&yid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+NOTIC: [2048] Declaration of Admin\Controller\VideoController::upload() should be compatible with Admin\Controller\AdminController::upload() /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_video` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vv_video_episodes` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_video_episodes` WHERE `yid` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_video_episodes` WHERE `yid` = 4 ORDER BY id desc LIMIT 0,25   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2019-05-29T00:17:23+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Video&a=episodesedit&yid=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+NOTIC: [2048] Declaration of Admin\Controller\VideoController::upload() should be compatible with Admin\Controller\AdminController::upload() /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: id /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 106 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_video` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/fc08731e5e8134767cbbdc4694885f78.php 第 254 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/fc08731e5e8134767cbbdc4694885f78.php 第 260 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/fc08731e5e8134767cbbdc4694885f78.php 第 266 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/fc08731e5e8134767cbbdc4694885f78.php 第 272 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/fc08731e5e8134767cbbdc4694885f78.php 第 278 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/fc08731e5e8134767cbbdc4694885f78.php 第 284 行.
+NOTIC: [8] Undefined variable: info /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/fc08731e5e8134767cbbdc4694885f78.php 第 290 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2019-05-29T00:52:18+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Video&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+NOTIC: [2048] Declaration of Admin\Controller\VideoController::upload() should be compatible with Admin\Controller\AdminController::upload() /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 7 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: where /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_video` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_video` ORDER BY sort desc LIMIT 0,25   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 246 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 267 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 269 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 273 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 275 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 279 行.
+NOTIC: [8] Undefined index: order /www/wwwroot/book.22555522.com/Application/Runtime/Cache/Admin/a1139c397cab62ab83c0f7dbd7530fa9.php 第 281 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2019-05-29T00:52:24+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Video&a=episodes&yid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+NOTIC: [2048] Declaration of Admin\Controller\VideoController::upload() should be compatible with Admin\Controller\AdminController::upload() /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_video` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `vv_video_episodes` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_video_episodes` WHERE `yid` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `vv_video_episodes` WHERE `yid` = 2 ORDER BY id desc LIMIT 0,25   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2019-05-29T00:52:29+08:00 ] 120.84.11.83 /efucms.php?m=Admin&c=Video&a=episodesedit&yid=2&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [2048] Declaration of Admin\Controller\VideoController::upload() should be compatible with Admin\Controller\AdminController::upload() /www/wwwroot/book.22555522.com/Application/Admin/Controller/VideoController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0004s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/book.22555522.com/Application/Admin/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_video_episodes` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `vv_video_episodes` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `vv_video` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `vv_video` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+

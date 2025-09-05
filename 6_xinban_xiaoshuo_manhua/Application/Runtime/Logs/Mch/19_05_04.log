@@ -1,0 +1,452 @@
+[ 2019-05-04T12:56:16+08:00 ] 183.3.239.157 /daili.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+
+[ 2019-05-04T12:57:06+08:00 ] 61.151.178.166 /daili.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+
+[ 2019-05-04T12:57:16+08:00 ] 116.128.128.79 /daili.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+
+[ 2019-05-04T13:22:16+08:00 ] 14.120.51.232 /daili.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+
+[ 2019-05-04T13:22:19+08:00 ] 14.120.51.232 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2019-05-04T13:22:36+08:00 ] 14.120.51.232 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_member` WHERE `username` = 'wangzitao ' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-05-04T13:22:36+08:00 ] 14.120.51.232 /daili.php?m=Mch&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_notice` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_notice` ORDER BY create_time desc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: info /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2019-05-04T13:22:39+08:00 ] 14.120.51.232 /daili.php?m=Mch&c=Chapter&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/ChapterController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: where /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/ChapterController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_mh_list` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_mh_list` ORDER BY sort desc,id desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/ys1.lufengjz.com/Application/Runtime/Cache/Mch/4705b36e1b34db39244190f0bd0276b4.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2019-05-04T13:22:39+08:00 ] 14.120.51.232 /daili.php?m=Mch&c=Bhapter&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/BhapterController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: where /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/BhapterController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_book` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_book` ORDER BY sort desc,id desc LIMIT 0,25   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: title /www/wwwroot/ys1.lufengjz.com/Application/Runtime/Cache/Mch/9ce909e6077d2551fc2ea3fda52585f5.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2019-05-04T13:22:40+08:00 ] 14.120.51.232 /daili.php?m=Mch&c=Chapurl&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/ChapurlController.class.php 第 7 行.
+NOTIC: [8] Undefined index: type /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/ChapurlController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `vv_chapter` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_chapter` WHERE `memid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_chapter` WHERE `memid` = 1 ORDER BY create_time desc LIMIT 0,25   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined index: type /www/wwwroot/ys1.lufengjz.com/Application/Runtime/Cache/Mch/74b04ba537d0fef74fdf46aacd65f954.php 第 138 行.
+NOTIC: [8] Undefined index: title /www/wwwroot/ys1.lufengjz.com/Application/Runtime/Cache/Mch/74b04ba537d0fef74fdf46aacd65f954.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2019-05-04T13:22:42+08:00 ] 14.120.51.232 /daili.php?m=Mch&c=Mch&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2019-05-04T13:22:43+08:00 ] 14.120.51.232 /daili.php?m=Mch&c=Mch&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_m_withdraw` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_m_withdraw` WHERE `mid` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `vv_m_withdraw` WHERE `mid` = 1 ORDER BY create_time desc LIMIT 0,25   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined index: status /www/wwwroot/ys1.lufengjz.com/Application/Runtime/Cache/Mch/2dbfcf7fbc94f8d1db7d0e3e0d54dbbe.php 第 136 行.
+NOTIC: [8] Undefined index: time1 /www/wwwroot/ys1.lufengjz.com/Application/Runtime/Cache/Mch/2dbfcf7fbc94f8d1db7d0e3e0d54dbbe.php 第 142 行.
+NOTIC: [8] Undefined index: time2 /www/wwwroot/ys1.lufengjz.com/Application/Runtime/Cache/Mch/2dbfcf7fbc94f8d1db7d0e3e0d54dbbe.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000323s ]
+
+[ 2019-05-04T13:22:44+08:00 ] 14.120.51.232 /daili.php?m=Mch&c=Mch&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined variable: vo /www/wwwroot/ys1.lufengjz.com/Application/Runtime/Cache/Mch/3ec53b0b9d7659f77b3ce6f9113e6e7c.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2019-05-04T13:22:44+08:00 ] 14.120.51.232 /daili.php?m=Mch&c=Mch&a=upload&event=setPic&url=.%2FPublic%2Fupload%2Fimages%2F1905%2F02%2F234032115378001889.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Undefined index: cur_index /www/wwwroot/ys1.lufengjz.com/Application/Runtime/Cache/Mch/781c258996ea928b01efaadc54138bfb.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2019-05-04T13:22:53+08:00 ] 14.120.51.232 /daili.php?m=Mch&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_notice` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_notice` ORDER BY create_time desc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: info /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000324s ]
+
+[ 2019-05-04T16:00:30+08:00 ] 220.152.230.131 /daili.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+
+[ 2019-05-04T16:00:34+08:00 ] 220.152.230.131 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2019-05-04T16:00:53+08:00 ] 220.152.230.131 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `vv_member` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2019-05-04T16:01:04+08:00 ] 220.152.230.131 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0001s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes /www/wwwroot/ys1.lufengjz.com/Application/Mch/Controller/AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `vv_member` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000292s ]
+

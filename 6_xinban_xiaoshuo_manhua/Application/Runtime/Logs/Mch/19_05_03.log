@@ -1,0 +1,804 @@
+[ 2019-05-03T20:02:30+08:00 ] 127.0.0.1 /daili.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-05-03T20:02:36+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-05-03T20:02:52+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_member` WHERE `mobile` = '王子涛' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-05-03T20:03:05+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_member` WHERE `mobile` = 'wangzitao' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-05-03T20:04:48+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `vv_member` WHERE `mobile` = 'qqqqqq' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-05-03T20:08:58+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `vv_member` WHERE `mobile` = '33332222' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-05-03T20:12:03+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_member` WHERE `mobile` = '2222333' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-05-03T20:22:23+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_member` WHERE `mobile` = 'wangzitao' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-05-03T20:22:25+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0010s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `vv_member` WHERE `mobile` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-05-03T20:22:31+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_member` WHERE `mobile` = 'wangzitao' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-05-03T20:25:08+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `vv_member` WHERE `mobile` = 'wangzitao' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-05-03T20:25:08+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-05-03T20:25:12+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-05-03T20:25:28+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0010s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `vv_member` WHERE `mobile` = 'wangzitao' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-05-03T20:25:28+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-05-03T20:25:32+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-05-03T20:27:02+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `vv_member` WHERE `mobile` = 'wangzitao' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-05-03T20:29:09+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `vv_member` WHERE `username` = 'wangzitao' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-05-03T20:29:10+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_notice` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_notice` ORDER BY create_time desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: info D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.156009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-05-03T20:29:19+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Chapurl&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\ChapurlController.class.php 第 7 行.
+NOTIC: [8] Undefined index: type D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\ChapurlController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `vv_chapter` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_chapter` WHERE `memid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_chapter` WHERE `memid` = 1 ORDER BY create_time desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\phpstudy\PHPTutorial\WWW\Application\Runtime\Cache\Mch\74b04ba537d0fef74fdf46aacd65f954.php 第 138 行.
+NOTIC: [8] Undefined index: title D:\phpstudy\PHPTutorial\WWW\Application\Runtime\Cache\Mch\74b04ba537d0fef74fdf46aacd65f954.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-05-03T20:29:30+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Chapter&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\ChapterController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: where D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\ChapterController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `vv_mh_list` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_mh_list` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_mh_list` ORDER BY sort desc,id desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title D:\phpstudy\PHPTutorial\WWW\Application\Runtime\Cache\Mch\4705b36e1b34db39244190f0bd0276b4.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-05-03T20:29:35+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Bhapter&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\BhapterController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: where D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\BhapterController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0400s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_book` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book` ORDER BY sort desc,id desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title D:\phpstudy\PHPTutorial\WWW\Application\Runtime\Cache\Mch\9ce909e6077d2551fc2ea3fda52585f5.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-05-03T20:29:58+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Mch&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-05-03T20:30:02+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Mch&a=withdraw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_m_withdraw` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_m_withdraw` WHERE `mid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_m_withdraw` WHERE `mid` = 1 ORDER BY create_time desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: status D:\phpstudy\PHPTutorial\WWW\Application\Runtime\Cache\Mch\2dbfcf7fbc94f8d1db7d0e3e0d54dbbe.php 第 136 行.
+NOTIC: [8] Undefined index: time1 D:\phpstudy\PHPTutorial\WWW\Application\Runtime\Cache\Mch\2dbfcf7fbc94f8d1db7d0e3e0d54dbbe.php 第 142 行.
+NOTIC: [8] Undefined index: time2 D:\phpstudy\PHPTutorial\WWW\Application\Runtime\Cache\Mch\2dbfcf7fbc94f8d1db7d0e3e0d54dbbe.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-05-03T20:30:04+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Mch&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `vv_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo D:\phpstudy\PHPTutorial\WWW\Application\Runtime\Cache\Mch\3ec53b0b9d7659f77b3ce6f9113e6e7c.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-05-03T20:30:05+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Mch&a=upload&event=setPic&url=.%2FPublic%2Fupload%2Fimages%2F1905%2F02%2F234032115378001889.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0010s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cur_index D:\phpstudy\PHPTutorial\WWW\Application\Runtime\Cache\Mch\781c258996ea928b01efaadc54138bfb.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-05-03T21:14:42+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Mch&a=showQrcode&id=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-05-03T21:16:06+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Chapurl&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0010s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\ChapurlController.class.php 第 7 行.
+NOTIC: [8] Undefined index: type D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\ChapurlController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `vv_chapter` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_chapter` WHERE `memid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_chapter` WHERE `memid` = 1 ORDER BY create_time desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\phpstudy\PHPTutorial\WWW\Application\Runtime\Cache\Mch\74b04ba537d0fef74fdf46aacd65f954.php 第 138 行.
+NOTIC: [8] Undefined index: title D:\phpstudy\PHPTutorial\WWW\Application\Runtime\Cache\Mch\74b04ba537d0fef74fdf46aacd65f954.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-05-03T21:16:10+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Bhapter&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] Undefined index: title D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\BhapterController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: where D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\BhapterController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_book` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `vv_book` ORDER BY sort desc,id desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: title D:\phpstudy\PHPTutorial\WWW\Application\Runtime\Cache\Mch\9ce909e6077d2551fc2ea3fda52585f5.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-05-03T21:16:13+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Bhapter&a=free&id=137
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0010s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_book` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `vv_book` WHERE ( id=137 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `vv_book_episodes` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `vv_book_episodes` WHERE `bid` = 137 AND `ji_no` < '0' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `vv_book_episodes` WHERE `bid` = 137 AND `ji_no` < '0' ORDER BY id asc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-05-03T22:52:42+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0010s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-05-03T22:52:47+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Index&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_member` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_member` WHERE `username` = 'wangzitao' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-05-03T22:52:48+08:00 ] 127.0.0.1 /daili.php?m=Mch&c=Admin&a=welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `vv_config` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `vv_config`  [ RunTime:0.0000s ]
+NOTIC: [8] unserialize(): Error at offset 75 of 79 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+NOTIC: [8] unserialize(): Error at offset 45 of 108 bytes D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `vv_notice` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `vv_notice` ORDER BY create_time desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: info D:\phpstudy\PHPTutorial\WWW\Application\Mch\Controller\AdminController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
