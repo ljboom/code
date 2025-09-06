@@ -1,0 +1,24 @@
+<include file="Mobile:header" nav="文章详情"/>
+<body>
+<div class="mobile">
+    <div class="othertop">
+        <a class="goback" href="javascript:history.back();"><img src="__PUBLIC__/mobile/img/goback.png" /></a>
+        <div class="othertop-font">详情</div>
+    </div>
+    <div class="news_detail">
+        <h1 class="tit">{$article.title}</h1>
+        <!--<p class="time">{:date("Y-m-d",strtotime($article['time']))}</p>-->
+        <div>{:htmlspecialchars_decode($article['content'])}</div>
+    </div>
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/xin_mobile/staticfaxian/css/foot.css" />
+    <footer class='footer'>
+<a href="/Mobile/index/index.html"><img src="__PUBLIC__/xin_mobile/staticfaxian/picture/rbtn_home_hot_normal.png"></a>
+<a href="/Mobile/lists.html"><img src="__PUBLIC__/xin_mobile/staticfaxian/picture/rbtn_home_product_normal.png">
+</a><a href="/gs/get_commodity.html"><img src="__PUBLIC__/xin_mobile/staticfaxian/picture/icon_sanbiao_home.png"></a>
+<a href="#"><img src="__PUBLIC__/xin_mobile/staticfaxian/picture/rbtn_home_find_checked.png"></a>
+<a href="/user/person.html"><img src="__PUBLIC__/xin_mobile/staticfaxian/picture/rbtn_home_my_normal.png"></a>
+
+</footer>
+</div>
+</body>
+</html>

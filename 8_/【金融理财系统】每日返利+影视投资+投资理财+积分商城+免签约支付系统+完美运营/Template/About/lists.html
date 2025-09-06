@@ -1,0 +1,32 @@
+<include file="Mobile:header" nav="文章列表"/>
+<body>
+<div class="mobile">
+    <div class="othertop">
+        <a class="goback" href="javascript:history.back();"><img src="__PUBLIC__/mobile/img/goback.png" /></a>
+        <div class="othertop-font">{$name}</div>
+    </div>
+    <div class="header-nbsp"></div>
+    <!-- 公告列表 -->
+    <ul class="mnote">
+        <volist name="article" id="a">
+            <li>
+                <a href="{:U('details','id='.$a['id'])}">
+                    <h1>{$a.title}</h1>
+                    <!--<span>{:date("Y-m-d",strtotime($a['time']))}</span>-->
+                </a>
+            </li>
+        </volist>
+    </ul>
+	
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/xin_mobile/staticfaxian/css/foot.css" />
+    <footer class='footer'>
+<a href="/Mobile/index/index.html"><img src="__PUBLIC__/xin_mobile/staticfaxian/picture/rbtn_home_hot_normal.png"></a>
+<a href="/Mobile/lists.html"><img src="__PUBLIC__/xin_mobile/staticfaxian/picture/rbtn_home_product_normal.png">
+</a><a href="/gs/get_commodity.html"><img src="__PUBLIC__/xin_mobile/staticfaxian/picture/icon_sanbiao_home.png"></a>
+<a href="#"><img src="__PUBLIC__/xin_mobile/staticfaxian/picture/rbtn_home_find_checked.png"></a>
+<a href="/user/person.html"><img src="__PUBLIC__/xin_mobile/staticfaxian/picture/rbtn_home_my_normal.png"></a>
+
+</footer>
+</div>
+</body>
+</html>

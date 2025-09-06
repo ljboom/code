@@ -1,0 +1,15 @@
+[ 2019-09-10T16:58:47+08:00 ] 114.105.53.246 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.0303s ]
+SQL: SELECT * FROM `info` ORDER BY id asc LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2019-09-10T16:58:48+08:00 ] 114.105.53.246 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+

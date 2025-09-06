@@ -1,0 +1,17 @@
+环境nginx或者阿帕奇，php5.6+mysql5.6 
+
+伪静态就是自带的thinkphp
+
+前台只有手机版可以访问，没有电脑页
+
+修改数据库信息文件：Public/config.php
+
+自动分红页面地址（需24小时一直打开）：你的域名/index.php?s=/Handle/jiesuan
+
+你的域名/chuhzg19tvgabxm/login.html   用户名：13mv  密码：26212155 或者 qq26212155
+
+之前给你们的是影宝，其实还是值几千块的，这个就稍微次一点，反正也是可以卖钱
+
+
+
+YYDS源码网  www.yydsym.com

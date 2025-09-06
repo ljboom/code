@@ -1,0 +1,18 @@
+后台
+域名/admin2
+账号admin@admin.com密码123456
+前端
+账号1421421421密码123456
+
+
+修改数据库cs.hwym.shop/core/config/database.php
+ng  php8.1  msq5.7
+文件权限777
+伪静态
+location / {
+    try_files $uri $uri/ /index.php?$query_string;
+}
+
+找不到数据库修改直接添加数据库账号密码用户名都是 123123
+
+YYDS源码网 www.yydsym.com

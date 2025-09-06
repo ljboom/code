@@ -1,0 +1,25 @@
+[ 2019-09-03T16:45:36+08:00 ] 218.30.116.10 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002050s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `info` ORDER BY id asc LIMIT 1   [ RunTime:0.0016s ]
+
+[ 2019-09-03T16:45:36+08:00 ] 218.30.116.10 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2019-09-03T16:46:05+08:00 ] 218.30.116.186 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `info` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `info` ORDER BY id asc LIMIT 1   [ RunTime:0.0003s ]
+
