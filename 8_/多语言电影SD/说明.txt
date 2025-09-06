@@ -1,0 +1,14 @@
+YYDS源码网 www.yydsym.com
+
+
+测试环境：宝塔、Linux系统、PHP7.2、MySQL5.6，根目录public，伪静态thinkPHP，根据情况开启SSL
+
+语言：十一种
+
+前端是vue编译后的，全部跑了一遍，没多大问题，带收益宝功能
+
+前台：/index.html
+后台：/manage
+账号：timibbs
+密码：timibbs.net
+安全码：timibbs.net
